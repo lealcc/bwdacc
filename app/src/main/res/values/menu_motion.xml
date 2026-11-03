@@ -1,0 +1,48 @@
+<resources>
+    <style name="Momentos.MenuMotion.Still" parent="android:style/Animation"><item name="android:windowEnterAnimation">@null</item><item name="android:windowExitAnimation">@null</item></style>
+    <style name="Momentos.Popup.TopLeft" parent="Momentos.Popup">
+        <item name="android:popupAnimationStyle">@style/Momentos.MenuMotion.Still</item>
+        <item name="android:popupEnterTransition">@transition/menu_topleft</item>
+        <item name="android:popupExitTransition">@transition/menu_topleft</item>
+    </style>
+    <style name="Momentos.MenuTheme.TopLeft" parent="Theme.Momentos">
+        <item name="android:popupMenuStyle">@style/Momentos.Popup.TopLeft</item>
+        <item name="android:listPopupWindowStyle">@style/Momentos.Popup.TopLeft</item>
+    </style>
+    <style name="Momentos.Popup.TopRight" parent="Momentos.Popup">
+        <item name="android:popupAnimationStyle">@style/Momentos.MenuMotion.Still</item>
+        <item name="android:popupEnterTransition">@transition/menu_topright</item>
+        <item name="android:popupExitTransition">@transition/menu_topright</item>
+    </style>
+    <style name="Momentos.MenuTheme.TopRight" parent="Theme.Momentos">
+        <item name="android:popupMenuStyle">@style/Momentos.Popup.TopRight</item>
+        <item name="android:listPopupWindowStyle">@style/Momentos.Popup.TopRight</item>
+    </style>
+    <style name="Momentos.Popup.BottomLeft" parent="Momentos.Popup">
+        <item name="android:popupAnimationStyle">@style/Momentos.MenuMotion.Still</item>
+        <item name="android:popupEnterTransition">@transition/menu_bottomleft</item>
+        <item name="android:popupExitTransition">@transition/menu_bottomleft</item>
+    </style>
+    <style name="Momentos.MenuTheme.BottomLeft" parent="Theme.Momentos">
+        <item name="android:popupMenuStyle">@style/Momentos.Popup.BottomLeft</item>
+        <item name="android:listPopupWindowStyle">@style/Momentos.Popup.BottomLeft</item>
+    </style>
+    <style name="Momentos.Popup.BottomRight" parent="Momentos.Popup">
+        <item name="android:popupAnimationStyle">@style/Momentos.MenuMotion.Still</item>
+        <item name="android:popupEnterTransition">@transition/menu_bottomright</item>
+        <item name="android:popupExitTransition">@transition/menu_bottomright</item>
+    </style>
+    <style name="Momentos.MenuTheme.BottomRight" parent="Theme.Momentos">
+        <item name="android:popupMenuStyle">@style/Momentos.Popup.BottomRight</item>
+        <item name="android:listPopupWindowStyle">@style/Momentos.Popup.BottomRight</item>
+    </style>
+    <style name="Momentos.Popup.Still" parent="Momentos.Popup">
+        <item name="android:popupAnimationStyle">@style/Momentos.MenuMotion.Still</item>
+        <item name="android:popupEnterTransition">@null</item>
+        <item name="android:popupExitTransition">@null</item>
+    </style>
+    <style name="Momentos.MenuTheme.Still" parent="Theme.Momentos">
+        <item name="android:popupMenuStyle">@style/Momentos.Popup.Still</item>
+        <item name="android:listPopupWindowStyle">@style/Momentos.Popup.Still</item>
+    </style>
+</resources>

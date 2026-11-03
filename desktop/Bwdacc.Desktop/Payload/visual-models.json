@@ -1,0 +1,105 @@
+{
+  "schema": 2,
+  "name": "Compositor e seleção visual",
+  "models": [
+    "Florence-2-base-ft",
+    "EfficientSAM3 EV-M"
+  ],
+  "sources": [
+    "https://huggingface.co/microsoft/Florence-2-base-ft",
+    "https://github.com/SimonZeng7108/efficientsam3"
+  ],
+  "files": [
+    {
+      "destination": "models/segmentation/efficientsam3_efficientvit.pt",
+      "url": "https://huggingface.co/Simon7108528/EfficientSAM3/resolve/85b05896928f974e308f889d7ccb2eefc069de98/efficientsam3_ft/efficientsam3_efficientvit.pt",
+      "sha256": "086b04b2e7da7cc98aa4621b70c7291608aa9d187357b98d03bd4d6533ed5a17",
+      "bytes": 468394477,
+      "gated": false
+    },
+    {
+      "destination": "models/vision/florence-2-base-ft/config.json",
+      "url": "https://huggingface.co/florence-community/Florence-2-base-ft/resolve/0b03b6f15a4a211370fb204aee4e7dd48887ea37/config.json",
+      "sha256": "2a4dfe9885d183da121f239ada734bd700ee6908b650a7a25ab32eb104fe1d7a",
+      "bytes": 2387,
+      "gated": false
+    },
+    {
+      "destination": "models/vision/florence-2-base-ft/generation_config.json",
+      "url": "https://huggingface.co/florence-community/Florence-2-base-ft/resolve/0b03b6f15a4a211370fb204aee4e7dd48887ea37/generation_config.json",
+      "sha256": "0251459c49cc358ac033b5d4b8569e61ac22bde5d76be404b97a44cfb33fb12e",
+      "bytes": 292,
+      "gated": false
+    },
+    {
+      "destination": "models/vision/florence-2-base-ft/model.safetensors",
+      "url": "https://huggingface.co/florence-community/Florence-2-base-ft/resolve/0b03b6f15a4a211370fb204aee4e7dd48887ea37/model.safetensors",
+      "sha256": "ab06dea66b16d5e54513256d64854be2194443452fd0d84353b40a278bf87d42",
+      "bytes": 463178864,
+      "gated": false
+    },
+    {
+      "destination": "models/vision/florence-2-base-ft/preprocessor_config.json",
+      "url": "https://huggingface.co/florence-community/Florence-2-base-ft/resolve/0b03b6f15a4a211370fb204aee4e7dd48887ea37/preprocessor_config.json",
+      "sha256": "1396ec5a0a7adfe1c04fb777b09e8ba753be6dbb5868212ab3c3ef39d91fe031",
+      "bytes": 603,
+      "gated": false
+    },
+    {
+      "destination": "models/vision/florence-2-base-ft/processor_config.json",
+      "url": "https://huggingface.co/florence-community/Florence-2-base-ft/resolve/0b03b6f15a4a211370fb204aee4e7dd48887ea37/processor_config.json",
+      "sha256": "cd0e3bf41a39b1276503fbd273bc03b9afc70d7a15ea681a92a1b4b77f858ee6",
+      "bytes": 2264,
+      "gated": false
+    },
+    {
+      "destination": "models/vision/florence-2-base-ft/tokenizer.json",
+      "url": "https://huggingface.co/florence-community/Florence-2-base-ft/resolve/0b03b6f15a4a211370fb204aee4e7dd48887ea37/tokenizer.json",
+      "sha256": "3ad7001f773409abe6bba33eac92662611a73d72f459bda2f00d2a221dd31ce4",
+      "bytes": 3748144,
+      "gated": false
+    },
+    {
+      "destination": "models/vision/florence-2-base-ft/tokenizer_config.json",
+      "url": "https://huggingface.co/florence-community/Florence-2-base-ft/resolve/0b03b6f15a4a211370fb204aee4e7dd48887ea37/tokenizer_config.json",
+      "sha256": "cb5f80bd9afa767bb1bb798ee5f0a79eae45239b8e72506166b4218175a16723",
+      "bytes": 197922,
+      "gated": false
+    },
+    {
+      "destination": "models/vision/florence-2-base-ft/special_tokens_map.json",
+      "url": "https://huggingface.co/florence-community/Florence-2-base-ft/resolve/0b03b6f15a4a211370fb204aee4e7dd48887ea37/special_tokens_map.json",
+      "sha256": "72ff172dc769bc1551b1b4211628ce3271643bc60379e4da45d85a9be9332c39",
+      "bytes": 146627,
+      "gated": false
+    },
+    {
+      "destination": "models/vision/florence-2-base-ft/added_tokens.json",
+      "url": "https://huggingface.co/florence-community/Florence-2-base-ft/resolve/0b03b6f15a4a211370fb204aee4e7dd48887ea37/added_tokens.json",
+      "sha256": "1d75deda84dfa81fb6c09301f3fed00f9695059568bbb1403a6bf299cd84fc37",
+      "bytes": 22430,
+      "gated": false
+    },
+    {
+      "destination": "models/vision/florence-2-base-ft/merges.txt",
+      "url": "https://huggingface.co/florence-community/Florence-2-base-ft/resolve/0b03b6f15a4a211370fb204aee4e7dd48887ea37/merges.txt",
+      "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+      "bytes": 456318,
+      "gated": false
+    },
+    {
+      "destination": "models/vision/florence-2-base-ft/vocab.json",
+      "url": "https://huggingface.co/florence-community/Florence-2-base-ft/resolve/0b03b6f15a4a211370fb204aee4e7dd48887ea37/vocab.json",
+      "sha256": "ed19656ea1707df69134c4af35c8ceda2cc9860bf2c3495026153a133670ab5e",
+      "bytes": 798293,
+      "gated": false
+    },
+    {
+      "destination": "models/vision/florence-2-base-ft/LICENSE",
+      "url": "https://huggingface.co/microsoft/Florence-2-base-ft/resolve/f6c1a25888ffc1d945ee8a1a77ac833c7303d46e/LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383",
+      "bytes": 1141,
+      "gated": false
+    }
+  ]
+}

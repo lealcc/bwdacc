@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_100f9f" formatted="false">" de "</string>
+    <string name="ui_10201" formatted="false">"App"</string>
+    <string name="ui_103232" formatted="false">" min"</string>
+    <string name="ui_104380c8" formatted="false">". Desliza verticalmente entre versiones y horizontalmente entre conjuntos."</string>
+    <string name="ui_10d65dc3" formatted="false">"Nombre del bloque"</string>
+    <string name="ui_11034090" formatted="false">"Vincular con tu computadora"</string>
+    <string name="ui_1129e7d3" formatted="false">"Mostrar imagen para seleccionar"</string>
+    <string name="ui_1164789d" formatted="false">"Nombre del lugar"</string>
+    <string name="ui_1184be" formatted="false">"%.1f"</string>
+    <string name="ui_11b2f35a" formatted="false">"+ Nuevo objeto"</string>
+    <string name="ui_120fe0c3" formatted="false">"Historial demasiado grande"</string>
+    <string name="ui_123d06d3" formatted="false">"Navegar · "</string>
+    <string name="ui_12e83395" formatted="false">"La identidad de Desktop cambió; vuelve a vincular"</string>
+    <string name="ui_131dc64d" formatted="false">"Redirección de medios rechazada."</string>
+    <string name="ui_131ea24f" formatted="false">"No se pudo guardar la miniatura."</string>
+    <string name="ui_132d58bd" formatted="false">"Exporta en formato API de ComfyUI."</string>
+    <string name="ui_138f4ee1" formatted="false">"Seleccionar"</string>
+    <string name="ui_13b27010" formatted="false">"Redirección de subida rechazada."</string>
+    <string name="ui_13d6dd78" formatted="false">" Revisa las versiones enviadas antes de repetir."</string>
+    <string name="ui_140559ae" formatted="false">"Cargando modelo"</string>
+    <string name="ui_143ec28d" formatted="false">"Revisa la solicitud y confirma en Desktop…"</string>
+    <string name="ui_1455edda" formatted="false">"LoRA fuera de la carpeta "</string>
+    <string name="ui_14797662" formatted="false">"Eliminar"</string>
+    <string name="ui_14ff2130" formatted="false">"Preparando…"</string>
+    <string name="ui_1520406c" formatted="false">"Vídeo listo en el feed."</string>
+    <string name="ui_155e63ef" formatted="false">"No se pudo completar la migración de la configuración"</string>
+    <string name="ui_15864c77" formatted="false">"Elimina todas las imágenes, vídeos, pruebas, historiales y referencias de generación de esta app, incluidos los elementos ocultos y en curso. Feed, Galería y Prompter quedan vacíos; los proyectos pierden sus generaciones.\n\nSe conservan workflows, personajes, estilos, lugares, ajustes y archivos de ComfyUI. Las tareas del servidor no se cancelan ni volverán a la app. No se puede deshacer."</string>
+    <string name="ui_15b2b242" formatted="false">"Ajustar "</string>
+    <string name="ui_15d5b32" formatted="false">"Audio seleccionado"</string>
+    <string name="ui_15eb3316" formatted="false">"Restablecer ajustes"</string>
+    <string name="ui_15fb292d" formatted="false">"Importar mapa existente"</string>
+    <string name="ui_1683f5a" formatted="false">"No se pudo guardar."</string>
+    <string name="ui_16b8074f" formatted="false">"Opciones del proyecto "</string>
+    <string name="ui_1712390b" formatted="false">"Índice de restauración no válido."</string>
+    <string name="ui_171b7b42" formatted="false">"Elige entre 3 y 10 segundos de continuación."</string>
+    <string name="ui_17367d21" formatted="false">"Generar RefMod H3"</string>
+    <string name="ui_17820a" formatted="false">"24 h"</string>
+    <string name="ui_17840354" formatted="false">"O usa el código de emparejamiento"</string>
+    <string name="ui_17a96525" formatted="false">"Resolución "</string>
+    <string name="ui_17cb5f75" formatted="false">"%.1f MB · %d archivos"</string>
+    <string name="ui_17d7f588" formatted="false">"Nombre del audio"</string>
+    <string name="ui_1834bc3a" formatted="false">"Comprobar resultado"</string>
+    <string name="ui_1879a3f4" formatted="false">"El workflow cambió. Revisa los LoRAs."</string>
+    <string name="ui_18a3f3fb" formatted="false">"Archivo demasiado grande."</string>
+    <string name="ui_18bf2ad5" formatted="false">"LoRA restringido en nodo sin control de peso: "</string>
+    <string name="ui_191087ef" formatted="false">"Las imágenes cambiaron. Genera otro RefMod."</string>
+    <string name="ui_193d45b4" formatted="false">"LoRAs · añadir"</string>
+    <string name="ui_196a677" formatted="false">"+ Nuevo estilo"</string>
+    <string name="ui_198d29ff" formatted="false">"Credencial no válida. Vuelve a vincular."</string>
+    <string name="ui_19ba7da7" formatted="false">"Sin pista de vídeo"</string>
+    <string name="ui_19be0014" formatted="false">"Usa solo la dirección base: http://IP:puerto"</string>
+    <string name="ui_19e97d1c" formatted="false">" imágenes en este workflow."</string>
+    <string name="ui_19ecbb41" formatted="false">"Elige 1920 o 2560 px en el lado mayor."</string>
+    <string name="ui_19fde335" formatted="false">"Acerca de la bóveda"</string>
+    <string name="ui_1a0d5198" formatted="false">"Sincronizar labios"</string>
+    <string name="ui_1a401a79" formatted="false">"El archivo no contiene audio válido."</string>
+    <string name="ui_1a446db4" formatted="false">"+ Nuevo personaje"</string>
+    <string name="ui_1a5ec477" formatted="false">"Dirección remota no válida. Genera otro código QR en Desktop."</string>
+    <string name="ui_1b3caf5f" formatted="false">"Activar LoRA "</string>
+    <string name="ui_1b72a1fe" formatted="false">"Esta es la imagen base de la edición."</string>
+    <string name="ui_1b78622c" formatted="false">"No se encontró la composición de este workflow."</string>
+    <string name="ui_1b9411d7" formatted="false">"Falta la referencia base de esta edición."</string>
+    <string name="ui_1bd9eacc" formatted="false">"Usa tu propia cuenta de Tailscale en el PC y el móvil."</string>
+    <string name="ui_1c43cb2e" formatted="false">"Dirección de vinculación no válida."</string>
+    <string name="ui_1c717bfa" formatted="false">"Servidor y conexión"</string>
+    <string name="ui_1d7c51c" formatted="false">"La extensión requiere al menos 1 segundo de vídeo."</string>
+    <string name="ui_1dca102e" formatted="false">"Peso de LoRA no válido en "</string>
+    <string name="ui_1e27143e" formatted="false">"Generación restaurada. Revisa y continúa donde lo dejaste."</string>
+    <string name="ui_1e39e15e" formatted="false">"Marcar como NSFW"</string>
+    <string name="ui_1e3cc6af" formatted="false">"Duración del vídeo"</string>
+    <string name="ui_1e53d4e7" formatted="false">"Tu ordenador. Tu espacio."</string>
+    <string name="ui_1f030d8" formatted="false">"Archivo modificado durante la migración. Conservado."</string>
+    <string name="ui_1f0d7ea" formatted="false">" a "</string>
+    <string name="ui_1f5bea" formatted="false">"Hasta "</string>
+    <string name="ui_1f6142e" formatted="false">" min "</string>
+    <string name="ui_1f77ca0a" formatted="false">"Error al actualizar · pulsa actualizar para reintentar"</string>
+    <string name="ui_1f953257" formatted="false">"Nombre del objeto"</string>
+    <string name="ui_1f9b50" formatted="false">"CLIP"</string>
+    <string name="ui_1f9cf650" formatted="false">"Peso de "</string>
+    <string name="ui_1fafd5" formatted="false">"Caja "</string>
+    <string name="ui_1feeef" formatted="false">"Portada"</string>
+    <string name="ui_200c24ff" formatted="false">"En workflows con referencias visuales."</string>
+    <string name="ui_205b4a1e" formatted="false">"El vídeo no tiene fotogramas legibles."</string>
+    <string name="ui_2117ca" formatted="false">"Error"</string>
+    <string name="ui_2159be" formatted="false">"Feed"</string>
+    <string name="ui_216998" formatted="false">"Cola"</string>
+    <string name="ui_2171e531" formatted="false">"Imagen de "</string>
+    <string name="ui_217847b7" formatted="false">"No se pudo abrir el workflow de vídeo."</string>
+    <string name="ui_218c25" formatted="false">"Modo imagen"</string>
+    <string name="ui_21f1375" formatted="false">"%.1fs"</string>
+    <string name="ui_21f354b8" formatted="false">"Recorta el vídeo: arrastra el extremo izquierdo o derecho"</string>
+    <string name="ui_22bc30f2" formatted="false">" envíos confirmados. Se conservaron los elementos enviados.\n\n"</string>
+    <string name="ui_22e625be" formatted="false">"Fuera de casa con Tailscale"</string>
+    <string name="ui_22f45436" formatted="false">"No se pudo abrir Klein."</string>
+    <string name="ui_2304493f" formatted="false">"Desbloquea los controles desde la versión de la app antes de reutilizar esta generación."</string>
+    <string name="ui_2309636" formatted="false">"Ruta de audio de fragmento no válida"</string>
+    <string name="ui_238d61d5" formatted="false">"Nombre del proyecto"</string>
+    <string name="ui_2398fc28" formatted="false">"No se pudieron guardar los lugares."</string>
+    <string name="ui_2425413c" formatted="false">"Insertar "</string>
+    <string name="ui_244e0960" formatted="false">"Detener grabación"</string>
+    <string name="ui_2451f5b" formatted="false">"Eliminar conjunto de toda la app…"</string>
+    <string name="ui_24f1c181" formatted="false">"Descripción visual automática"</string>
+    <string name="ui_257ecad1" formatted="false">"Referencias no disponibles. Datos conservados."</string>
+    <string name="ui_2589f0fe" formatted="false">"Aplicado al acondicionamiento negativo. Con CFG 1, funciona como instrucción en el prompt."</string>
+    <string name="ui_25923ff0" formatted="false">"Snofs Klein 9B BF16 requiere un perfil de 24 GB o más. Aún no hay perfil validado para "</string>
+    <string name="ui_25a591d4" formatted="false">"Faltan los nodos locales del Agente en el servidor."</string>
+    <string name="ui_25bcfb95" formatted="false">"Máscara no válida"</string>
+    <string name="ui_25e731" formatted="false">"Peso"</string>
+    <string name="ui_25e9b4ca" formatted="false">"Tu descripción"</string>
+    <string name="ui_260cb1" formatted="false">"Pose"</string>
+    <string name="ui_2656d537" formatted="false">"Empareja con el nuevo QR"</string>
+    <string name="ui_26a00c53" formatted="false">"Tipo de control desconocido"</string>
+    <string name="ui_273eeee7" formatted="false">"En ejecución"</string>
+    <string name="ui_274291" formatted="false">"Seed"</string>
+    <string name="ui_27868f66" formatted="false">"La respuesta no tiene ID de generación."</string>
+    <string name="ui_27a40d18" formatted="false">"Agente · preparando referencia"</string>
+    <string name="ui_27c3fa4f" formatted="false">"En curso"</string>
+    <string name="ui_27d51682" formatted="false">"Sustituye el habla y crea una versión del vídeo. El audio debe caber en el clip."</string>
+    <string name="ui_27dcd6e4" formatted="false">"Preparando el fragmento para extender…"</string>
+    <string name="ui_27e5d379" formatted="false">"No se pudieron abrir los modelos de edición: "</string>
+    <string name="ui_281ee551" formatted="false">"Toca el objeto. Usa − para quitar áreas de la selección."</string>
+    <string name="ui_282448ca" formatted="false">"Enlace rechazado en la migración"</string>
+    <string name="ui_284b34df" formatted="false">"Reconectando"</string>
+    <string name="ui_284b407e" formatted="false">"MiniMax H3"</string>
+    <string name="ui_284ddf11" formatted="false">"Cerrar selección de proyecto"</string>
+    <string name="ui_28799023" formatted="false">"personaje"</string>
+    <string name="ui_28a4627b" formatted="false">"Enviando vídeo…"</string>
+    <string name="ui_28db98d6" formatted="false">"Perfil de 24 GB: reduce picos de atención y divide la decodificación. Empieza con imágenes de 1–2 MP o vídeo de 0,66 MP."</string>
+    <string name="ui_28e24e7c" formatted="false">"Cerrar ajustes avanzados"</string>
+    <string name="ui_28f1820b" formatted="false">"Cerrar "</string>
+    <string name="ui_29003ed6" formatted="false">"Dimensiones del contenido no disponibles."</string>
+    <string name="ui_29082bc6" formatted="false">"Categorías anteriores"</string>
+    <string name="ui_293db7ed" formatted="false">"Terminal no disponible en este servidor"</string>
+    <string name="ui_29a1044f" formatted="false">"¿Qué quieres cambiar en el vídeo?"</string>
+    <string name="ui_29aba7ca" formatted="false">"Las imágenes, videos, miniaturas, prompts y referencias se cifran en el almacenamiento de la app.\n\nCrea una copia de seguridad y guarda tu código por separado antes de cambiar de dispositivo. Sin una copia válida y tu código, perder la clave impedirá el acceso a tu colección.\n\nLos archivos de tu computadora o servidor no se eliminan mediante esta bóveda."</string>
+    <string name="ui_29fd821b" formatted="false">"Ajustes"</string>
+    <string name="ui_2a2bd777" formatted="false">"Archivos en uso. Inténtalo de nuevo tras completar la operación."</string>
+    <string name="ui_2a90767e" formatted="false">"Buscar LoRA o modelo"</string>
+    <string name="ui_2aa50ca5" formatted="false">"Segmentación"</string>
+    <string name="ui_2aba94e2" formatted="false">"Combina descripción, imágenes y LoRAs. Usa la etiqueta en el prompt para incluir esta referencia."</string>
+    <string name="ui_2abd47ab" formatted="false">"Tu descripción se guarda separada de la descripción visual automática."</string>
+    <string name="ui_2ae29537" formatted="false">"Quitar referencia "</string>
+    <string name="ui_2b2b13cf" formatted="false">"Expandir imagen"</string>
+    <string name="ui_2b541ac3" formatted="false">"Clave no disponible."</string>
+    <string name="ui_2c4a0e0e" formatted="false">"Vista previa del lienzo ampliado"</string>
+    <string name="ui_2d932a49" formatted="false">"Siguiendo la generación"</string>
+    <string name="ui_2e347d29" formatted="false">"Bóveda no disponible"</string>
+    <string name="ui_2f146069" formatted="false">"Añadir mapa"</string>
+    <string name="ui_2f4c398c" formatted="false">"LoRAs · seleccionar y ajustar"</string>
+    <string name="ui_2f847109" formatted="false">"recuadros editables"</string>
+    <string name="ui_2f890666" formatted="false">"No se pudo preparar la copia de seguridad."</string>
+    <string name="ui_2f8f2c9f" formatted="false">"BiRefNet · PNG transparente. Crea una versión y conserva el original."</string>
+    <string name="ui_3032e899" formatted="false">"Nombre de la composición"</string>
+    <string name="ui_3045a22e" formatted="false">"Eliminar ("</string>
+    <string name="ui_307baf47" formatted="false">"Portadas discretas"</string>
+    <string name="ui_30a30da2" formatted="false">"Posición "</string>
+    <string name="ui_30c1c7bf" formatted="false">"WORKFLOW"</string>
+    <string name="ui_30db6078" formatted="false">"Kijai compacto"</string>
+    <string name="ui_30f93206" formatted="false">"No se pudo reproducir el audio."</string>
+    <string name="ui_30fe2d1e" formatted="false">"Cambiar dirección"</string>
+    <string name="ui_319f0492" formatted="false">"Composiciones"</string>
+    <string name="ui_327087c" formatted="false">"Enviar edición de vídeo"</string>
+    <string name="ui_327b3fc4" formatted="false">"Amplía al menos un borde."</string>
+    <string name="ui_3316a9fb" formatted="false">"No se pudo extender el vídeo: "</string>
+    <string name="ui_331b053a" formatted="false">"Eliminar "</string>
+    <string name="ui_331f4b26" formatted="false">"\n\nRevisa la cola antes de reenviar para evitar duplicados."</string>
+    <string name="ui_332923e0" formatted="false">" GB: este paquete incluye Ideogram FP8 para 24 GB o más; la opción GGUF más pequeña aún requiere integración y validación."</string>
+    <string name="ui_3362932d" formatted="false">"Experimental · refiner Kijai + Turbo, sin LMS Sharp. Tamaño del lado mayor. Puede alterar rostros y detalles."</string>
+    <string name="ui_33b6f648" formatted="false">"Aplicar"</string>
+    <string name="ui_3452483a" formatted="false">"Preparando audio…"</string>
+    <string name="ui_348b34" formatted="false">"play"</string>
+    <string name="ui_348d9a" formatted="false">"plus"</string>
+    <string name="ui_34942a79" formatted="false">"Para extender, usa el clip como referencia visual. Desactiva imágenes y RefMods en las etiquetas usadas; texto y LoRAs siguen disponibles."</string>
+    <string name="ui_34c61663" formatted="false">"El audio supera los 50 MB."</string>
+    <string name="ui_352711ec" formatted="false">"Relación de aspecto no válida"</string>
+    <string name="ui_358e5810" formatted="false">"Ideogram 4"</string>
+    <string name="ui_35b052ea" formatted="false">" portadas añadidas."</string>
+    <string name="ui_35bcbce8" formatted="false">"Imagen de referencia"</string>
+    <string name="ui_35c0aea2" formatted="false">"Conecta al servidor en Ajustes."</string>
+    <string name="ui_35c67e09" formatted="false">"Ocultar ajustes técnicos"</string>
+    <string name="ui_36439c12" formatted="false">"Este workflow no admite esta cantidad de referencias."</string>
+    <string name="ui_368b75fd" formatted="false">"Una referencia original fue eliminada y no se puede recuperar."</string>
+    <string name="ui_36eb8c86" formatted="false">"Proporción de las cajas no disponible."</string>
+    <string name="ui_37457854" formatted="false">"Fragmentos"</string>
+    <string name="ui_37bd0eee" formatted="false">"4x-UltraSharp · conserva la proporción. Crea una versión en el mismo conjunto."</string>
+    <string name="ui_37ea1f25" formatted="false">"Este workflow antiguo no tiene una configuración reutilizable guardada. Las nuevas generaciones guardan todos los ajustes localmente."</string>
+    <string name="ui_38a7eeb0" formatted="false">"Falta la clave de la bóveda. Archivos conservados."</string>
+    <string name="ui_3933b566" formatted="false">"Personalizar portadas"</string>
+    <string name="ui_39556a9e" formatted="false">"Añadir o reemplazar audio"</string>
+    <string name="ui_39b457b7" formatted="false">"Olvidar vinculación"</string>
+    <string name="ui_39d816c0" formatted="false">"RefMod no disponible en el servidor: "</string>
+    <string name="ui_39e3c692" formatted="false">"Reutilizar el prompt de esta generación"</string>
+    <string name="ui_3a31a8aa" formatted="false">"Enlace rechazado."</string>
+    <string name="ui_3aaabf2" formatted="false">"Vincular con Desktop"</string>
+    <string name="ui_3ad98637" formatted="false">"Pausar vídeo"</string>
+    <string name="ui_3b6f83f6" formatted="false">"Vídeo enviado; no se pudo guardar el historial local."</string>
+    <string name="ui_3b7e856c" formatted="false">"Preparando audio"</string>
+    <string name="ui_3bd43b0d" formatted="false">"Añadir generaciones"</string>
+    <string name="ui_3c1d3b83" formatted="false">"Abrir proyecto "</string>
+    <string name="ui_3c2619c1" formatted="false">"Falta el preprocesador en ComfyUI. Importa un mapa o instala: "</string>
+    <string name="ui_3c2903b" formatted="false">"Arriba"</string>
+    <string name="ui_3c339ab4" formatted="false">"No se pudo editar el vídeo: "</string>
+    <string name="ui_3c757ea4" formatted="false">"La portada es la primera referencia. Las demás imágenes ocupan los espacios restantes del workflow."</string>
+    <string name="ui_3c9c9971" formatted="false">"Avanzar 10 segundos"</string>
+    <string name="ui_3ccb271c" formatted="false">"El conjunto cambió y aún tiene generaciones en curso. No se eliminó nada."</string>
+    <string name="ui_3d08563c" formatted="false">" archivo multimedia"</string>
+    <string name="ui_3d21d340" formatted="false">" generaciones en curso…"</string>
+    <string name="ui_3d2d61f3" formatted="false">" prueba"</string>
+    <string name="ui_3d313017" formatted="false">"Crear copia de seguridad"</string>
+    <string name="ui_3d327c42" formatted="false">"Texto y LoRA también funcionan sin imagen."</string>
+    <string name="ui_3d5ee2a9" formatted="false">"Aumentar resolución del vídeo"</string>
+    <string name="ui_3d852a7" formatted="false">"Abrir compositor"</string>
+    <string name="ui_3dde97b" formatted="false">"Canny"</string>
+    <string name="ui_3e8c0485" formatted="false">"Ajustes recuperados del servidor. El lote antiguo no se guardaba; se usa x1."</string>
+    <string name="ui_3eab40f8" formatted="false">"Deseleccionar "</string>
+    <string name="ui_3ecae2d5" formatted="false">"Escribe un nombre."</string>
+    <string name="ui_3eddaa3" formatted="false">"Profundidad"</string>
+    <string name="ui_3f5c80b2" formatted="false">"Cancelar composición"</string>
+    <string name="ui_3f739b6b" formatted="false">"Preparando tu generación…"</string>
+    <string name="ui_3fe3f43a" formatted="false">"Guarda voces y sonidos para sincronizar labios. Hasta 30 segundos por fragmento."</string>
+    <string name="ui_4049ac38" formatted="false">"No se pudieron abrir los workflows: "</string>
+    <string name="ui_40730f68" formatted="false">"Guardar fragmento"</string>
+    <string name="ui_40da3c1a" formatted="false">"Cancelando de forma segura…"</string>
+    <string name="ui_411ce0ba" formatted="false">"¿Eliminar fragmento?"</string>
+    <string name="ui_4124eb03" formatted="false">"Ajustes técnicos"</string>
+    <string name="ui_416c4c27" formatted="false">"● Conectado"</string>
+    <string name="ui_4182665" formatted="false">"Generar"</string>
+    <string name="ui_41c35191" formatted="false">"%.1f s"</string>
+    <string name="ui_41c3c5f0" formatted="false">"%.2f s"</string>
+    <string name="ui_41d13835" formatted="false">"Renombrar LoRA"</string>
+    <string name="ui_41e1098" formatted="false">"HTTP "</string>
+    <string name="ui_4204e78" formatted="false">"Copia"</string>
+    <string name="ui_4236f43c" formatted="false">"Elige un workflow en el compositor."</string>
+    <string name="ui_42935d60" formatted="false">"Completada"</string>
+    <string name="ui_42d08736" formatted="false">"Selecciona un fragmento de 1 a 120 segundos."</string>
+    <string name="ui_432797a1" formatted="false">"LoRAs no disponibles"</string>
+    <string name="ui_433291" formatted="false">"Refiner, Turbo y LMS Sharp. Tamaño del lado mayor. Puede alterar rostros y detalles."</string>
+    <string name="ui_43750c92" formatted="false">"Luz, colores, técnica, ambiente…"</string>
+    <string name="ui_4457ad7b" formatted="false">"Ruta fuera de la bóveda"</string>
+    <string name="ui_44f40221" formatted="false">"Sin acceso a la cámara. Pega el código para continuar."</string>
+    <string name="ui_453" formatted="false">" s"</string>
+    <string name="ui_4554639" formatted="false">"Entendido"</string>
+    <string name="ui_455f8e85" formatted="false">"Descripción de la referencia"</string>
+    <string name="ui_4566e5e9" formatted="false">"Referencia "</string>
+    <string name="ui_4566e63c" formatted="false">"Referencias"</string>
+    <string name="ui_45f1e143" formatted="false">"Guardar prueba en la colección"</string>
+    <string name="ui_460bac49" formatted="false">"Error al guardar los estilos. Inténtalo de nuevo."</string>
+    <string name="ui_462aba1" formatted="false">"LoRAs"</string>
+    <string name="ui_462ef4b" formatted="false">"Local"</string>
+    <string name="ui_463b8987" formatted="false">"Máximo 16 puntos. Deshaz un punto para continuar."</string>
+    <string name="ui_468a93d7" formatted="false">"Configuración antigua no disponible. Conéctate al servidor original."</string>
+    <string name="ui_46c4e625" formatted="false">"Creando tu imagen…"</string>
+    <string name="ui_470be2d" formatted="false">"Crear personaje con esta portada"</string>
+    <string name="ui_470ee1a6" formatted="false">"Tu feed de imágenes"</string>
+    <string name="ui_477ab19a" formatted="false">"Workflow vacío."</string>
+    <string name="ui_47f5d0da" formatted="false">"Imagen. Desliza verticalmente para ver versiones, horizontalmente para otro conjunto."</string>
+    <string name="ui_47f6706" formatted="false">"Nuevo "</string>
+    <string name="ui_484b3f4a" formatted="false">"Kromoss"</string>
+    <string name="ui_4856876d" formatted="false">"Clave de la bóveda no disponible. Archivos conservados."</string>
+    <string name="ui_48780b6f" formatted="false">"Los workflows incompatibles no estarán disponibles."</string>
+    <string name="ui_48815bd3" formatted="false">"¿Eliminar generación?"</string>
+    <string name="ui_48b45b05" formatted="false">"Lienzo de composición: dibuja cuadros con el dedo"</string>
+    <string name="ui_48e1a6a4" formatted="false">" activos"</string>
+    <string name="ui_49cb3cc7" formatted="false">"Crear imagen"</string>
+    <string name="ui_49fa733a" formatted="false">"Resultado listo. Intentando descargar de nuevo…"</string>
+    <string name="ui_4a221caf" formatted="false">"Personajes"</string>
+    <string name="ui_4a2b1a0" formatted="false">"Cancelar recorte del vídeo"</string>
+    <string name="ui_4a6d757" formatted="false">"Migración no registrada. Archivos conservados."</string>
+    <string name="ui_4a7ca716" formatted="false">"Proteger imágenes"</string>
+    <string name="ui_4aaed71d" formatted="false">"MOSS Image"</string>
+    <string name="ui_4ae5da4e" formatted="false">"Analizar de nuevo"</string>
+    <string name="ui_4b6ba4b4" formatted="false">"Transporte de imágenes no disponible"</string>
+    <string name="ui_4bc44aa1" formatted="false">"Abre Tailscale en el móvil o instálalo desde tailscale.com."</string>
+    <string name="ui_4bce1b04" formatted="false">"Lote interrumpido"</string>
+    <string name="ui_4bd1fb28" formatted="false">"Detener audio"</string>
+    <string name="ui_4bd3aaa" formatted="false">"Prueba guardada"</string>
+    <string name="ui_4c2c5c1b" formatted="false">"El análisis tardó demasiado. Revisa la cola antes de reintentar."</string>
+    <string name="ui_4c8b02a7" formatted="false">"Upscale H3 admite clips de hasta 15 segundos; recorta el video antes."</string>
+    <string name="ui_4c9c2a" formatted="false">"Objetos"</string>
+    <string name="ui_4cd71891" formatted="false">"Prioriza generaciones SFW de la galería en la proporción original. Las portadas preconfiguradas son de reserva. El búho en la pantalla de inicio controla el modo privado."</string>
+    <string name="ui_4cd7480b" formatted="false">"El upscale supera el límite de 64 MP."</string>
+    <string name="ui_4ceea4ad" formatted="false">"Proporción"</string>
+    <string name="ui_4cf70c2" formatted="false">"Texto"</string>
+    <string name="ui_4d" formatted="false">"M"</string>
+    <string name="ui_4d0737d0" formatted="false">" proyectos"</string>
+    <string name="ui_4d3af1b" formatted="false">"Todas"</string>
+    <string name="ui_4d8f870" formatted="false">"Versión de la app"</string>
+    <string name="ui_4da6fd85" formatted="false">"Respuesta no válida."</string>
+    <string name="ui_4deff632" formatted="false">"Combina las opciones permitidas. Cada workflow usa solo lo que admite."</string>
+    <string name="ui_4e2e8669" formatted="false">"Error tipográfico en el código de recuperación."</string>
+    <string name="ui_4e38e91" formatted="false">"Usar "</string>
+    <string name="ui_4e607fb5" formatted="false">"Un bloque, varias capas"</string>
+    <string name="ui_4ef3be58" formatted="false">"Sincronización labial…"</string>
+    <string name="ui_4f307c9b" formatted="false">"Deja vacío para usar el nombre automático."</string>
+    <string name="ui_4f929f24" formatted="false">"No se pudo leer el registro del servidor."</string>
+    <string name="ui_4f9d2a9" formatted="false">"Eliminar proyecto"</string>
+    <string name="ui_4f9fb2f6" formatted="false">"Buscando modelos instalados…"</string>
+    <string name="ui_4fdec0bc" formatted="false">"Opciones de "</string>
+    <string name="ui_4ff28d0c" formatted="false">"No disponible en 8 GB: la opción GGUF publicada validó MOSS Base, pero no el MOSS SFT incluido aquí."</string>
+    <string name="ui_4ff71afd" formatted="false">"Audios"</string>
+    <string name="ui_5063053a" formatted="false">"No hay imágenes disponibles. Usa Imágenes para importar."</string>
+    <string name="ui_5079bb7d" formatted="false">"Privado"</string>
+    <string name="ui_508d6b7c" formatted="false">"Conéctate al servidor para buscar opciones."</string>
+    <string name="ui_5098dc6" formatted="false">"En bwdacc Desktop, abre Dispositivos y genera un QR para conectar este móvil."</string>
+    <string name="ui_50e5f113" formatted="false">"Proporción "</string>
+    <string name="ui_51415b80" formatted="false">"Upscale de imagen"</string>
+    <string name="ui_515b6ee5" formatted="false">"Generar edición"</string>
+    <string name="ui_51b27014" formatted="false">"Emparejamiento"</string>
+    <string name="ui_51fedb05" formatted="false">"Sanitize: eliminar todas las generaciones de la app"</string>
+    <string name="ui_52132629" formatted="false">"Acerca de la app"</string>
+    <string name="ui_522683f5" formatted="false">"Imagen lista en el feed."</string>
+    <string name="ui_5233fa7d" formatted="false">"No hay ninguna galería de fotos disponible en este dispositivo."</string>
+    <string name="ui_52698500" formatted="false">"Recorte fuera del video."</string>
+    <string name="ui_5292557" formatted="false">"Video"</string>
+    <string name="ui_52c2a908" formatted="false">"Error al abrir los workflows de video."</string>
+    <string name="ui_5301c60e" formatted="false">"Resolución solicitada"</string>
+    <string name="ui_530343ff" formatted="false">"Actualizar cola o terminal"</string>
+    <string name="ui_5419d7d4" formatted="false">"Workflow de ComfyUI"</string>
+    <string name="ui_54536278" formatted="false">", lote "</string>
+    <string name="ui_545a87b1" formatted="false">"Opciones del workflow"</string>
+    <string name="ui_5465aa3e" formatted="false">"Abrir conjunto "</string>
+    <string name="ui_5486d15f" formatted="false">"Imagen de referencia no disponible. Revisa la etiqueta."</string>
+    <string name="ui_54925742" formatted="false">"Carpeta privada inaccesible."</string>
+    <string name="ui_554d9a22" formatted="false">"Abrir conjunto"</string>
+    <string name="ui_55516792" formatted="false">"Entorno, elementos y detalles…"</string>
+    <string name="ui_55519fee" formatted="false">" imágenes."</string>
+    <string name="ui_55ee3481" formatted="false">"¿Olvidar este Desktop?"</string>
+    <string name="ui_560cedf1" formatted="false">"Original"</string>
+    <string name="ui_560f7974" formatted="false">"Servidor"</string>
+    <string name="ui_56633328" formatted="false">"LoRAs · "</string>
+    <string name="ui_56be0fc3" formatted="false">"Los videos visibles empiezan en silencio."</string>
+    <string name="ui_56ce596c" formatted="false">"Posición no válida"</string>
+    <string name="ui_56f5fda" formatted="false">"Abrir secuencia completa"</string>
+    <string name="ui_57166be2" formatted="false">"Fragmento de "</string>
+    <string name="ui_57170f96" formatted="false">"Espera a que termine la subida o la generación."</string>
+    <string name="ui_57206ede" formatted="false">"Desktop no emparejado"</string>
+    <string name="ui_573a705d" formatted="false">" · guarda con dos toques"</string>
+    <string name="ui_57821037" formatted="false">"Galería"</string>
+    <string name="ui_579dcdef" formatted="false">"Elegir contenido para sincronizar labios"</string>
+    <string name="ui_579e1bdc" formatted="false">"MiniMax H3 Turbo"</string>
+    <string name="ui_57a66bbf" formatted="false">"Disminuir peso de "</string>
+    <string name="ui_57abbc0d" formatted="false">"Prueba tu prompt\nPermanece en el compositor después de generar. Las pruebas sin \"me gusta\" permanecen aquí durante 24 horas."</string>
+    <string name="ui_5822658a" formatted="false">"Actualiza el motor en Desktop para instalar SAM."</string>
+    <string name="ui_58326531" formatted="false">"Ruta de subida no válida."</string>
+    <string name="ui_58432232" formatted="false">"24+ GB"</string>
+    <string name="ui_58937799" formatted="false">"Redirección del servidor rechazada."</string>
+    <string name="ui_58ad1ad4" formatted="false">"Identidad de Desktop no válida."</string>
+    <string name="ui_58d3ce89" formatted="false">"No se pudo crear la carpeta de la bóveda"</string>
+    <string name="ui_5929772d" formatted="false">"LoRA no instalada: "</string>
+    <string name="ui_594b1705" formatted="false">"Error al abrir LoRAs: "</string>
+    <string name="ui_594c6ff" formatted="false">"Finalizando"</string>
+    <string name="ui_597c491" formatted="false">"bloque"</string>
+    <string name="ui_599427" formatted="false">"Administrar estilos e insertar $tags"</string>
+    <string name="ui_59999ec6" formatted="false">" imágenes no se pudieron importar."</string>
+    <string name="ui_59a85d83" formatted="false">"Reproducción automática"</string>
+    <string name="ui_59b93e48" formatted="false">"Opciones del estilo "</string>
+    <string name="ui_5a1d0a1" formatted="false">"Perfil de memoria"</string>
+    <string name="ui_5a3dcc15" formatted="false">"Solo los compatibles con el modelo."</string>
+    <string name="ui_5a3e508" formatted="false">"comprobar"</string>
+    <string name="ui_5a487fb2" formatted="false">"Elige tu workflow en Ajustes"</string>
+    <string name="ui_5a4b98c1" formatted="false">". Ajusta los enlaces."</string>
+    <string name="ui_5a5ca9d8" formatted="false">"Añade el fotograma inicial y el fotograma final."</string>
+    <string name="ui_5a5ddf8" formatted="false">"cerrar"</string>
+    <string name="ui_5aeffaa" formatted="false">"Certificado de Desktop no válido"</string>
+    <string name="ui_5b2cf4b1" formatted="false">"Hasta 30 s · un rostro frontal y visible. El audio sustituye el sonido original; conserva proporción, sin ampliar."</string>
+    <string name="ui_5b693a52" formatted="false">"Cerrar extractor"</string>
+    <string name="ui_5b8067a9" formatted="false">"Nuevo personaje"</string>
+    <string name="ui_5bb8fdde" formatted="false">"Añadido a "</string>
+    <string name="ui_5c0034e2" formatted="false">"Usa un clip de entre 2 y 15 segundos para editar."</string>
+    <string name="ui_5c7079dd" formatted="false">"Composición"</string>
+    <string name="ui_5cb47919" formatted="false">"Conexión remota no disponible."</string>
+    <string name="ui_5cc541cf" formatted="false">"Escuchar audio"</string>
+    <string name="ui_5cd78724" formatted="false">"Extraer composición"</string>
+    <string name="ui_5db92906" formatted="false">". Comprueba la conexión."</string>
+    <string name="ui_5df235a3" formatted="false">"No se pudo analizar. Revisa el modelo SAM en Desktop."</string>
+    <string name="ui_5e5a8d5f" formatted="false">"Seleccionar "</string>
+    <string name="ui_5e5f8a9c" formatted="false">"Edición de vídeo H3"</string>
+    <string name="ui_5e78cbbe" formatted="false">"Describe el contenido del cuadro "</string>
+    <string name="ui_5e8c0ba5" formatted="false">" en cola"</string>
+    <string name="ui_5ea81eac" formatted="false">"Generando"</string>
+    <string name="ui_5ea9f446" formatted="false">"Generación"</string>
+    <string name="ui_5f2ba62f" formatted="false">"Tu PC y móvil en la misma red privada de Tailscale."</string>
+    <string name="ui_5f59bd8" formatted="false">"Usar imágenes como referencia"</string>
+    <string name="ui_5f63bdf" formatted="false">"Workflow"</string>
+    <string name="ui_5f9413ab" formatted="false">"No se pudieron migrar las referencias. Se conservaron los datos antiguos."</string>
+    <string name="ui_5fe120ed" formatted="false">"Refina detalles y conserva proporción, duración y audio. Hasta 15 segundos."</string>
+    <string name="ui_6003a916" formatted="false">"Activa First/Last Frame para usar dos fotogramas."</string>
+    <string name="ui_603e91c3" formatted="false">"Ajustes de generación y workflow. "</string>
+    <string name="ui_60593c9d" formatted="false">"Vista previa de video sin sonido"</string>
+    <string name="ui_606b50b4" formatted="false">"Error al enviar vídeo: "</string>
+    <string name="ui_6098cb6a" formatted="false">"Esta instalación ya contiene referencias, proyectos o borradores. No se sobrescribió nada."</string>
+    <string name="ui_60bb2dd7" formatted="false">" conjuntos"</string>
+    <string name="ui_60c6cb32" formatted="false">"No disponible en 8 GB: no se encontró un workflow validado para este Kromoss INT8."</string>
+    <string name="ui_60dfc224" formatted="false">"Seleccionar varios elementos"</string>
+    <string name="ui_611a7980" formatted="false">"Usar para sincronizar labios"</string>
+    <string name="ui_616126b4" formatted="false">"Hasta 30 segundos. La grabación se detiene al salir de esta pantalla o de la app."</string>
+    <string name="ui_6168b18" formatted="false">"Comprobando preprocesadores…"</string>
+    <string name="ui_617319d5" formatted="false">" pasos"</string>
+    <string name="ui_6194c8aa" formatted="false">"Extraer de una imagen"</string>
+    <string name="ui_619d6088" formatted="false">"Subiendo imagen…"</string>
+    <string name="ui_61c62507" formatted="false">"Listo para usar mediante la etiqueta en H3 Ref2VA."</string>
+    <string name="ui_6227bae9" formatted="false">"Cerrar workflows"</string>
+    <string name="ui_625df6b" formatted="false">"lugar"</string>
+    <string name="ui_625ed6e3" formatted="false">"Añade al menos un recuadro."</string>
+    <string name="ui_62842ba" formatted="false">"Describe cómo continuar el video."</string>
+    <string name="ui_629ca7a1" formatted="false">"Texto en la imagen"</string>
+    <string name="ui_629ffa42" formatted="false">"No se encontró ningún LoRA compatible."</string>
+    <string name="ui_62d18d6a" formatted="false">"Conectar al PC"</string>
+    <string name="ui_634aa1c" formatted="false">"Elige un audio de 0,2 a 30 segundos."</string>
+    <string name="ui_636f715" formatted="false">"El servidor no devolvió ningún ID."</string>
+    <string name="ui_63a669" formatted="false">" confirmados. Revisa la cola antes de repetir."</string>
+    <string name="ui_63bb40e0" formatted="false">"Archivo de audio no válido."</string>
+    <string name="ui_63f9cd14" formatted="false">"Error al cambiar de modo: "</string>
+    <string name="ui_640271b7" formatted="false">" archivos multimedia"</string>
+    <string name="ui_641126dd" formatted="false">"Este es el clip base de la edición."</string>
+    <string name="ui_642069c0" formatted="false">" de la etapa"</string>
+    <string name="ui_646f1781" formatted="false">"Guardar y usar"</string>
+    <string name="ui_64a9a320" formatted="false">"Ver versiones y editar"</string>
+    <string name="ui_64cdc03a" formatted="false">"Fotograma final"</string>
+    <string name="ui_64e27a6b" formatted="false">"Workflow incluido, pero faltan dependencias en el servidor: "</string>
+    <string name="ui_64e9e76a" formatted="false">"Arrastra para dibujar · mueve las cajas · ajusta desde la esquina"</string>
+    <string name="ui_64f2ef9f" formatted="false">": usa "</string>
+    <string name="ui_6529e224" formatted="false">"Desktop emparejado"</string>
+    <string name="ui_657b28a4" formatted="false">"En cola · "</string>
+    <string name="ui_65a1213e" formatted="false">"Solo elimina la organización del proyecto. Las generaciones permanecen en el Feed y en la Galería."</string>
+    <string name="ui_65e9e944" formatted="false">"Composición aplicada."</string>
+    <string name="ui_65f5a1ae" formatted="false">"Versión de bóveda no válida"</string>
+    <string name="ui_66180a09" formatted="false">"ComfyUI devolvió un ID no válido."</string>
+    <string name="ui_6637961c" formatted="false">" conjunto"</string>
+    <string name="ui_66576e54" formatted="false">"Límite del lienzo: 16 MP y 8192 px por lado."</string>
+    <string name="ui_6677f510" formatted="false">"Enviar extensión de video"</string>
+    <string name="ui_66beb8d0" formatted="false">"Restaurar LoRAs del workflow"</string>
+    <string name="ui_66c1ae2d" formatted="false">"Las imágenes privadas aparecen cubiertas."</string>
+    <string name="ui_66d34e4d" formatted="false">"Extender video…"</string>
+    <string name="ui_66f1911" formatted="false">"cola"</string>
+    <string name="ui_674db265" formatted="false">"Describe tu video."</string>
+    <string name="ui_674dd25d" formatted="false">"Describe tu video…"</string>
+    <string name="ui_675a22ce" formatted="false">"Guardar referencia"</string>
+    <string name="ui_67a6ea46" formatted="false">"Guarda personajes, estilos, lugares, objetos y composiciones para tus próximas creaciones."</string>
+    <string name="ui_686dd20b" formatted="false">"Archivo no válido"</string>
+    <string name="ui_687edce0" formatted="false">" pruebas"</string>
+    <string name="ui_688c5f03" formatted="false">"Usar grabación"</string>
+    <string name="ui_68aae578" formatted="false">"Fragmento para extender"</string>
+    <string name="ui_68b3f8a6" formatted="false">"Esperando tu turno"</string>
+    <string name="ui_68c6e1d6" formatted="false">"Copia de seguridad de la bóveda"</string>
+    <string name="ui_696401d3" formatted="false">"No se pudo importar. Usa imágenes de hasta 30 MB."</string>
+    <string name="ui_6998330a" formatted="false">"Extensión enviada. Sigue el progreso en las versiones."</string>
+    <string name="ui_69f1c082" formatted="false">"Error de conexión: "</string>
+    <string name="ui_6a538d9b" formatted="false">"No se pudo verificar la identidad de Desktop"</string>
+    <string name="ui_6aacdc71" formatted="false">"Añade una imagen en + o usa una etiqueta con imagen para usar Klein."</string>
+    <string name="ui_6ab21be3" formatted="false">"Extensión de vídeo"</string>
+    <string name="ui_6ab5fb31" formatted="false">"Copia de seguridad y recuperación"</string>
+    <string name="ui_6b14adb3" formatted="false">"Limpiar feed de Prompter"</string>
+    <string name="ui_6b41ca38" formatted="false">"Limpiar generaciones"</string>
+    <string name="ui_6bbb2852" formatted="false">"Error al guardar el video."</string>
+    <string name="ui_6c26e2af" formatted="false">"Referencia no disponible."</string>
+    <string name="ui_6c900f67" formatted="false">"Brillo al inclinar"</string>
+    <string name="ui_6cb786ee" formatted="false">"El servidor no admite "</string>
+    <string name="ui_6cc2bfee" formatted="false">"¿Eliminar localmente?"</string>
+    <string name="ui_6d047fba" formatted="false">"desactivado"</string>
+    <string name="ui_6d06f43" formatted="false">"Envío sin confirmar. Revisa la cola antes de reintentar."</string>
+    <string name="ui_6d11d9ae" formatted="false">"Este workflow aún no ofrece una entrada segura para el Agente."</string>
+    <string name="ui_6d1b77e1" formatted="false">"Aplicar cuadros"</string>
+    <string name="ui_6d2e8d8c" formatted="false">" transcurridos"</string>
+    <string name="ui_6d71cf6c" formatted="false">"Pausado · "</string>
+    <string name="ui_6d926747" formatted="false">"Valor no válido; se mantuvo el último valor válido."</string>
+    <string name="ui_6dc3edcf" formatted="false">"Lineart"</string>
+    <string name="ui_6dd135a4" formatted="false">"Creada el"</string>
+    <string name="ui_6de6d38e" formatted="false">"Sincronización labial"</string>
+    <string name="ui_6e17adcb" formatted="false">"Límite de 12 cuadros."</string>
+    <string name="ui_6e1b6840" formatted="false">" imágenes"</string>
+    <string name="ui_6e44c622" formatted="false">"Edición de vídeo · referencias"</string>
+    <string name="ui_6e7d929d" formatted="false">"Upscale de video…"</string>
+    <string name="ui_6ea0adc3" formatted="false">"NSFW desactivado. Activar modo privado"</string>
+    <string name="ui_6eac052f" formatted="false">"Prioriza velocidad con menos división de cálculos. Usa checkpoints cuantizados del catálogo; los pesos se instalan por separado."</string>
+    <string name="ui_6eac4def" formatted="false">"Conéctate al servidor original de esta generación."</string>
+    <string name="ui_6eb474db" formatted="false">"Describe el cambio."</string>
+    <string name="ui_6f3d941f" formatted="false">"Video mayor de 512 MB."</string>
+    <string name="ui_6f6b9240" formatted="false">"Elige un workflow y conéctate al servidor."</string>
+    <string name="ui_6f89b88d" formatted="false">"Generar imagen"</string>
+    <string name="ui_6fa07be6" formatted="false">"Workflow importado"</string>
+    <string name="ui_6fac7f8c" formatted="false">"No se pudo abrir la imagen."</string>
+    <string name="ui_6fe4cc97" formatted="false">"Mostrando datos guardados en este dispositivo."</string>
+    <string name="ui_708173da" formatted="false">"Crear upscale"</string>
+    <string name="ui_70fb4dae" formatted="false">"Aumentar peso"</string>
+    <string name="ui_713c6a24" formatted="false">"Abrir video del feed"</string>
+    <string name="ui_71c32d00" formatted="false">"Agregar al proyecto"</string>
+    <string name="ui_725c5715" formatted="false">"Elegir "</string>
+    <string name="ui_72b4ff8f" formatted="false">"Referencia no disponible. Selecciona de nuevo."</string>
+    <string name="ui_72ee61e0" formatted="false">"Editar y combinar hasta 3 imágenes"</string>
+    <string name="ui_73" formatted="false">"s"</string>
+    <string name="ui_7314717" formatted="false">"Quitar mapa"</string>
+    <string name="ui_73459796" formatted="false">"Edición enviada. Error al guardar el historial local."</string>
+    <string name="ui_7359530e" formatted="false">"Preparando prompt"</string>
+    <string name="ui_7371af96" formatted="false">"Imagen no válida."</string>
+    <string name="ui_7373edfe" formatted="false">"Conéctate al servidor primero."</string>
+    <string name="ui_73857bba" formatted="false">"Error al guardar personajes."</string>
+    <string name="ui_7402d32" formatted="false">"Usar en el prompt"</string>
+    <string name="ui_740e5c3d" formatted="false">" generando · "</string>
+    <string name="ui_743f6de8" formatted="false">"Importa un workflow de API primero."</string>
+    <string name="ui_7476f552" formatted="false">" restantes"</string>
+    <string name="ui_747db0e0" formatted="false">"Abajo"</string>
+    <string name="ui_747ecda5" formatted="false">"No se pudieron enumerar las LoRA. Comprueba la conexión."</string>
+    <string name="ui_74856a26" formatted="false">"Abrir "</string>
+    <string name="ui_74bdc550" formatted="false">"QR de un solo uso. Confirma la conexión en el ordenador."</string>
+    <string name="ui_74c60a20" formatted="false">"Agente"</string>
+    <string name="ui_74d9b42d" formatted="false">"Quitar etiqueta NSFW"</string>
+    <string name="ui_752148a7" formatted="false">" · Elige una imagen"</string>
+    <string name="ui_7542efa6" formatted="false">"Eliminar"</string>
+    <string name="ui_75899c9b" formatted="false">"BWD1-…"</string>
+    <string name="ui_75db6901" formatted="false">"Guardé mi código en un lugar seguro"</string>
+    <string name="ui_75e5fc9a" formatted="false">" imágenes importadas"</string>
+    <string name="ui_76066e15" formatted="false">"Elige la red en Desktop"</string>
+    <string name="ui_7643cffe" formatted="false">"La colección supera el límite de esta versión."</string>
+    <string name="ui_765bd6fa" formatted="false">"Generando…"</string>
+    <string name="ui_765d9c61" formatted="false">"No se aceptan certificados de cliente aquí"</string>
+    <string name="ui_766750cd" formatted="false">"Archivo de bóveda no válido"</string>
+    <string name="ui_766c1dc6" formatted="false">"Fragmento · "</string>
+    <string name="ui_76c5ba22" formatted="false">"Bloques"</string>
+    <string name="ui_76d2785a" formatted="false">"Guardar bloque"</string>
+    <string name="ui_7713dcbe" formatted="false">"Destino remoto no válido."</string>
+    <string name="ui_774ce66e" formatted="false">"No disponible en "</string>
+    <string name="ui_7765ce12" formatted="false">"Guarda las imágenes como referencia visual reutilizable para MiniMax H3 Ref2VA."</string>
+    <string name="ui_776e8146" formatted="false">"Preparando tu bóveda"</string>
+    <string name="ui_777a036a" formatted="false">"La copia de seguridad supera el límite de esta versión (1 GB por archivo, 64 GB en total)."</string>
+    <string name="ui_778fce41" formatted="false">"Eliminar todas"</string>
+    <string name="ui_77ebc8f7" formatted="false">"Sin espacio para preparar la restauración."</string>
+    <string name="ui_7813930d" formatted="false">"No se encontraron fragmentos"</string>
+    <string name="ui_78201880" formatted="false">"Ajustes avanzados de generación"</string>
+    <string name="ui_78250b5b" formatted="false">"NSFW activado. Desactivar modo privado"</string>
+    <string name="ui_786c7f2f" formatted="false">"El emparejamiento requiere una IPv4 local o de Tailscale."</string>
+    <string name="ui_788e34b8" formatted="false">"Restauración incompleta. Archivos conservados."</string>
+    <string name="ui_7896a398" formatted="false">"Error de autenticación de la bóveda"</string>
+    <string name="ui_78f40d3d" formatted="false">" · %.2f MP"</string>
+    <string name="ui_79a4eb03" formatted="false">"Generando RefMod…"</string>
+    <string name="ui_7a04f1e5" formatted="false">"El lote aún tiene generaciones en curso. Espera a que termine o usa Sanitize para limpiar todo."</string>
+    <string name="ui_7a087a6a" formatted="false">"Operación cancelada."</string>
+    <string name="ui_7a1ee53d" formatted="false">"Demasiados intentos. Espera un minuto."</string>
+    <string name="ui_7a3b2f37" formatted="false">"Solo MiniMax H3 Ref2VA."</string>
+    <string name="ui_7a57f5c0" formatted="false">"Este medio no tiene prompt guardado."</string>
+    <string name="ui_7a79159b" formatted="false">"Escribe tu idea primero."</string>
+    <string name="ui_7aaebc85" formatted="false">"Duración aproximada "</string>
+    <string name="ui_7aebe134" formatted="false">"Tu galería comienza aquí\nCrea una imagen para añadir a la colección."</string>
+    <string name="ui_7b37c702" formatted="false">"¿Eliminar personaje?"</string>
+    <string name="ui_7b710bdb" formatted="false">"Editar"</string>
+    <string name="ui_7bdb87fa" formatted="false">"Guardado en este flujo de trabajo. Esta operación no tiene entrada de texto compatible."</string>
+    <string name="ui_7c2dcbe1" formatted="false">"Sanitize completado. No hay generaciones en la app."</string>
+    <string name="ui_7c492586" formatted="false">"Estado"</string>
+    <string name="ui_7c494486" formatted="false">"Estilo"</string>
+    <string name="ui_7c9106c5" formatted="false">"Grabación de audio"</string>
+    <string name="ui_7cd4c1d3" formatted="false">"Versión de emparejamiento no válida."</string>
+    <string name="ui_7cfccfbd" formatted="false">"Falló"</string>
+    <string name="ui_7d09009a" formatted="false">"Conexión remota cerrada."</string>
+    <string name="ui_7d3114b5" formatted="false">"Cerrar"</string>
+    <string name="ui_7d82ec73" formatted="false">"Sin conexión · reintento automático"</string>
+    <string name="ui_7dc85305" formatted="false">"Sin permiso de micrófono. Puedes importar un audio."</string>
+    <string name="ui_7e93764d" formatted="false">"Buscando datos en el servidor…"</string>
+    <string name="ui_7ef5c5c1" formatted="false">"Edición enviada. Sigue el progreso en Versiones."</string>
+    <string name="ui_7fdd9422" formatted="false">"Error al leer personajes."</string>
+    <string name="ui_80107c58" formatted="false">"La imagen original no está guardada en este dispositivo."</string>
+    <string name="ui_80913ef8" formatted="false">"Fragmento de audio"</string>
+    <string name="ui_80b56d99" formatted="false">"Eliminar del feed"</string>
+    <string name="ui_80fb" formatted="false">" GB"</string>
+    <string name="ui_810fd960" formatted="false">"Capa de LoRA "</string>
+    <string name="ui_81b86e6" formatted="false">"Archivo inesperado en la colección. No se creó la copia de seguridad."</string>
+    <string name="ui_81c091a4" formatted="false">"La restauración requiere una instalación vacía. Se conservó la colección actual."</string>
+    <string name="ui_81c3" formatted="false">" MP"</string>
+    <string name="ui_82445cf5" formatted="false">"Idioma"</string>
+    <string name="ui_82a2f4e8" formatted="false">"Generando edición…"</string>
+    <string name="ui_82aa37e0" formatted="false">"No hay campos simples editables."</string>
+    <string name="ui_82b3d5a8" formatted="false">"Reproducción"</string>
+    <string name="ui_82bf6e92" formatted="false">"Imagen"</string>
+    <string name="ui_82e80b63" formatted="false">"Actualizar publicaciones"</string>
+    <string name="ui_82ecce5b" formatted="false">"Usa Desktop mediante la red local o Tailscale."</string>
+    <string name="ui_832a2b0e" formatted="false">"Código copiado. Guárdalo en un lugar independiente."</string>
+    <string name="ui_834cd08f" formatted="false">"El workflow cambió. Abre LoRAs de nuevo."</string>
+    <string name="ui_83590d86" formatted="false">"Índice de restauración demasiado grande."</string>
+    <string name="ui_83996aea" formatted="false">"Espera a que finalice el medio."</string>
+    <string name="ui_83f53371" formatted="false">"Capa "</string>
+    <string name="ui_83ff" formatted="false">" a "</string>
+    <string name="ui_842c8202" formatted="false">"1920 px"</string>
+    <string name="ui_84d8" formatted="false">" h "</string>
+    <string name="ui_850622b9" formatted="false">"Volver a los proyectos"</string>
+    <string name="ui_85138964" formatted="false">"Modo de video"</string>
+    <string name="ui_856e71b8" formatted="false">"Posición del video, "</string>
+    <string name="ui_85885227" formatted="false">"Grabar audio"</string>
+    <string name="ui_86046d9" formatted="false">"Agregar referencia y etiquetas"</string>
+    <string name="ui_861ddaa2" formatted="false">"Finalizando etapa"</string>
+    <string name="ui_8628" formatted="false">" px"</string>
+    <string name="ui_866ae1f0" formatted="false">"Eliminar imagen"</string>
+    <string name="ui_8697e124" formatted="false">"El video ya tiene esta resolución. Elige un tamaño mayor."</string>
+    <string name="ui_86982149" formatted="false">"Cerrar información"</string>
+    <string name="ui_8735192e" formatted="false">"Agente preparando prompt"</string>
+    <string name="ui_87ab3031" formatted="false">"Limpiar"</string>
+    <string name="ui_87f27b98" formatted="false">"Cerrar monitor del servidor"</string>
+    <string name="ui_87f2c89f" formatted="false">"LoRAs "</string>
+    <string name="ui_87f32d1a" formatted="false">"Los elementos guardados y los archivos de ComfyUI permanecen."</string>
+    <string name="ui_87fafa2b" formatted="false">"Lugares"</string>
+    <string name="ui_88a7f1b3" formatted="false">"Enviar generación"</string>
+    <string name="ui_88aa7e9d" formatted="false">"Imagen para seleccionar objetos"</string>
+    <string name="ui_88c19162" formatted="false">"Preparando sincronización labial…"</string>
+    <string name="ui_89b05686" formatted="false">"Modelo"</string>
+    <string name="ui_89ef6506" formatted="false">"H3 normal y Turbo: perfiles basados en FlowForgeLabAi, con atención dividida, INT8 y Turbo T8. Empieza con 0,33 MP / 5s. Los modelos y nodos necesarios están en el catálogo; el futuro instalador los descargará. Aún no se incluyen perfiles para extensión y otros modelos."</string>
+    <string name="ui_8a05d70f" formatted="false">"Fotogramas"</string>
+    <string name="ui_8a0d6425" formatted="false">"MiniMax usa dos referencias: fotograma inicial y final."</string>
+    <string name="ui_8a4aeab8" formatted="false">"Duplicar"</string>
+    <string name="ui_8a6ae830" formatted="false">"Cajas · "</string>
+    <string name="ui_8a8d53f9" formatted="false">"En Dispositivos, selecciona la dirección Tailscale y activa la conexión."</string>
+    <string name="ui_8a917c3d" formatted="false">"Olvidar"</string>
+    <string name="ui_8a91b45c" formatted="false">"Izquierda"</string>
+    <string name="ui_8a9472aa" formatted="false">"Enlace rechazado en la bóveda"</string>
+    <string name="ui_8ab865b2" formatted="false">"Elimina este fragmento. Se conservan las generaciones y los archivos de ComfyUI."</string>
+    <string name="ui_8ad9e6c" formatted="false">"Importar audio"</string>
+    <string name="ui_8b513930" formatted="false">"Usar como portada"</string>
+    <string name="ui_8bb561cb" formatted="false">" elementos de toda la app?"</string>
+    <string name="ui_8bc25e22" formatted="false">" en ejecución · "</string>
+    <string name="ui_8c659169" formatted="false">"Objeto"</string>
+    <string name="ui_8c7aa57" formatted="false">"Elige 2× o 4×."</string>
+    <string name="ui_8c9a8a24" formatted="false">"Agregar generaciones al proyecto"</string>
+    <string name="ui_8ce40dd8" formatted="false">"Descarga del video: HTTP "</string>
+    <string name="ui_8d2439b6" formatted="false">"Usar video completo"</string>
+    <string name="ui_8d9ceed9" formatted="false">"Seleccionar generación "</string>
+    <string name="ui_8df548cd" formatted="false">"Editando video…"</string>
+    <string name="ui_8e109dd5" formatted="false">"Pasos"</string>
+    <string name="ui_8e1184e0" formatted="false">"Pausar"</string>
+    <string name="ui_8e6a50d" formatted="false">"Enviando imagen para editar…"</string>
+    <string name="ui_8eb59aba" formatted="false">"Qué evitar en esta generación…"</string>
+    <string name="ui_8ecb642e" formatted="false">"Editar composición por cajas"</string>
+    <string name="ui_8ed2a922" formatted="false">"Extender"</string>
+    <string name="ui_8eee4c94" formatted="false">"Más opciones de la imagen"</string>
+    <string name="ui_8efe4584" formatted="false">"Prompt"</string>
+    <string name="ui_8f78b382" formatted="false">"No se ha añadido audio"</string>
+    <string name="ui_8fc5d426" formatted="false">"Opciones de generación"</string>
+    <string name="ui_8fee9591" formatted="false">"Medio de origen ausente."</string>
+    <string name="ui_90431a4e" formatted="false">"Finalizar ajustes"</string>
+    <string name="ui_90923a9e" formatted="false">"No se pudieron guardar las referencias."</string>
+    <string name="ui_90aedcc1" formatted="false">"No disponible en 8 GB: este workflow aún no tiene un perfil de memoria validado."</string>
+    <string name="ui_90cb539b" formatted="false">"Elimina las pruebas sin me gusta, incluidas las ocultas y las de sesiones anteriores. Las pruebas guardadas se eliminan de Prompter y permanecen en Feed, Galería y Proyectos. Tu prompt se conserva. Las tareas ya enviadas pueden terminar en ComfyUI, pero no volverán a la app."</string>
+    <string name="ui_910e5c07" formatted="false">"LoRA de referencia no instalado: "</string>
+    <string name="ui_9118d0a9" formatted="false">"La generación falló. "</string>
+    <string name="ui_91ac358f" formatted="false">"RefMod"</string>
+    <string name="ui_91e2e953" formatted="false">"No hay decodificador de software disponible"</string>
+    <string name="ui_9230735f" formatted="false">"Finalizando operaciones locales y eliminando archivos."</string>
+    <string name="ui_923e80f3" formatted="false">"Lote de "</string>
+    <string name="ui_92500b4f" formatted="false">"Información de la generación"</string>
+    <string name="ui_92596027" formatted="false">"+ Imagen"</string>
+    <string name="ui_925e8f5c" formatted="false">"Elegir flujo de trabajo"</string>
+    <string name="ui_927b8ef6" formatted="false">"Generando mapa en ComfyUI…"</string>
+    <string name="ui_929d1070" formatted="false">"Campo no válido: "</string>
+    <string name="ui_92fe0b5b" formatted="false">"%d pasos · texto, imagen y primer/último fotograma"</string>
+    <string name="ui_93221987" formatted="false">"Conecta ambos dispositivos"</string>
+    <string name="ui_932c02a9" formatted="false">"Guardar"</string>
+    <string name="ui_938dcc01" formatted="false">"Describe la nueva zona (opcional)"</string>
+    <string name="ui_9394204c" formatted="false">"Importa un flujo de trabajo antes de elegir portadas."</string>
+    <string name="ui_93ea8909" formatted="false">"Edición enviada; error al guardar el historial local."</string>
+    <string name="ui_93eefb32" formatted="false">"Invertir fotogramas"</string>
+    <string name="ui_947b7b2c" formatted="false">"Mapa importado"</string>
+    <string name="ui_950993b6" formatted="false">" no disponible en el servidor. Desactiva Agente para usar el flujo de trabajo normal."</string>
+    <string name="ui_9537cd9c" formatted="false">"MP3, WAV u otro audio compatible con el dispositivo."</string>
+    <string name="ui_95678d19" formatted="false">"Interfaz"</string>
+    <string name="ui_959a151c" formatted="false">"Medio de origen no disponible."</string>
+    <string name="ui_95d180a3" formatted="false">"Cambiar"</string>
+    <string name="ui_95d3e84e" formatted="false">"Flujo de trabajo activo"</string>
+    <string name="ui_95da848e" formatted="false">"Cerrar vista previa"</string>
+    <string name="ui_9653fa38" formatted="false">"Bloque de control"</string>
+    <string name="ui_96622a25" formatted="false">"Audio no disponible. Impórtalo de nuevo."</string>
+    <string name="ui_968c1610" formatted="false">"Ver todos"</string>
+    <string name="ui_96af283e" formatted="false">"Credencial remota no válida."</string>
+    <string name="ui_96c18717" formatted="false">"El video aún no está disponible en el dispositivo."</string>
+    <string name="ui_970b8863" formatted="false">"Enlace rechazado en la restauración."</string>
+    <string name="ui_97cdf34c" formatted="false">"Elegir dónde guardar"</string>
+    <string name="ui_9800151c" formatted="false">"Mapa listo. Guarda el bloque para conservarlo."</string>
+    <string name="ui_9819ac97" formatted="false">"2560 px · 2K"</string>
+    <string name="ui_9842cc42" formatted="false">"Identidad discrepante."</string>
+    <string name="ui_9885a93c" formatted="false">"Versión"</string>
+    <string name="ui_9893e73b" formatted="false">"El resultado tiene la misma duración que el audio."</string>
+    <string name="ui_990fce12" formatted="false">"Volver"</string>
+    <string name="ui_9938856e" formatted="false">"Ver más generaciones"</string>
+    <string name="ui_99d2ff33" formatted="false">"Carpeta no válida."</string>
+    <string name="ui_99d42ae6" formatted="false">"Biblioteca"</string>
+    <string name="ui_99ed61b3" formatted="false">"Preparando edición…"</string>
+    <string name="ui_99f8e12e" formatted="false">"Relación de aspecto del video fuera del límite del workflow."</string>
+    <string name="ui_9a61c450" formatted="false">"Actualizando…"</string>
+    <string name="ui_9a64ef4a" formatted="false">"Seleccionar referencia "</string>
+    <string name="ui_9a66368b" formatted="false">"Reabre la app para completar la restauración."</string>
+    <string name="ui_9a683270" formatted="false">"Se eliminó una referencia original de la Galería. No se restaurará automáticamente."</string>
+    <string name="ui_9aaf8bbc" formatted="false">"Agregar"</string>
+    <string name="ui_9b46d97e" formatted="false">"Error al guardar el orden de los videos. La app lo reintentará al abrirse."</string>
+    <string name="ui_9b4c657e" formatted="false">"Bóveda de este dispositivo"</string>
+    <string name="ui_9b5dbfe2" formatted="false">"No se pudieron abrir los ajustes de este workflow."</string>
+    <string name="ui_9b71eb0e" formatted="false">"Usar composición"</string>
+    <string name="ui_9b7fcea5" formatted="false">"Configurar LoRAs, "</string>
+    <string name="ui_9be95041" formatted="false">"Conexión"</string>
+    <string name="ui_9c03b1a2" formatted="false">"Enviando clip para editar…"</string>
+    <string name="ui_9c44089a" formatted="false">"Log de ComfyUI · "</string>
+    <string name="ui_9c94c117" formatted="false">"Dibuja tu primer cuadro"</string>
+    <string name="ui_9cd9040c" formatted="false">"La etiqueta se eliminará de esta app. Las generaciones anteriores permanecerán iguales."</string>
+    <string name="ui_9d8f4921" formatted="false">"Edición Ref2VA no disponible en 8 GB: el perfil investigado cubre FL2VA."</string>
+    <string name="ui_9d9fdf80" formatted="false">". Desliza para navegar."</string>
+    <string name="ui_9dc" formatted="false">"Aceptar"</string>
+    <string name="ui_9ef4513f" formatted="false">"Guardando resultado"</string>
+    <string name="ui_9f05123e" formatted="false">"Buscar LoRA"</string>
+    <string name="ui_9f4b6c43" formatted="false">"Personaje"</string>
+    <string name="ui_9f5ac71c" formatted="false">" elementos eliminados de toda la app."</string>
+    <string name="ui_9f7feb46" formatted="false">"Selecciona hasta tres imágenes por importación."</string>
+    <string name="ui_9fbce0db" formatted="false">"IPv4 no válida."</string>
+    <string name="ui_9ffb85fc" formatted="false">"Videos"</string>
+    <string name="ui_a031eb37" formatted="false">"Imagen base no disponible."</string>
+    <string name="ui_a03bca27" formatted="false">"Dibujar nuevo cuadro"</string>
+    <string name="ui_a059fc17" formatted="false">"Copia de seguridad incompleta o con datos adicionales."</string>
+    <string name="ui_a08db836" formatted="false">"Cerrar app"</string>
+    <string name="ui_a0993de1" formatted="false">"No se pudo buscar "</string>
+    <string name="ui_a0c137e1" formatted="false">"NSFW (Qwen 3.8 Heretic)"</string>
+    <string name="ui_a0ce062d" formatted="false">"Reutilizar prompt"</string>
+    <string name="ui_a1117768" formatted="false">"Combina mapas en un bloque. La compatibilidad de los modelos se validará después; estos mapas aún no se usan en las generaciones."</string>
+    <string name="ui_a172d21d" formatted="false">"Activa la visualización NSFW para reutilizar esta generación."</string>
+    <string name="ui_a1c8f8e3" formatted="false">"Video enviado como nueva generación."</string>
+    <string name="ui_a1e19a07" formatted="false">"Upscale no disponible"</string>
+    <string name="ui_a20f88ec" formatted="false">"Elegir portada"</string>
+    <string name="ui_a2b34d22" formatted="false">"Falló la extracción. Revisa el preprocesador y sus modelos en ComfyUI."</string>
+    <string name="ui_a2b52366" formatted="false">"Error al guardar el proyecto."</string>
+    <string name="ui_a3055c0e" formatted="false">"Se aplican por la etiqueta solo con un modelo compatible. Los pesos se aplican al modelo."</string>
+    <string name="ui_a3ace3b1" formatted="false">"Dibuja el nuevo cuadro en la imagen."</string>
+    <string name="ui_a3e4753e" formatted="false">"Bloque de copia de seguridad no válido."</string>
+    <string name="ui_a4100f0f" formatted="false">"Vista previa protegida; mantén presionado para revelar"</string>
+    <string name="ui_a4373734" formatted="false">"Organiza tus generaciones\nCrea un proyecto y reúne imágenes y videos."</string>
+    <string name="ui_a4732bd3" formatted="false">"Nombre de la referencia"</string>
+    <string name="ui_a4af3290" formatted="false">"Reanudar"</string>
+    <string name="ui_a4b25372" formatted="false">"Las referencias superan el límite del workflow."</string>
+    <string name="ui_a4eddbb9" formatted="false">"Destino ambiguo en la restauración. Archivos conservados."</string>
+    <string name="ui_a50bf47f" formatted="false">"Restaurar en esta instalación"</string>
+    <string name="ui_a54c6f83" formatted="false">"Archivo no válido."</string>
+    <string name="ui_a5dd2842" formatted="false">"First/Last Frame"</string>
+    <string name="ui_a5ef3d39" formatted="false">"Clip de entrada no válido."</string>
+    <string name="ui_a60c70d1" formatted="false">"¿Problemas con internet?"</string>
+    <string name="ui_a629e5a1" formatted="false">"Preparando upscale…"</string>
+    <string name="ui_a638a18" formatted="false">"Imagen generada"</string>
+    <string name="ui_a66cb318" formatted="false">"Mantener workflow"</string>
+    <string name="ui_a6ac7521" formatted="false">"Elimina todas las versiones de los conjuntos seleccionados, incluidas las ocultas, en Feed, Galería, Prompter y Proyectos. Las referencias registradas y los archivos de ComfyUI se conservan. No se puede deshacer."</string>
+    <string name="ui_a6da11d9" formatted="false">"Elegir audio"</string>
+    <string name="ui_a72dd845" formatted="false">"Administrar personajes e insertar @tags"</string>
+    <string name="ui_a7403cb2" formatted="false">"No se seleccionó ninguna portada válida."</string>
+    <string name="ui_a752724b" formatted="false">"Editar contenido del video"</string>
+    <string name="ui_a76052c2" formatted="false">"Describe tu imagen…"</string>
+    <string name="ui_a7705cef" formatted="false">"El modelo visual local no está configurado en el servidor."</string>
+    <string name="ui_a7c7bf7e" formatted="false">"El nombre ya existe."</string>
+    <string name="ui_a7ccc76c" formatted="false">"Volver a grabar"</string>
+    <string name="ui_a7e3a0b1" formatted="false">"SFW (Qwen 3.8)"</string>
+    <string name="ui_a83bc6ab" formatted="false">"Elementos eliminados. Algunos archivos o ajustes no se pudieron limpiar; intente Sanitize nuevamente."</string>
+    <string name="ui_a85ec354" formatted="false">"Vinculación no completada (HTTP "</string>
+    <string name="ui_a863fec0" formatted="false">"Usa el QR de bwdacc Desktop."</string>
+    <string name="ui_a8ff92c3" formatted="false">"No se pudo leer la colección."</string>
+    <string name="ui_a912e667" formatted="false">" portadas de reserva de este workflow"</string>
+    <string name="ui_a9181d2" formatted="false">"Guardar como referencia"</string>
+    <string name="ui_a9260790" formatted="false">"● Reconectando"</string>
+    <string name="ui_a92a6ba9" formatted="false">"Archivo no disponible"</string>
+    <string name="ui_a92acc5b" formatted="false">"La intensidad de CLIP debe estar entre -20 y 20."</string>
+    <string name="ui_a997e06e" formatted="false">"¿Eliminar esta edición?"</string>
+    <string name="ui_a99f455" formatted="false">"Esta generación falló. Puedes reutilizar el prompt o eliminar esta versión."</string>
+    <string name="ui_a9a3f4a0" formatted="false">"No hay ningún Power Lora Loader activo con una familia reconocida. Moss y MiniMax H3 usan sus carpetas; otras familias requieren un mapeo seguro."</string>
+    <string name="ui_a9aa780a" formatted="false">"Imagen de entrada no válida."</string>
+    <string name="ui_a9f3e094" formatted="false">"¿Cómo debe continuar el video?"</string>
+    <string name="ui_a9fcabd2" formatted="false">"Arrastra los extremos para recortar. La continuación empieza al final del fragmento."</string>
+    <string name="ui_aa8bae46" formatted="false">"Respuesta vacía."</string>
+    <string name="ui_aa9541d" formatted="false">"Escanear QR con cámara"</string>
+    <string name="ui_aa98ed59" formatted="false">"Escuchar grabación"</string>
+    <string name="ui_aa9da18f" formatted="false">"Texto · %d pasos"</string>
+    <string name="ui_aaaf2b53" formatted="false">"Esta dirección no pertenece al Desktop vinculado. Vuelve a vincular."</string>
+    <string name="ui_aaef7345" formatted="false">"No se pudo guardar la bóveda. Datos conservados."</string>
+    <string name="ui_aaff8bc9" formatted="false">"Error al guardar las imágenes."</string>
+    <string name="ui_ab365317" formatted="false">"Complementar texto con la imagen"</string>
+    <string name="ui_ab50571c" formatted="false">"Más de 24 GB"</string>
+    <string name="ui_ab7a5137" formatted="false">"Opciones de referencia"</string>
+    <string name="ui_ab7b47ac" formatted="false">"Credencial no válida."</string>
+    <string name="ui_abe6b1cd" formatted="false">"Activa el modo privado para usar esta referencia."</string>
+    <string name="ui_abf6eae8" formatted="false">"Destino del túnel no válido."</string>
+    <string name="ui_ac338966" formatted="false">"Versión de copia de seguridad no compatible."</string>
+    <string name="ui_ac350600" formatted="false">"Limpiando almacenamiento…"</string>
+    <string name="ui_ac596560" formatted="false">"Añade texto, imagen o LoRA."</string>
+    <string name="ui_aca245af" formatted="false">"Seleccionar imagen "</string>
+    <string name="ui_acd65fad" formatted="false">"No se pudo grabar el audio."</string>
+    <string name="ui_acd9564f" formatted="false">"Momentos"</string>
+    <string name="ui_acee6a11" formatted="false">"Nueva composición"</string>
+    <string name="ui_acf63535" formatted="false">"Esta versión todavía no tiene imagen disponible."</string>
+    <string name="ui_ad5bffff" formatted="false">"Generación enviada, pero no se pudo guardar la configuración. La reutilización dependerá del historial del servidor."</string>
+    <string name="ui_ad9a4a30" formatted="false">"Recortar fragmento y extender video"</string>
+    <string name="ui_adcedc04" formatted="false">"Código de recuperación no válido."</string>
+    <string name="ui_add90b3a" formatted="false">"+ Nueva ubicación"</string>
+    <string name="ui_adf6c772" formatted="false">"bwdacc"</string>
+    <string name="ui_ae98439f" formatted="false">"Perfil de memoria "</string>
+    <string name="ui_aea8d85" formatted="false">"Preparando resultado"</string>
+    <string name="ui_af0f63df" formatted="false">"Selección vacía."</string>
+    <string name="ui_af3f99a0" formatted="false">"Más de lo estimado · "</string>
+    <string name="ui_af4ce07b" formatted="false">"Explorar tutoriales"</string>
+    <string name="ui_af8d6ad" formatted="false">"Texto y cuadros · %d pasos"</string>
+    <string name="ui_afae79b8" formatted="false">"Las portadas SFW protegen el contenido privado."</string>
+    <string name="ui_afc1030b" formatted="false">"Actualizar RefMod H3"</string>
+    <string name="ui_afedf945" formatted="false">"Modelo del agente "</string>
+    <string name="ui_aff2029f" formatted="false">"Seguir el final"</string>
+    <string name="ui_b0024628" formatted="false">"Clip base de edición"</string>
+    <string name="ui_b018ac48" formatted="false">"Sincronización labial no disponible"</string>
+    <string name="ui_b01ddcbf" formatted="false">"Guardado en Feed y Galería"</string>
+    <string name="ui_b04a3ab2" formatted="false">"LoRAs por modelo"</string>
+    <string name="ui_b06685ab" formatted="false">"eliminar"</string>
+    <string name="ui_b0a555f6" formatted="false">"Grabar con micrófono"</string>
+    <string name="ui_b0adebe2" formatted="false">"Este workflow no admite esta relación de aspecto."</string>
+    <string name="ui_b0cc6d0b" formatted="false">"Workflow seleccionado. Las dependencias se verificarán al generar."</string>
+    <string name="ui_b1479520" formatted="false">"Renombrar proyecto"</string>
+    <string name="ui_b149e3db" formatted="false">"Actualizado · "</string>
+    <string name="ui_b22f0915" formatted="false">"No se pudieron leer los estilos guardados."</string>
+    <string name="ui_b24cfbcc" formatted="false">"Ocultar búho"</string>
+    <string name="ui_b29cf348" formatted="false">"Tailscale · acceso fuera de casa"</string>
+    <string name="ui_b2b2ce39" formatted="false">"Eliminar video"</string>
+    <string name="ui_b2cf59dc" formatted="false">"no disponible en este workflow"</string>
+    <string name="ui_b2e32655" formatted="false">"Añadir cuadros"</string>
+    <string name="ui_b2e45866" formatted="false">"estilo"</string>
+    <string name="ui_b3f81c17" formatted="false">"Tipo de mapa de control desconocido"</string>
+    <string name="ui_b44779d6" formatted="false">"Ningún workflow"</string>
+    <string name="ui_b46caef7" formatted="false">"No necesitas un nodo de salida (exit node). Si falla internet, revisa el nodo de salida y DNS en Tailscale. Android solo permite una VPN activa. En la misma red Wi-Fi también puedes usar la app sin Tailscale."</string>
+    <string name="ui_b478f709" formatted="false">"Error al guardar."</string>
+    <string name="ui_b486135d" formatted="false">"Nuevo proyecto"</string>
+    <string name="ui_b49658e0" formatted="false">"Usar portada"</string>
+    <string name="ui_b4b9864" formatted="false">"Aún no hay nada aquí"</string>
+    <string name="ui_b508400a" formatted="false">"Elimina esta referencia. Tus generaciones y los archivos en ComfyUI se conservan."</string>
+    <string name="ui_b515f25e" formatted="false">"QR caducado, usado o rechazado en Desktop."</string>
+    <string name="ui_b5b4f434" formatted="false">" fallaron"</string>
+    <string name="ui_b5dba1dc" formatted="false">"Error al guardar. Inténtalo de nuevo."</string>
+    <string name="ui_b626a114" formatted="false">" publicaciones"</string>
+    <string name="ui_b6a53e35" formatted="false">"Tu feed está vacío"</string>
+    <string name="ui_b7006d14" formatted="false">"Tipo de configuración no válido"</string>
+    <string name="ui_b7205a04" formatted="false">"Cola libre"</string>
+    <string name="ui_b73f826a" formatted="false">"El audio no debe durar más que el vídeo."</string>
+    <string name="ui_b74c1a5" formatted="false">"Las ediciones de video requieren origen y resultado en video."</string>
+    <string name="ui_b750fe4c" formatted="false">"Disponible solo en modo privado."</string>
+    <string name="ui_b7902587" formatted="false">"Restaurar copia de seguridad"</string>
+    <string name="ui_b7c2fcf" formatted="false">"Nuevo objeto"</string>
+    <string name="ui_b8d14074" formatted="false">"Workflows"</string>
+    <string name="ui_b8ee0823" formatted="false">"Enlace rechazado en la colección."</string>
+    <string name="ui_b9022630" formatted="false">"Animar imagen"</string>
+    <string name="ui_b9e33ef2" formatted="false">"Añadir audio"</string>
+    <string name="ui_ba01e0f6" formatted="false">"Importar imágenes"</string>
+    <string name="ui_ba27688a" formatted="false">"Restauración modificada. Archivos conservados."</string>
+    <string name="ui_ba688060" formatted="false">"Este ComfyUI no proporciona terminal remoto. La cola sigue disponible."</string>
+    <string name="ui_ba6accd2" formatted="false">"Elegir portadas de reserva"</string>
+    <string name="ui_baae8807" formatted="false">"Krea 2: perfil disponible para 24 GB o más."</string>
+    <string name="ui_bab330ad" formatted="false">"Retroceder 10 segundos"</string>
+    <string name="ui_bab7f567" formatted="false">"Imagen inicial"</string>
+    <string name="ui_bb136466" formatted="false">"Cierra y abre la app para cargar la restauración."</string>
+    <string name="ui_bb2edfa6" formatted="false">"Otras versiones y archivos de ComfyUI se conservan."</string>
+    <string name="ui_bb41ebe4" formatted="false">"Añadir "</string>
+    <string name="ui_bb8d13d3" formatted="false">"Modo Agente"</string>
+    <string name="ui_bb9255e9" formatted="false">"Importar workflow"</string>
+    <string name="ui_bc020b9b" formatted="false">"RefMod listo. Uso en la generación desactivado."</string>
+    <string name="ui_bc099bb5" formatted="false">"Índice de copia de seguridad no válido."</string>
+    <string name="ui_bc14220a" formatted="false">"Añadir referencia y recursos"</string>
+    <string name="ui_bc2b3d16" formatted="false">"Privacidad"</string>
+    <string name="ui_bc439c36" formatted="false">"Composición lista. Revisa nombres y posiciones de los recuadros."</string>
+    <string name="ui_bc6ed5ea" formatted="false">"Micrófono no disponible. Revisa el permiso e inténtalo de nuevo."</string>
+    <string name="ui_bcc44ad6" formatted="false">"Anima la boca de la imagen con tu audio. El resultado es un vídeo nuevo."</string>
+    <string name="ui_bd07a9d9" formatted="false">"Generación completada en el servidor"</string>
+    <string name="ui_bd71f69c" formatted="false">"Terminal"</string>
+    <string name="ui_bde5378f" formatted="false">"Prompt negativo"</string>
+    <string name="ui_bdf06d08" formatted="false">"Estilos · $"</string>
+    <string name="ui_be598105" formatted="false">"Versión de restauración no válida."</string>
+    <string name="ui_be70c124" formatted="false">"QR caducado. Genera otro en Desktop."</string>
+    <string name="ui_be738626" formatted="false">"Error al cambiar de workflow: "</string>
+    <string name="ui_be86259f" formatted="false">"Apariencia y características constantes…"</string>
+    <string name="ui_bee6a9c9" formatted="false">"El clip original no está guardado en este dispositivo."</string>
+    <string name="ui_bf91f749" formatted="false">"No se pudo abrir el archivo multimedia original."</string>
+    <string name="ui_c05d2b85" formatted="false">"Ubicaciones · #"</string>
+    <string name="ui_c0696c20" formatted="false">"Disminuir peso"</string>
+    <string name="ui_c07ed788" formatted="false">"Usar fragmento y continuar"</string>
+    <string name="ui_c1103a1f" formatted="false">"¿Eliminar estilo?"</string>
+    <string name="ui_c128f496" formatted="false">"Un LLM local reescribe tu solicitud para el modelo elegido. El prompt original queda guardado.\n\nNSFW desactivado: Qwen 3.8 27B.\nNSFW activado: Qwen 3.8 27B Heretic.\n\nAmbas variantes usan las mismas instrucciones por workflow y mantienen el codificador de texto original."</string>
+    <string name="ui_c162b08a" formatted="false">"Admisión local rechazada."</string>
+    <string name="ui_c1f3d60b" formatted="false">"Objeto / personaje"</string>
+    <string name="ui_c21bf501" formatted="false">"Las generaciones guardadas se conservan. Elimine también este teléfono en la lista Dispositivos de Desktop para revocar el acceso."</string>
+    <string name="ui_c230d64d" formatted="false">"Aumentar peso de "</string>
+    <string name="ui_c23e55fc" formatted="false">"Muestreo"</string>
+    <string name="ui_c2bce1a7" formatted="false">"No se pudieron leer las ubicaciones guardadas."</string>
+    <string name="ui_c2bf0ab6" formatted="false">"Crear nueva referencia"</string>
+    <string name="ui_c300a549" formatted="false">"objeto"</string>
+    <string name="ui_c30511d7" formatted="false">"Buscando elementos de la composición…"</string>
+    <string name="ui_c3646aa8" formatted="false">"Añadir fotograma"</string>
+    <string name="ui_c3665b" formatted="false">"Resolución"</string>
+    <string name="ui_c3966660" formatted="false">"Buscar fragmentos"</string>
+    <string name="ui_c4441287" formatted="false">"Opciones de ubicación "</string>
+    <string name="ui_c465d334" formatted="false">"Editar recuadros"</string>
+    <string name="ui_c4bb5dea" formatted="false">"Usa todas las imágenes de esta referencia."</string>
+    <string name="ui_c52f1d2b" formatted="false">"MuseTalk 1.5 · "</string>
+    <string name="ui_c59f07a5" formatted="false">"En cola"</string>
+    <string name="ui_c5b8a4f2" formatted="false">"Editar video"</string>
+    <string name="ui_c5c7bd2c" formatted="false">"Error de importación: "</string>
+    <string name="ui_c5d74caa" formatted="false">", añadir imagen"</string>
+    <string name="ui_c5ddd14b" formatted="false">"Nuevo bloque"</string>
+    <string name="ui_c63d51b6" formatted="false">"El historial antiguo contiene más referencias de las que admite este editor. Ninguna referencia se descartará silenciosamente."</string>
+    <string name="ui_c66bec25" formatted="false">"Nueva ubicación"</string>
+    <string name="ui_c68f44d" formatted="false">"Contenido original no disponible."</string>
+    <string name="ui_c6973ceb" formatted="false">"Usa el código QR generado por bwdacc Desktop."</string>
+    <string name="ui_c6ca8ffe" formatted="false">"Derecha"</string>
+    <string name="ui_c6f0f8a8" formatted="false">"A continuación"</string>
+    <string name="ui_c7593caf" formatted="false">"Describe movimiento, cámara y sonidos…"</string>
+    <string name="ui_c7c3ee65" formatted="false">"3 portadas predeterminadas de reserva"</string>
+    <string name="ui_c7cf5a70" formatted="false">"VAE MiniMax H3 FP16 no disponible en el servidor."</string>
+    <string name="ui_c7f1d4fa" formatted="false">" segundos"</string>
+    <string name="ui_c7f4a49c" formatted="false">"El cuadro está fuera del área de la imagen."</string>
+    <string name="ui_c801e904" formatted="false">"Sanitize: ¿restablecer todas las generaciones?"</string>
+    <string name="ui_c853bbd0" formatted="false">"Proyectos"</string>
+    <string name="ui_c8830131" formatted="false">"Prompter"</string>
+    <string name="ui_c8de1147" formatted="false">"Usa hasta dos imágenes junto al clip de origen."</string>
+    <string name="ui_c9072fb7" formatted="false">"¿Qué quieres cambiar?"</string>
+    <string name="ui_c91cbca3" formatted="false">"Más opciones de video"</string>
+    <string name="ui_c94d0d47" formatted="false">"Datos antiguos no disponibles en el servidor."</string>
+    <string name="ui_c96c7e30" formatted="false">"Archivo demasiado grande"</string>
+    <string name="ui_c9702175" formatted="false">"Este archivo no es una copia de seguridad compatible de bwdacc."</string>
+    <string name="ui_c977087" formatted="false">"Modo Agente, "</string>
+    <string name="ui_c9e3aaaf" formatted="false">". Consulta el catálogo del paquete."</string>
+    <string name="ui_ca63ec8e" formatted="false">"Fuente de condicionamiento privado no válida"</string>
+    <string name="ui_ca712872" formatted="false">"● Desconectado"</string>
+    <string name="ui_cae9ef12" formatted="false">"Tu colección empieza aquí"</string>
+    <string name="ui_cba1c682" formatted="false">"Carpeta inesperada en la biblioteca."</string>
+    <string name="ui_cba48cc5" formatted="false">"Escanea el QR con el móvil y confirma la solicitud en el ordenador."</string>
+    <string name="ui_cbb8ae5" formatted="false">"Conexión remota interrumpida."</string>
+    <string name="ui_cbbc086" formatted="false">"Archivos preservados. No borres los datos ni reinstales la app. Ciérrala e intenta abrirla de nuevo."</string>
+    <string name="ui_cbf89b5b" formatted="false">"Composición guardada. Elige un workflow compatible con recuadros."</string>
+    <string name="ui_cc9d39f" formatted="false">"Imagen base"</string>
+    <string name="ui_ccdf6910" formatted="false">"Nuevo audio"</string>
+    <string name="ui_cd291704" formatted="false">"Conexión de Tailscale"</string>
+    <string name="ui_cd2b30e3" formatted="false">"Hasta 8 RefMods por generación."</string>
+    <string name="ui_cd3be48a" formatted="false">" portada añadida."</string>
+    <string name="ui_cd745297" formatted="false">"Idioma de la aplicación"</string>
+    <string name="ui_cd866cab" formatted="false">"Resultado del análisis no válido."</string>
+    <string name="ui_cdacae86" formatted="false">"Cámara no disponible. Puedes pegar el código de Desktop."</string>
+    <string name="ui_cdf4cad" formatted="false">"Estilos"</string>
+    <string name="ui_ce081280" formatted="false">"Elimina del feed y borra los archivos de esta app. "</string>
+    <string name="ui_ce55f5a1" formatted="false">"Preparando referencia"</string>
+    <string name="ui_ce5b5313" formatted="false">"Generación avanzada"</string>
+    <string name="ui_ce70ed22" formatted="false">"Más categorías"</string>
+    <string name="ui_ceae80c9" formatted="false">"Bóveda cifrada en este dispositivo"</string>
+    <string name="ui_cef4afa0" formatted="false">"Nombre del LoRA"</string>
+    <string name="ui_cf175c93" formatted="false">"Tamaño máximo"</string>
+    <string name="ui_cf93ad3c" formatted="false">"Apunta al QR de Dispositivos en Desktop."</string>
+    <string name="ui_cfc2edff" formatted="false">"Actualización pausada"</string>
+    <string name="ui_d0452996" formatted="false">"Esperando conexión con el servidor"</string>
+    <string name="ui_d0a20d24" formatted="false">"Error al guardar la portada."</string>
+    <string name="ui_d0ffe12f" formatted="false">"Genera una imagen primero para usarla como portada."</string>
+    <string name="ui_d133b741" formatted="false">"Enviando referencia para animar…"</string>
+    <string name="ui_d184d471" formatted="false">"Este workflow no expone ajustes de muestreo."</string>
+    <string name="ui_d18600c8" formatted="false">" · Agente disponible"</string>
+    <string name="ui_d1df43b8" formatted="false">"No se pudo leer la relación de aspecto de la referencia."</string>
+    <string name="ui_d2136a0c" formatted="false">"Tiempo de generación"</string>
+    <string name="ui_d2c2766b" formatted="false">"Dimensiones solicitadas"</string>
+    <string name="ui_d2ceedd" formatted="false">"Error al guardar la configuración: "</string>
+    <string name="ui_d2e4a939" formatted="false">"Vincula con bwdacc Desktop en Ajustes &gt; Conexión."</string>
+    <string name="ui_d2e6c7f6" formatted="false">"No se pudo abrir la imagen de referencia."</string>
+    <string name="ui_d2e6f04a" formatted="false">"Usar al generar"</string>
+    <string name="ui_d2f00696" formatted="false">"No registrado"</string>
+    <string name="ui_d3878bc8" formatted="false">"Todo guardado. Este workflow usa hasta "</string>
+    <string name="ui_d3b5672b" formatted="false">"Opciones del personaje "</string>
+    <string name="ui_d41fe257" formatted="false">"Editar imagen"</string>
+    <string name="ui_d421ae32" formatted="false">"En cola · analizando imagen…"</string>
+    <string name="ui_d44790c9" formatted="false">"Escribir prompt"</string>
+    <string name="ui_d455b632" formatted="false">" portada de reserva de este workflow"</string>
+    <string name="ui_d4580ca1" formatted="false">"Protegiendo contenido y ajustes en este dispositivo…"</string>
+    <string name="ui_d465d270" formatted="false">"Workflow de video incompatible."</string>
+    <string name="ui_d466270b" formatted="false">"Excluir área"</string>
+    <string name="ui_d492a84e" formatted="false">"Ruta repetida o no válida en la copia de seguridad."</string>
+    <string name="ui_d4fd4743" formatted="false">"El servidor ya no tiene la configuración de esta generación. No es posible recuperar los ajustes originales."</string>
+    <string name="ui_d51681e" formatted="false">"Restaurando generación…"</string>
+    <string name="ui_d52e6440" formatted="false">"Imágenes"</string>
+    <string name="ui_d54741ef" formatted="false">"Generando descripción…"</string>
+    <string name="ui_d5ea4fb4" formatted="false">"Eliminar de este proyecto"</string>
+    <string name="ui_d6315fe7" formatted="false">"Elige una imagen o un vídeo para usar este audio."</string>
+    <string name="ui_d644fdcd" formatted="false">"Dirección no válida. Usa http://IP:puerto."</string>
+    <string name="ui_d69b722c" formatted="false">"Configuración demasiado grande"</string>
+    <string name="ui_d6d01e9" formatted="false">"No se pudo limpiar el archivo temporal."</string>
+    <string name="ui_d6ea34a6" formatted="false">"Escalando imagen…"</string>
+    <string name="ui_d701ed30" formatted="false">"Incluir"</string>
+    <string name="ui_d723a5f4" formatted="false">"IDs de referencia ya utilizados en el workflow."</string>
+    <string name="ui_d72d5c0c" formatted="false">"activado"</string>
+    <string name="ui_d80f33d" formatted="false">"ID no válido"</string>
+    <string name="ui_d831ea3c" formatted="false">" referencias"</string>
+    <string name="ui_d8a844c4" formatted="false">"Revisa el LoRA restringido en este workflow importado: "</string>
+    <string name="ui_d92ea49d" formatted="false">"Elegir "</string>
+    <string name="ui_d994c44d" formatted="false">"Silenciar video"</string>
+    <string name="ui_d9be1dd3" formatted="false">"Agente activado: el LLM prepara el prompt antes de generar."</string>
+    <string name="ui_da14de42" formatted="false">"Duración original del clip"</string>
+    <string name="ui_dafd92cd" formatted="false">"Preparando análisis…"</string>
+    <string name="ui_db0ac6f1" formatted="false">"La biblioteca cambió durante la restauración. Archivos preservados."</string>
+    <string name="ui_db1d3f9f" formatted="false">"No hay selector de audio disponible."</string>
+    <string name="ui_db402ffc" formatted="false">"Generar video"</string>
+    <string name="ui_db59940c" formatted="false">"Guarda audios en Fragmentos para reutilizarlos aquí."</string>
+    <string name="ui_db60a954" formatted="false">"Sin cajas"</string>
+    <string name="ui_db6e3ed5" formatted="false">"Clip de origen no disponible."</string>
+    <string name="ui_dba054cd" formatted="false">"Eliminar cuadro seleccionado"</string>
+    <string name="ui_dbbba575" formatted="false">"Borrando generaciones…"</string>
+    <string name="ui_dbcfb0a2" formatted="false">"Subir portada"</string>
+    <string name="ui_dbf99607" formatted="false">"Copiar código"</string>
+    <string name="ui_dc3c7869" formatted="false">"Nuevo proyecto…"</string>
+    <string name="ui_dc47bdf3" formatted="false">"Conéctate al servidor en Ajustes antes de editar."</string>
+    <string name="ui_dce76738" formatted="false">"Usar Klein"</string>
+    <string name="ui_dd2534b6" formatted="false">"Elige la placa del servidor."</string>
+    <string name="ui_dd2c7cfc" formatted="false">"Eliminar LoRA "</string>
+    <string name="ui_de2d27c8" formatted="false">"Usar cuadros"</string>
+    <string name="ui_de34c340" formatted="false">"Usar portada "</string>
+    <string name="ui_de9e07f8" formatted="false">"Eliminar fondo"</string>
+    <string name="ui_debcc51b" formatted="false">"Las referencias usan diferentes pesos para "</string>
+    <string name="ui_dec4e631" formatted="false">"Nombre del personaje"</string>
+    <string name="ui_deff91e2" formatted="false">"Activar sonido"</string>
+    <string name="ui_dfb4c819" formatted="false">"No se pudo limpiar la carpeta temporal."</string>
+    <string name="ui_dffcb226" formatted="false">"Este almacenamiento no permite una restauración atómica."</string>
+    <string name="ui_e01f9563" formatted="false">"Completo"</string>
+    <string name="ui_e048dd44" formatted="false">"Importa o graba voces y sonidos para sincronizar labios."</string>
+    <string name="ui_e04ef8c4" formatted="false">"Deshacer punto"</string>
+    <string name="ui_e07c290b" formatted="false">"Fragmento original"</string>
+    <string name="ui_e0f3a0f4" formatted="false">" referencias a la vez."</string>
+    <string name="ui_e11d7733" formatted="false">"Listo"</string>
+    <string name="ui_e1358a25" formatted="false">"Conectar"</string>
+    <string name="ui_e1844cfd" formatted="false">"ID de LoRA duplicado."</string>
+    <string name="ui_e19f7948" formatted="false">"No se pudo reutilizar: "</string>
+    <string name="ui_e1b6d903" formatted="false">"Hasta 3 imágenes de referencia en total. Reduce las imágenes vinculadas a las etiquetas."</string>
+    <string name="ui_e1c8b681" formatted="false">"Usa hasta 12 cuadros por composición."</string>
+    <string name="ui_e2077221" formatted="false">"Tipos de fragmentos"</string>
+    <string name="ui_e20977ef" formatted="false">"Normales"</string>
+    <string name="ui_e22451b" formatted="false">" publicación"</string>
+    <string name="ui_e2399631" formatted="false">"Este workflow no ofrece generación con cuadros."</string>
+    <string name="ui_e2a3a84" formatted="false">"Opciones no disponibles en este servidor."</string>
+    <string name="ui_e2fc9b20" formatted="false">"Selección lista. Más toques refinan el recorte."</string>
+    <string name="ui_e337cb7b" formatted="false">"Elimina el personaje y su portada. Las generaciones anteriores se conservan."</string>
+    <string name="ui_e33bb88a" formatted="false">"Buscando LoRAs instalados…"</string>
+    <string name="ui_e3af4f37" formatted="false">"No se pudo eliminar: "</string>
+    <string name="ui_e3da54a7" formatted="false">"No hay ninguna generación en curso o en espera."</string>
+    <string name="ui_e49ec82e" formatted="false">"Cadena de Desktop inesperada"</string>
+    <string name="ui_e4f24dc9" formatted="false">"Importando imágenes…"</string>
+    <string name="ui_e51b4203" formatted="false">"Volver a abrir la bóveda"</string>
+    <string name="ui_e5495992" formatted="false">"Eliminar "</string>
+    <string name="ui_e59e9dbd" formatted="false">"composición"</string>
+    <string name="ui_e5cd05e2" formatted="false">"Error al enviar la referencia (HTTP "</string>
+    <string name="ui_e5ed6f68" formatted="false">"Seleccionar objeto"</string>
+    <string name="ui_e6fa191d" formatted="false">"Renombrar"</string>
+    <string name="ui_e70ac29d" formatted="false">"Memoria de GPU"</string>
+    <string name="ui_e75971d7" formatted="false">" confirmados. Comprueba las versiones antes de repetir."</string>
+    <string name="ui_e7925c5" formatted="false">"Biblioteca no disponible. Datos preservados."</string>
+    <string name="ui_e7d256b3" formatted="false">"La intensidad debe estar entre -20 y 20."</string>
+    <string name="ui_e8db97eb" formatted="false">"Describe lo que quieres crear…"</string>
+    <string name="ui_e90f4e73" formatted="false">"Sustituir mapa"</string>
+    <string name="ui_e9b5e903" formatted="false">" proyecto"</string>
+    <string name="ui_e9ca22da" formatted="false">"Edición de imagen"</string>
+    <string name="ui_e9d9ce4c" formatted="false">"Primero añade una imagen o un vídeo a la galería."</string>
+    <string name="ui_ea109329" formatted="false">"Añade al menos un mapa."</string>
+    <string name="ui_ea32483" formatted="false">" enviados"</string>
+    <string name="ui_ea553daa" formatted="false">"Ajustar corte para extensión"</string>
+    <string name="ui_ea810429" formatted="false">"Crea una imagen para comenzar tu feed."</string>
+    <string name="ui_eaa318e" formatted="false">"Agente desactivado: prompt directo al workflow."</string>
+    <string name="ui_eadfd17b" formatted="false">"No se pudo reproducir este video."</string>
+    <string name="ui_eae7c5ce" formatted="false">"ID de audio no válido"</string>
+    <string name="ui_eb02c9d8" formatted="false">"Dibujar recuadros manualmente"</string>
+    <string name="ui_eb889ae0" formatted="false">"Boceto"</string>
+    <string name="ui_ebf02c9" formatted="false">"Límite de "</string>
+    <string name="ui_ec1d5d5d" formatted="false">"● Conectando"</string>
+    <string name="ui_ec337c38" formatted="false">"Falta el clip de origen."</string>
+    <string name="ui_ecdd2b4" formatted="false">"Ruta fuera de la biblioteca."</string>
+    <string name="ui_ed27c530" formatted="false">"Comprobando archivo guardado…"</string>
+    <string name="ui_ed5cdddb" formatted="false">"Ideogram 4 TurboTime"</string>
+    <string name="ui_ed6cabc1" formatted="false">"Extensión no disponible en 8 GB: no hay perfil validado para guía de múltiples fotogramas."</string>
+    <string name="ui_ed9b5683" formatted="false">"No se pudo guardar el workflow."</string>
+    <string name="ui_ee420d21" formatted="false">"En cola…"</string>
+    <string name="ui_ee9cf10e" formatted="false">"No se guardó RefMod."</string>
+    <string name="ui_eeac3633" formatted="false">"Código no válido."</string>
+    <string name="ui_eed604e1" formatted="false">" / 30 s"</string>
+    <string name="ui_eed7e7a" formatted="false">"Servidor no disponible. Reanudando al conectar…"</string>
+    <string name="ui_ef09f20b" formatted="false">"Este modelo no admite negative prompt de forma nativa. Los términos se incluyen como instrucción para evitar, sin garantía de exclusión."</string>
+    <string name="ui_ef4b4051" formatted="false">"Vincular LoRAs"</string>
+    <string name="ui_ef7bf896" formatted="false">"Usa de 1 a 60 caracteres."</string>
+    <string name="ui_efaaae1a" formatted="false">", seleccionada"</string>
+    <string name="ui_efaaae28" formatted="false">", seleccionado"</string>
+    <string name="ui_f09e2d0f" formatted="false">"Reproducir video"</string>
+    <string name="ui_f0dbc774" formatted="false">"Abrir Tailscale"</string>
+    <string name="ui_f169c8d6" formatted="false">"Error al listar LoRAs. Comprueba la conexión."</string>
+    <string name="ui_f1fbfb7a" formatted="false">"Actualizar descripción"</string>
+    <string name="ui_f29c9164" formatted="false">"Guarda una generación para añadirla a un proyecto."</string>
+    <string name="ui_f2b06fa5" formatted="false">"Editar "</string>
+    <string name="ui_f2bf3d3a" formatted="false">"No se pudo abrir el audio."</string>
+    <string name="ui_f2c0958e" formatted="false">"Describe el cambio en el video."</string>
+    <string name="ui_f37b82e4" formatted="false">"Upscale H3 no disponible en este perfil: aún no hay workflow validado para "</string>
+    <string name="ui_f3adc3f5" formatted="false">"Conexión restablecida. Comprobando resultados…"</string>
+    <string name="ui_f3dd0a4b" formatted="false">"Prompter sin me gusta"</string>
+    <string name="ui_f41728e9" formatted="false">"Cuadros editables"</string>
+    <string name="ui_f42617af" formatted="false">"Imagen protegida"</string>
+    <string name="ui_f44414dd" formatted="false">"Error al leer las referencias guardadas."</string>
+    <string name="ui_f45177fc" formatted="false">"Añadir imágenes"</string>
+    <string name="ui_f4b7493e" formatted="false">"Pega el código de Desktop"</string>
+    <string name="ui_f4becc23" formatted="false">"Fuera de casa"</string>
+    <string name="ui_f52116ec" formatted="false">"Vinculación no disponible."</string>
+    <string name="ui_f539bc5a" formatted="false">"No se pudo generar"</string>
+    <string name="ui_f53e7c29" formatted="false">"Importa un archivo o graba hasta 30 segundos. El audio se guarda en la bóveda de la app."</string>
+    <string name="ui_f53fab9" formatted="false">"Fotograma inicial"</string>
+    <string name="ui_f563b864" formatted="false">"Prompter borrado. Pruebas guardadas conservadas."</string>
+    <string name="ui_f5a25ed5" formatted="false">"Tu descripción y el complemento visual."</string>
+    <string name="ui_f614cdac" formatted="false">"La restauración anterior debe completarse al volver a abrir."</string>
+    <string name="ui_f63de10f" formatted="false">"Servidor sin salida de descripción visual."</string>
+    <string name="ui_f6426983" formatted="false">"Generando video…"</string>
+    <string name="ui_f6926171" formatted="false">"Configurar LoRAs"</string>
+    <string name="ui_f78108ec" formatted="false">"¿Limpiar feed de Prompter?"</string>
+    <string name="ui_f7841df" formatted="false">"Añade imágenes para crear RefMod."</string>
+    <string name="ui_f78e574" formatted="false">"Nombre del estilo"</string>
+    <string name="ui_f7a52b32" formatted="false">"Carpeta de restauración no válida."</string>
+    <string name="ui_f7fab25e" formatted="false">"Iniciar grabación"</string>
+    <string name="ui_f87293d3" formatted="false">"Bordes suaves"</string>
+    <string name="ui_f88edb70" formatted="false">"Conéctate a ComfyUI en Ajustes."</string>
+    <string name="ui_f8f3fdd8" formatted="false">"Seed debe ser positiva."</string>
+    <string name="ui_f9339523" formatted="false">"Marcador de bóveda no válido."</string>
+    <string name="ui_f94eeba" formatted="false">"Enviando a ComfyUI..."</string>
+    <string name="ui_f9cae684" formatted="false">"Eliminar imagen"</string>
+    <string name="ui_f9e93" formatted="false">" GB."</string>
+    <string name="ui_fa07de43" formatted="false">"Fragmentos de audio"</string>
+    <string name="ui_fa69cfba" formatted="false">"Falta la imagen del mapa de control"</string>
+    <string name="ui_fb261461" formatted="false">"Usar portadas falsas"</string>
+    <string name="ui_fb408a71" formatted="false">"Edición de video enviada. Sigue el progreso en versiones."</string>
+    <string name="ui_fb5fe2ec" formatted="false">"Nuevo estilo"</string>
+    <string name="ui_fb6d7b93" formatted="false">"Error al codificar PNG"</string>
+    <string name="ui_fb754d16" formatted="false">"No disponible"</string>
+    <string name="ui_fbb1cdd2" formatted="false">"Fallo en la portada del video."</string>
+    <string name="ui_fbd043bb" formatted="false">", cambiar imagen"</string>
+    <string name="ui_fc01449c" formatted="false">"Animando tu imagen…"</string>
+    <string name="ui_fc1c22af" formatted="false">"No hay imágenes disponibles. Importa con el botón +."</string>
+    <string name="ui_fc629a9e" formatted="false">"Combina mapas de profundidad, pose y líneas en bloques reutilizables."</string>
+    <string name="ui_fc82e84b" formatted="false">"Cancelar"</string>
+    <string name="ui_fcaaff6e" formatted="false">"Almacenamiento"</string>
+    <string name="ui_fcc7b7df" formatted="false">"Empieza con profundidad, pose o lineart. Importa un mapa existente o extráelo de una imagen."</string>
+    <string name="ui_fcd2d382" formatted="false">"Configuración demasiado grande."</string>
+    <string name="ui_fd676c26" formatted="false">"Personajes · @"</string>
+    <string name="ui_fd8f3b6" formatted="false">"Espera a que termine el envío para cambiar de idioma."</string>
+    <string name="ui_fdd6a800" formatted="false">"MOSS/Kromoss INT8 y H3 con VAE por partes y atención dividida. Empieza con imágenes de 1 MP o vídeo de 0,33 MP / 5s. Ideogram FP8 no disponible: la opción de 16 GB encontrada usa otros pesos."</string>
+    <string name="ui_fe68b7bc" formatted="false">"Aleatoria en cada generación"</string>
+    <string name="ui_fe92ca8b" formatted="false">"El workflow actual no acepta imágenes. Usa Klein para crear con hasta tres referencias."</string>
+    <string name="ui_feb006aa" formatted="false">"Cargando registro…"</string>
+    <string name="ui_fef3d9b9" formatted="false">"Expansión no válida."</string>
+    <string name="ui_ff42935f" formatted="false">"Cola y terminal"</string>
+    <string name="ui_ff6374b7" formatted="false">"Registro de eliminaciones no disponible. Archivos preservados."</string>
+    <string name="ui_ffb0ef0e" formatted="false">"Portada de "</string>
+    <string name="ui_ffee180e" formatted="false">"Dirección de ComfyUI"</string>
+    <string name="ui_fff2fa05" formatted="false">"Tus referencias, siempre a mano"</string>
+</resources>

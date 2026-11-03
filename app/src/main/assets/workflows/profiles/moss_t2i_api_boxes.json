@@ -1,0 +1,187 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "moss_image_sft_int8_convrot.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen3.5_9b_int8_convrot.safetensors",
+      "type": "moss_image",
+      "device": "default"
+    }
+  },
+  "3": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "flux2-vae.safetensors"
+    }
+  },
+  "4": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": [
+        "momentos_layout",
+        0
+      ],
+      "clip": [
+        "2",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Positive prompt",
+      "momentos_prompt_input": "text"
+    }
+  },
+  "5": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "",
+      "clip": [
+        "2",
+        0
+      ]
+    },
+    "_meta": {
+      "title": "Negative prompt"
+    }
+  },
+  "6": {
+    "class_type": "EmptyFlux2LatentImage",
+    "inputs": {
+      "width": 1056,
+      "height": 1888,
+      "batch_size": 1
+    }
+  },
+  "7": {
+    "class_type": "SkipLayerGuidanceDiTSimple",
+    "inputs": {
+      "model": [
+        "1",
+        0
+      ],
+      "double_layers": "",
+      "single_layers": "22",
+      "start_percent": 0,
+      "end_percent": 1
+    }
+  },
+  "8": {
+    "class_type": "ModelSamplingAuraFlow",
+    "inputs": {
+      "model": [
+        "7",
+        0
+      ],
+      "shift": 5
+    }
+  },
+  "9": {
+    "class_type": "Power Lora Loader (rgthree)",
+    "inputs": {
+      "model": [
+        "8",
+        0
+      ],
+      "clip": [
+        "2",
+        0
+      ]
+    }
+  },
+  "10": {
+    "class_type": "KSampler",
+    "inputs": {
+      "model": [
+        "9",
+        0
+      ],
+      "positive": [
+        "4",
+        0
+      ],
+      "negative": [
+        "5",
+        0
+      ],
+      "latent_image": [
+        "6",
+        0
+      ],
+      "seed": 1,
+      "steps": 50,
+      "cfg": 3,
+      "sampler_name": "euler",
+      "scheduler": "sgm_uniform",
+      "denoise": 1
+    }
+  },
+  "11": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "10",
+        0
+      ],
+      "vae": [
+        "3",
+        0
+      ]
+    }
+  },
+  "12": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "11",
+        0
+      ],
+      "filename_prefix": "Momentos/MOSS"
+    }
+  },
+  "momentos_layout": {
+    "class_type": "MOSSImageLayoutPrompt",
+    "inputs": {
+      "prompt": "Minimal paper boat poster",
+      "element": {
+        "__value__": [
+          {
+            "type": "obj",
+            "desc": "A small blue paper boat",
+            "text": "",
+            "bbox": [
+              200,
+              100,
+              600,
+              400
+            ]
+          }
+        ]
+      },
+      "width": 1056,
+      "height": 1888,
+      "character_boxes": ""
+    },
+    "_meta": {
+      "title": "Composição por boxes",
+      "momentos_layout": {
+        "enabled": true,
+        "boxes": [
+          {
+            "x": 0.1,
+            "y": 0.2,
+            "w": 0.3,
+            "h": 0.4,
+            "desc": "A small blue paper boat",
+            "type": "obj"
+          }
+        ]
+      }
+    }
+  }
+}

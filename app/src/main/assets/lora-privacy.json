@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "date": "2026-11-02",
+  "method": "Published workflow adapters only; unclassified adapters retain the default private classification. No personal LoRA inventory is included.",
+  "entries": {
+    "8-steps-dmd-lora.safetensors": {
+      "status": "sfw",
+      "reason": "Adaptador tecnico de amostragem, camera ou upscale",
+      "name": "8-steps-dmd-lora",
+      "nameSource": "published adapter"
+    },
+    "h3/upscale/minimax_h3_open_regenerate_2k_refiner_rank_16_bf16.safetensors": {
+      "status": "sfw",
+      "reason": "Adaptador tecnico de amostragem, camera ou upscale",
+      "name": "minimax h3 open regenerate 2k refiner rank 16 bf16",
+      "nameSource": "published adapter"
+    },
+    "h3/upscale/open_h3_regenerate_2k_lora.safetensors": {
+      "status": "sfw",
+      "reason": "Adaptador tecnico de amostragem, camera ou upscale",
+      "name": "open h3 regenerate 2k lora",
+      "nameSource": "published adapter"
+    },
+    "h3/upscale/sharp_curve_branches.safetensors": {
+      "status": "sfw",
+      "reason": "Adaptador tecnico de amostragem, camera ou upscale",
+      "name": "sharp curve branches",
+      "nameSource": "published adapter"
+    },
+    "ideogram4/ideogramsnofsv1.safetensors": {
+      "status": "nsfw",
+      "reason": "Nome adulto nos metadados locais",
+      "name": "snofs ideogramB",
+      "nameSource": "published adapter"
+    },
+    "ideogram4/ideogram_4_turbotime_v1.safetensors": {
+      "status": "sfw",
+      "reason": "Adaptador tecnico de amostragem, camera ou upscale",
+      "name": "ideogram turbo 8 v1",
+      "nameSource": "published adapter"
+    },
+    "krea2/krea2_turbo_4step_rank_64_lora_comfyui.safetensors": {
+      "status": "sfw",
+      "reason": "Adaptador tecnico de amostragem, camera ou upscale",
+      "name": "krea2 turbo 4step rank 64 lora comfyui",
+      "nameSource": "published adapter"
+    },
+    "minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors": {
+      "status": "sfw",
+      "reason": "Adaptador tecnico de amostragem, camera ou upscale",
+      "name": "minimax h3 fl2v lightx2v turbo 4step v0.1 comfy resized avg rank 21 bf16",
+      "nameSource": "published adapter"
+    },
+    "minimax_h3_fl2v_lightx2v_turbo_8step_v1.0_resized_avg_rank_24_bf16.safetensors": {
+      "status": "sfw",
+      "reason": "Adaptador tecnico de amostragem, camera ou upscale",
+      "name": "minimax h3 fl2v lightx2v turbo 8step v1.0 resized avg rank 24 bf16",
+      "nameSource": "published adapter"
+    }
+  }
+}

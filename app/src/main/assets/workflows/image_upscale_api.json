@@ -1,0 +1,50 @@
+{
+  "momentos_upscale_image": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "Momentos/source.png"
+    }
+  },
+  "model": {
+    "class_type": "UpscaleModelLoader",
+    "inputs": {
+      "model_name": "4x-UltraSharp.pth"
+    }
+  },
+  "upscale": {
+    "class_type": "ImageUpscaleWithModel",
+    "inputs": {
+      "upscale_model": [
+        "model",
+        0
+      ],
+      "image": [
+        "momentos_upscale_image",
+        0
+      ]
+    }
+  },
+  "size": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "upscale",
+        0
+      ],
+      "upscale_method": "lanczos",
+      "width": 2048,
+      "height": 2048,
+      "crop": "disabled"
+    }
+  },
+  "save": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "size",
+        0
+      ],
+      "filename_prefix": "Momentos/Upscale/UltraSharp"
+    }
+  }
+}

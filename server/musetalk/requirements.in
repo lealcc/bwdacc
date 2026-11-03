@@ -1,0 +1,14 @@
+# Optional, isolated Python 3.12 environment; never sync into ComfyUI's environment.
+torch==2.11.0+cu130
+torchvision==0.26.0+cu130
+torchaudio==2.11.0+cu130
+diffusers==0.35.1
+transformers==4.57.1
+accelerate==1.10.1
+librosa==0.11.0
+mediapipe==0.10.21
+numpy==1.26.4
+opencv-contrib-python==4.11.0.86
+einops==0.8.1
+imageio-ffmpeg==0.6.0
+av==17.0.1

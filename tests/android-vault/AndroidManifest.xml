@@ -1,0 +1,5 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.leal.bwdacc.vaulttest">
+    <application android:label="Synthetic vault tests" android:debuggable="true" android:allowBackup="false">
+        <activity android:name="com.leal.comfyremote.VaultProbe" android:exported="true" />
+    </application>
+</manifest>

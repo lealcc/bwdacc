@@ -1,0 +1,55 @@
+<Window x:Class="Bwdacc.Desktop.MainWindow" xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+ Title="bwdacc Desktop · prévia" Width="1080" Height="800" MinWidth="900" MinHeight="650" Background="{StaticResource Bg}" Foreground="#F3F3F7" WindowStartupLocation="CenterScreen" FontFamily="/bwdacc-desktop;component/Fonts/#Manrope">
+ <Grid>
+  <Grid.ColumnDefinitions><ColumnDefinition Width="210"/><ColumnDefinition Width="*"/></Grid.ColumnDefinitions>
+  <Border Background="#111214" BorderBrush="#25262D" BorderThickness="0,0,1,0">
+   <Grid Margin="22,30,22,24">
+    <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+    <StackPanel><Viewbox Stretch="Uniform" HorizontalAlignment="Left" Width="172"><TextBlock Text="bwdacc" TextWrapping="NoWrap" FontFamily="/bwdacc-desktop;component/Fonts/#Syne" FontWeight="ExtraBold" FontSize="34"/></Viewbox><TextBlock Text="DESKTOP / PRÉVIA" Foreground="{StaticResource Muted}" FontSize="10" Margin="3,7,0,0"/></StackPanel>
+    <StackPanel Grid.Row="1" Margin="0,48,0,0">
+     <Button x:Name="OverviewNav" Content="Visão geral" Tag="overview" Click="Navigate" HorizontalContentAlignment="Left" Margin="0,0,0,9"/>
+     <Button x:Name="ModelsNav" Content="Modelos" Tag="models" Click="Navigate" Margin="0,0,0,9"/>
+     <Button x:Name="LorasNav" Content="LoRAs" Tag="loras" Click="Navigate" Margin="0,0,0,9"/>
+     <Button x:Name="DevicesNav" Content="Dispositivos" Tag="devices" Click="Navigate" Margin="0,0,0,9"/>
+     <Button x:Name="SettingsNav" Content="Ambiente" Tag="settings" Click="Navigate"/>
+    </StackPanel>
+    <StackPanel Grid.Row="3"><Border Background="#222326" CornerRadius="20" Padding="12,10"><TextBlock Text="●  Processamento local" Foreground="{StaticResource Accent}" FontSize="12"/></Border><TextBlock Text="Seu computador. Seu espaço." Foreground="{StaticResource Muted}" FontSize="11" Margin="4,13,0,0"/></StackPanel>
+   </Grid>
+  </Border>
+  <Grid Grid.Column="1" Margin="32,30,32,25">
+   <Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+   <DockPanel Margin="0,0,0,27"><Border DockPanel.Dock="Right" Background="#24252A" CornerRadius="20" Padding="12,7" VerticalAlignment="Top"><TextBlock x:Name="VersionBadge" FontSize="11" Foreground="{StaticResource Muted}"/></Border><StackPanel><TextBlock x:Name="PageTitle" Text="Seu estúdio, pronto para criar." FontFamily="/bwdacc-desktop;component/Fonts/#Syne" FontSize="25" FontWeight="Bold"/><TextBlock TextWrapping="Wrap" x:Name="PageSubtitle" Text="Prepare o computador uma vez. Gerencie tudo por aqui." Foreground="{StaticResource Muted}" Margin="0,9,12,0" FontSize="12"/></StackPanel></DockPanel>
+   <Grid Grid.Row="1"><Grid.RowDefinitions><RowDefinition Height="Auto"/><RowDefinition Height="*"/><RowDefinition Height="Auto"/></Grid.RowDefinitions>
+   <Border x:Name="SetupHeader" Visibility="Collapsed" Background="#222326" CornerRadius="22" Padding="18,12" Margin="0,0,0,16"><TextBlock x:Name="SetupStepLabel" Foreground="{StaticResource Muted}" FontSize="13"/></Border>
+   <ScrollViewer x:Name="PageScroll" Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled" Padding="0,0,7,0">
+    <Grid x:Name="Pages">
+     <StackPanel x:Name="SetupPage" Visibility="Collapsed"/>
+     <StackPanel x:Name="OverviewPage">
+      <Button Content="Configurar meu estúdio" Click="StartSetup" HorizontalAlignment="Left" Margin="0,0,0,16"/>
+      <Border x:Name="ExternalOverview" Visibility="Collapsed" Background="{StaticResource Card}" CornerRadius="28" BorderBrush="#303135" BorderThickness="1" Padding="24" Margin="0,0,0,17"><StackPanel><TextBlock Text="Seu ComfyUI existente" FontSize="20"/><TextBlock x:Name="ExternalOverviewText" TextWrapping="Wrap" Foreground="{StaticResource Muted}" Margin="0,12,0,0"/></StackPanel></Border>
+      <Border Background="{StaticResource Card}" CornerRadius="28" BorderBrush="#303135" BorderThickness="1" Padding="24" Margin="0,0,0,17"><StackPanel>
+       <TextBlock Text="ESTE COMPUTADOR" FontSize="10" Foreground="{StaticResource Muted}"/>
+       <TextBlock x:Name="GpuTitle" Text="Conferindo sua GPU…" FontSize="21" FontWeight="SemiBold" Margin="0,14,0,8"/>
+       <TextBlock x:Name="GpuDetail" Text="Verificando memória e driver NVIDIA." Foreground="{StaticResource Muted}" FontSize="12"/>
+       <Border Background="#131417" CornerRadius="20" Padding="14" Margin="0,22,0,0"><DockPanel><TextBlock x:Name="EngineStatus" Text="●  Ambiente ainda não instalado" VerticalAlignment="Center" FontSize="13"/><Button x:Name="EngineButton" Content="Iniciar motor" DockPanel.Dock="Right" Click="ToggleEngine" IsEnabled="False" Padding="16,9" HorizontalAlignment="Right"/></DockPanel></Border>
+      </StackPanel></Border>
+      <Border x:Name="ManagedRootCard" Background="{StaticResource Card}" CornerRadius="28" BorderBrush="#303135" BorderThickness="1" Padding="24" Margin="0,0,0,17"><StackPanel>
+       <TextBlock Text="Um lugar para o seu estúdio" FontSize="18" FontWeight="SemiBold"/><TextBlock Text="ComfyUI, Python, modelos e LoRAs ficam nesta pasta exclusiva." Foreground="{StaticResource Muted}" FontSize="12" Margin="0,8,0,16"/>
+       <Grid><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><TextBox x:Name="RootBox" IsReadOnly="True" VerticalContentAlignment="Center"/><Button x:Name="BrowseButton" Grid.Column="1" Content="Escolher" Click="ChooseFolder" Margin="10,0,0,0"/></Grid>
+       <TextBlock x:Name="DiskDetail" Text="Reserve 25 GB para o motor, além do espaço dos modelos." FontSize="11" Foreground="{StaticResource Muted}" Margin="0,12,0,22"/>
+       <DockPanel><TextBlock Text="Downloads verificados · instalação independente" Foreground="{StaticResource Muted}" FontSize="11" VerticalAlignment="Center"/><Button x:Name="InstallButton" Content="Preparar meu PC" Click="InstallRuntime" Style="{StaticResource Primary}" DockPanel.Dock="Right" HorizontalAlignment="Right"/></DockPanel>
+      </StackPanel></Border>
+      <Border BorderBrush="#303139" BorderThickness="1" CornerRadius="24" Padding="18"><TextBlock Text="Pareie em Dispositivos. Use rede local em casa ou Tailscale fora de casa. O cofre do celular protege as mídias baixadas." Foreground="{StaticResource Muted}" FontSize="12"/></Border>
+     </StackPanel>
+     <StackPanel x:Name="DevicesPage" Visibility="Collapsed"/>
+     <StackPanel x:Name="ModelsPage" Visibility="Collapsed"><DockPanel Margin="0,0,0,18"><TextBlock x:Name="ModelListTitle" Text="Modelos compatíveis com seu perfil de memória" Foreground="{StaticResource Muted}" FontSize="12" VerticalAlignment="Center"/><ComboBox x:Name="ProfileBox" DockPanel.Dock="Right" HorizontalAlignment="Right" SelectionChanged="ProfileChanged"><ComboBoxItem Content="8 GB" Tag="8"/><ComboBoxItem Content="16 GB" Tag="16"/><ComboBoxItem Content="24 GB" Tag="24"/><ComboBoxItem Content="Mais de 24 GB" Tag="24plus"/></ComboBox></DockPanel><StackPanel x:Name="ModelCards"/></StackPanel>
+     <StackPanel x:Name="LorasPage" Visibility="Collapsed"><Border x:Name="ManagedLoraToolbar" Background="{StaticResource Card}" CornerRadius="24" Padding="20" Margin="0,0,0,18"><StackPanel><TextBlock Text="Organizados por família" FontSize="18" FontWeight="SemiBold"/><TextBlock Text="Escolha a família do modelo ao importar. A pasta ajuda o app a oferecer os LoRAs compatíveis." Foreground="{StaticResource Muted}" FontSize="12" Margin="0,8,0,18"/><DockPanel><ComboBox x:Name="FamilyBox" SelectedIndex="0" Width="180" HorizontalAlignment="Left"><ComboBoxItem Content="Krea 2" Tag="krea2"/><ComboBoxItem Content="Moss" Tag="moss"/><ComboBoxItem Content="Kromoss" Tag="kromoss"/><ComboBoxItem Content="MiniMax H3" Tag="minimax"/><ComboBoxItem Content="Ideogram 4" Tag="ideogram4"/><ComboBoxItem Content="Klein" Tag="klein"/></ComboBox><Button x:Name="ImportButton" Content="+  Importar LoRA" Style="{StaticResource Primary}" DockPanel.Dock="Right" HorizontalAlignment="Right" Click="ImportLora"/></DockPanel></StackPanel></Border><StackPanel x:Name="LoraCards"/></StackPanel>
+     <StackPanel x:Name="SettingsPage" Visibility="Collapsed"><Border Background="{StaticResource Card}" CornerRadius="28" BorderBrush="#303135" BorderThickness="1" Padding="24"><StackPanel><TextBlock x:Name="EnvironmentTitle" Text="Um ambiente independente" FontSize="19" FontWeight="SemiBold"/><TextBlock x:Name="VersionDetail" Foreground="{StaticResource Muted}" FontSize="13" Margin="0,14,0,24"/><WrapPanel><Button x:Name="RollbackButton" Content="Voltar à versão anterior" Click="Rollback" Margin="0,0,12,12"/><Button x:Name="OpenRootButton" Content="Abrir pasta do estúdio" Click="OpenRoot" Margin="0,0,0,12"/></WrapPanel><TextBlock x:Name="ManagedVersionHelp" Text="Modelos e LoRAs são preservados ao trocar a versão do motor. Uma preparação interrompida não substitui a versão ativa." Foreground="{StaticResource Muted}" FontSize="12" Margin="0,12,0,0"/></StackPanel></Border><Border BorderBrush="#303139" BorderThickness="1" CornerRadius="24" Padding="22" Margin="0,18,0,0"><StackPanel><TextBlock Text="Instalar o manager" FontSize="17"/><TextBlock Text="Crie uma instalação por usuário e um atalho no menu Iniciar. Não requer Docker nem permissões de administrador." Foreground="{StaticResource Muted}" FontSize="12" Margin="0,9,0,18"/><Button Content="Instalar bwdacc Desktop" HorizontalAlignment="Left" Click="InstallManager"/></StackPanel></Border></StackPanel>
+    </Grid>
+   </ScrollViewer>
+   <Border x:Name="SetupFooter" Grid.Row="2" Visibility="Collapsed" Padding="0,16,0,0"><DockPanel><Button x:Name="SetupBack" Content="Voltar" Click="PreviousSetup" HorizontalAlignment="Left"/><Button x:Name="SetupSkip" Content="Agora não" Click="SkipTailscale" Visibility="Collapsed" Margin="12,0,0,0" HorizontalAlignment="Left"/><Button x:Name="SetupNext" Content="Continuar" Click="NextSetup" Style="{StaticResource Primary}" HorizontalAlignment="Right"/></DockPanel></Border>
+   </Grid>
+   <Border Grid.Row="2" Background="#18191C" CornerRadius="24" Padding="18,14" Margin="0,20,0,0"><Grid><Grid.ColumnDefinitions><ColumnDefinition/><ColumnDefinition Width="Auto"/></Grid.ColumnDefinitions><StackPanel><TextBlock x:Name="StatusTitle" Text="Tudo sob seu controle." FontSize="13"/><TextBlock x:Name="StatusDetail" Text="Comece preparando o ambiente local." Foreground="{StaticResource Muted}" FontSize="11" Margin="0,5,12,0"/><ProgressBar x:Name="Progress" Height="3" Margin="0,12,12,0" Foreground="{StaticResource Accent}" Background="#33343C" Visibility="Collapsed"/></StackPanel><Button x:Name="CancelButton" Grid.Column="1" Content="Cancelar" Click="Cancel" Visibility="Collapsed" VerticalAlignment="Center" Padding="12,8"/></Grid></Border>
+  </Grid>
+ </Grid>
+</Window>

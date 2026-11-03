@@ -1,0 +1,170 @@
+{
+  "labels": {
+    "tutorials": "Anleitungen",
+    "subtitle": "Kurze Anleitungen, jederzeit offline verfügbar.",
+    "replay": "Einführung erneut ansehen",
+    "search": "Werkzeug oder Thema suchen",
+    "empty": "Keine Anleitungen gefunden.",
+    "skip": "Überspringen",
+    "next": "Weiter",
+    "back": "Zurück",
+    "explore": "App erkunden",
+    "connect": "Computer verbinden"
+  },
+  "intro": [
+    {
+      "title": "Dein Raum zum Gestalten",
+      "body": "Erstelle Bilder und Videos, bearbeite vorhandene Medien und sammle deine Ideen.",
+      "hint": "bwdacc steuert ComfyUI-Workflows. Dein Computer führt die Generierung aus.",
+      "icon": "image"
+    },
+    {
+      "title": "Dein Computer, verbunden",
+      "body": "Richte bwdacc Desktop mit einer neuen oder vorhandenen ComfyUI-Installation ein. Kopple dann dieses Smartphone.",
+      "hint": "Im selben Netzwerk verbindest du dich lokal. Unterwegs nutzt du dein eigenes Tailscale auf beiden Geräten.",
+      "icon": "qr"
+    },
+    {
+      "title": "Eine Idee. Viele Möglichkeiten.",
+      "body": "Schreibe in das Prompt-Feld. Wähle Workflow, Seitenverhältnis und bis zu vier Ergebnisse. Ergänze Bilder und Fragmente.",
+      "hint": "Die Funktionen hängen vom Workflow, Modell und den installierten Nodes ab.",
+      "icon": "layers"
+    },
+    {
+      "title": "Am besten Ergebnis weiterarbeiten",
+      "body": "Öffne Medien zum Bearbeiten, Animieren, Hochskalieren oder Verlängern. Wechsle zwischen Versionen und verwende Generierungseinstellungen erneut.",
+      "hint": "Versionen wechseln vertikal, andere Gruppen horizontal. Die gewählte Version wird zum Gruppenbild.",
+      "icon": "edit"
+    },
+    {
+      "title": "Behalte, was dir gefällt",
+      "body": "Experimentiere im Prompter, speichere Favoriten per Doppeltippen und ordne deine Sammlung in Projekten.",
+      "hint": "Diese Anleitungen bleiben unter Einstellungen › App › Anleitungen verfügbar.",
+      "icon": "grid"
+    }
+  ],
+  "topics": [
+    {
+      "title": "Computer verbinden",
+      "summary": "Lokale Kopplung und Zugriff unterwegs.",
+      "steps": [
+        "Installiere in bwdacc Desktop eine separate ComfyUI-Instanz oder verbinde eine vorhandene. Starte den Server.",
+        "Öffne auf dem Smartphone Einstellungen › Verbindung und kopple es mit Desktop. Bestätige das Gerät am Computer.",
+        "Nutze lokal dasselbe Netzwerk. Verbinde unterwegs dein eigenes Tailscale auf beiden Geräten und wähle in Desktop die private Verbindung. Der PC muss eingeschaltet bleiben."
+      ],
+      "id": "connection",
+      "icon": "qr"
+    },
+    {
+      "title": "Bilder und Videos erstellen",
+      "summary": "Prompts, Workflows, Seitenverhältnisse und Stapel.",
+      "steps": [
+        "Tippe zum Schreiben auf das kompakte Prompt-Feld. Unter Bild/Video wählst du Workflow, Seitenverhältnis, Auflösung und Anzahl, soweit verfügbar.",
+        "Importiere unter + › Bilder bis zu drei Bilder. Sie erscheinen in der Galerie und bei Unterstützung als Referenzen. Bibliothek nutzt gespeicherte Bilder.",
+        "Tippe zum Generieren auf den Pfeil. Warteschlange und Fortschritt erscheinen in der App; die Dauer hängt von PC, Modell und Einstellungen ab. Die Warteschlange findest du unter Einstellungen › Verbindung."
+      ],
+      "id": "create",
+      "icon": "image"
+    },
+    {
+      "title": "Fragmente",
+      "summary": "Wiederverwendbare Figuren, Stile und Orte.",
+      "steps": [
+        "Öffne Fragmente im oberen Menü. Erstelle Figuren, Stile, Orte, Objekte oder Kompositionen. Suche, bearbeite und dupliziere sie.",
+        "Verwende im Prompt @ für Figuren, $ für Stile, # für Orte und & für Objekte. Erlaube pro Fragment Text, Bilder, Refmods und LoRAs.",
+        "Bilder und LoRAs werden nur mit kompatiblen Workflows genutzt. Fragment-Berechtigungen machen ein Modell nicht kompatibel.",
+        "Kategorien seitlich wischen oder Alle anzeigen antippen. Unter Audio bis zu 30 Sekunden importieren oder mit dem Mikrofon aufnehmen; als Fragment für Lippensynchronisation speichern."
+      ],
+      "id": "fragments",
+      "icon": "layers"
+    },
+    {
+      "title": "Komposition und Karten",
+      "summary": "Boxen, Objektauswahl und Steuerblöcke.",
+      "steps": [
+        "Wähle bei einem Bild ⋮ › Komposition extrahieren für bearbeitbare Boxen. Mit Objekt auswählen markierst du ein Element und speicherst es als Fragment. Analysemodelle müssen auf dem Server vorhanden sein.",
+        "Füge unter Fragmente › Blöcke Depth-, Pose-, Lineart- oder andere Karten hinzu. Importiere fertige Karten oder extrahiere sie mit installierten ComfyUI-Präprozessoren.",
+        "Blöcke lassen sich speichern und bearbeiten, ihre Karten werden aber noch nicht bei Generierungen verwendet. Auch Boxen benötigen einen kompatiblen Workflow."
+      ],
+      "id": "controls",
+      "icon": "depth"
+    },
+    {
+      "title": "Bearbeiten und wiederverwenden",
+      "summary": "Versionen mit erhaltenem Ausgangspunkt.",
+      "steps": [
+        "Öffne ein Medium und beschreibe die Änderung. Bildbearbeitungen bleiben bei Bildern, Videobearbeitungen bei Videos.",
+        "Wische vertikal zwischen Versionen und horizontal zwischen Gruppen. Beim Verlassen wird die gewählte Version zum Gruppenbild.",
+        "Prompt wiederverwenden stellt Prompt, Referenzen, LoRAs und Optionen wieder her. Bei einer Bearbeitung geht es zur ursprünglichen Referenz zurück. Benötigte Dateien und Modelle müssen verfügbar bleiben."
+      ],
+      "id": "editing",
+      "icon": "edit"
+    },
+    {
+      "title": "Animieren, verlängern, hochskalieren",
+      "summary": "Werkzeuge im Medienmenü.",
+      "steps": [
+        "Öffne ein Bild zum Animieren. Das Ergebnis bildet eine neue Videogruppe. Je nach Workflow sind Videos auch allein aus Text möglich.",
+        "Füge im First/Last-Frame-Modus die Bilder in die beiden benannten Felder ein. Unter ⋮ › Video verlängern kannst du vorher Anfang und Ende zuschneiden.",
+        "Nutze ⋮ › Upscale für Bilder oder Videos. Bearbeiten, Verlängern und Hochskalieren benötigen kompatible Workflows, Nodes, Modelle und ausreichend Speicher auf dem Server."
+      ],
+      "id": "video",
+      "icon": "video"
+    },
+    {
+      "id": "lipsync",
+      "icon": "lipsync",
+      "title": "Lippensynchronisation mit MuseTalk",
+      "summary": "Lass ein Bild oder Video zu deinem Audio sprechen.",
+      "steps": [
+        "Medieneditor öffnen und ⋮ › Lippensynchronisation wählen. Audio importieren, mit dem Mikrofon aufnehmen oder ein Audiofragment von 0,2–30 Sekunden wählen.",
+        "Nutze ein sichtbares, frontales Gesicht. Bei Videos muss Audio in den Clip passen und ersetzt den Originalton. Bilder ergeben ein neues Video; Videos eine neue Version.",
+        "MuseTalk 1.5 muss auf dem verbundenen Computer installiert sein. Die Generierung läuft lokal. Audio bleibt zur Wiederverwendung im App-Tresor und wird mit dem Ergebnis gelöscht."
+      ]
+    },
+    {
+      "title": "LoRAs und Agent",
+      "summary": "Aussehen anpassen und Prompts vorbereiten.",
+      "steps": [
+        "Tippe neben der Generierungsauswahl auf LoRAs. Wähle kompatible Adapter und passe ihre Gewichte mit − und + an.",
+        "Ausgewählte Adapter stehen beim erneuten Öffnen oben. Ein Workflow-Wechsel kann die verfügbaren LoRAs ändern.",
+        "Der Stern aktiviert den Prompt-Agenten in vorbereiteten Workflows. Er benötigt seine LLM auf dem Server und kann die Interpretation des Texts verändern."
+      ],
+      "id": "loras",
+      "icon": "style"
+    },
+    {
+      "title": "Prompter",
+      "summary": "Testen, verfeinern und Favoriten behalten.",
+      "steps": [
+        "Öffne Prompter im oberen Menü. Der Prompt bleibt nach der Generierung zum Weiterarbeiten erhalten.",
+        "Tippe doppelt auf ein Medium oder nutze das Herz zum Speichern. Es erscheint dann im Feed und in der Galerie.",
+        "Ungespeicherte Generierungen verfallen nach 24 Stunden in der App. Prompter leeren entfernt temporäre Tests; ComfyUI-Dateien bleiben erhalten."
+      ],
+      "id": "prompter",
+      "icon": "flask"
+    },
+    {
+      "title": "Galerie, Feed und Projekte",
+      "summary": "Kreationen finden und organisieren.",
+      "steps": [
+        "Das obere Menü wechselt zwischen Feed, Galerie, Prompter, Projekten und Fragmenten. Galerie ist deine Sammlung, Feed zeigt deine Beiträge.",
+        "Erstelle ein Projekt, wähle ein Titelbild und füge Medien über deren Menü hinzu. Projekte lassen sich umbenennen.",
+        "Löschen in der Galerie entfernt Medien aus allen App-Bereichen. Mit Mehrfachauswahl löschst du mehrere Elemente. Prüfe vorher die Bestätigung."
+      ],
+      "id": "library",
+      "icon": "grid"
+    },
+    {
+      "title": "Speicher und Einstellungen",
+      "summary": "Sammlung, Sicherungen und Vorlieben.",
+      "steps": [
+        "Medien und Sammlungsdaten sind im App-Speicher verschlüsselt. Kopien auf Computer oder Server haben einen eigenen Schutz und Aufbewahrungszeitraum.",
+        "Erstelle unter Einstellungen › App eine Sicherung und bewahre den Code getrennt auf. Ohne gültige Sicherung und Code kann ein Schlüssel- oder Geräteverlust die Wiederherstellung verhindern.",
+        "Hier stellst du Sprache, Autoplay und Neigungslicht ein. Unter Generierung findest du Speicherprofile und verfügbare erweiterte Optionen. Generierungen löschen entfernt die App-Sammlung."
+      ],
+      "id": "storage",
+      "icon": "folder"
+    }
+  ]
+}

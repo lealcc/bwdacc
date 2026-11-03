@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>bwdacc-desktop</AssemblyName>
+    <Version>0.7.0</Version>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <PublishSingleFile>true</PublishSingleFile>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <DebugType>embedded</DebugType>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <RestorePackagesWithLockFile>true</RestorePackagesWithLockFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="QRCoder" Version="1.8.1" />
+    <EmbeddedResource Include="Payload/*" />
+    <EmbeddedResource Include="../../app/src/main/assets/workflows/catalog.json" Link="Payload/catalog.json" />
+    <EmbeddedResource Include="../../server/momentos_workflows/*.py" Link="Payload/nodes/momentos_workflows/%(Filename)%(Extension)" />
+    <EmbeddedResource Include="../../server/momentos_workflows/florence_manifest.json" Link="Payload/nodes/momentos_workflows/florence_manifest.json" />
+    <Resource Include="../../app/src/main/assets/fonts/Syne.ttf" Link="Fonts/Syne.ttf" />
+    <Resource Include="../../app/src/main/assets/fonts/Manrope.ttf" Link="Fonts/Manrope.ttf" />
+    <EmbeddedResource Include="../../app/src/main/assets/licenses/*" Link="Payload/licenses/%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

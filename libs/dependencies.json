@@ -1,0 +1,32 @@
+[
+  {
+    "file": "Java-WebSocket-1.6.0.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/java-websocket/Java-WebSocket/1.6.0/Java-WebSocket-1.6.0.jar",
+    "sha256": "eae29213e4f16515639c28957200f011b3967fffcada1962cf0255d24919c22f"
+  },
+  {
+    "file": "slf4j-api-2.0.17.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar",
+    "sha256": "7b751d952061954d5abfed7181c1f645d336091b679891591d63329c622eb832"
+  },
+  {
+    "file": "slf4j-nop-2.0.17.jar",
+    "url": "https://repo.maven.apache.org/maven2/org/slf4j/slf4j-nop/2.0.17/slf4j-nop-2.0.17.jar",
+    "sha256": "3716f83649ec66161a2edefd4f49df34d1dd1c51cdcf941996c6987260f0a829"
+  },
+  {
+    "file": "zxing-core-3.5.4.jar",
+    "sha256": "71de5d89341b5fcf5dd89da7f44e84d825d0e084cdf3ec77c9abe26b0f0ceb13",
+    "url": "https://repo.maven.apache.org/maven2/com/google/zxing/core/3.5.4/core-3.5.4.jar"
+  },
+  {
+    "file": "tink-android-1.24.0.jar",
+    "url": "https://repo.maven.apache.org/maven2/com/google/crypto/tink/tink-android/1.24.0/tink-android-1.24.0.jar",
+    "sha256": "86ff5d879d4ac5e827ae3974c90fce1a25e7c2698538af833ed824efbfe4c06e"
+  },
+  {
+    "file": "gson-2.13.2.jar",
+    "url": "https://repo.maven.apache.org/maven2/com/google/code/gson/gson/2.13.2/gson-2.13.2.jar",
+    "sha256": "dd0ce1b55a3ed2080cb70f9c655850cda86c206862310009dcb5e5c95265a5e0"
+  }
+]

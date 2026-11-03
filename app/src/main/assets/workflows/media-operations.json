@@ -1,0 +1,355 @@
+{
+  "schema_version": 1,
+  "version": "2026.10.30.4",
+  "automatic_download": false,
+  "models": {
+    "diffusion_models/klein/snofsSexNudesAndOther_v14Klein9bDistilled_full_bf16.safetensors": {
+      "destination": "models/diffusion_models/klein/snofsSexNudesAndOther_v14Klein9bDistilled_full_bf16.safetensors",
+      "sha256": "e3a8c25c3fb17dc835ec046b5e1695dc8c08cc3c259ef8f26f855b4484bce197",
+      "bytes": 18157185200,
+      "source": "existing_installation",
+      "automatic_download": false,
+      "install_state": "manual_model_required"
+    },
+    "text_encoders/qwen_3_8b_fp8mixed.safetensors": {
+      "destination": "models/text_encoders/qwen_3_8b_fp8mixed.safetensors",
+      "repository": "Comfy-Org/Flux-2-Klein-9B",
+      "revision": "1138ce884c8e977cdacacbe779784fec4426bb3f",
+      "sha256": "abad16806e0cbabc54e0325d6565847443fe396d5f0be38bb3cd3fe75a1201d6",
+      "bytes": 8664848742,
+      "url": "https://huggingface.co/Comfy-Org/Flux-2-Klein-9B/resolve/1138ce884c8e977cdacacbe779784fec4426bb3f/split_files/text_encoders/qwen_3_8b_fp8mixed.safetensors",
+      "model_card": "https://huggingface.co/Comfy-Org/Flux-2-Klein-9B",
+      "license": "other",
+      "gated": false
+    },
+    "vae/flux2-vae.safetensors": {
+      "destination": "models/vae/flux2-vae.safetensors",
+      "repository": "Comfy-Org/Flux-2-Klein-9B",
+      "revision": "1138ce884c8e977cdacacbe779784fec4426bb3f",
+      "sha256": "868fe7b343cc8f3a19dbcfcafbc3d5f888802be3f89bd81b65b3621a066ce8f3",
+      "bytes": 336211292,
+      "url": "https://huggingface.co/Comfy-Org/Flux-2-Klein-9B/resolve/1138ce884c8e977cdacacbe779784fec4426bb3f/split_files/vae/flux2-vae.safetensors",
+      "model_card": "https://huggingface.co/Comfy-Org/Flux-2-Klein-9B",
+      "license": "other",
+      "gated": false
+    },
+    "upscale_models/4x-UltraSharp.pth": {
+      "destination": "models/upscale_models/4x-UltraSharp.pth",
+      "sha256": "a5812231fc936b42af08a5edba784195495d303d5b3248c24489ef0c4021fe01",
+      "bytes": 66961958,
+      "source": "existing_installation",
+      "automatic_download": false,
+      "install_state": "manual_model_required"
+    },
+    "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors": {
+      "destination": "models/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+      "repository": "Comfy-Org/MiniMax-H3",
+      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
+      "sha256": "e889202c41dafb67b10d67b97f0d8541508036a6090af23425a5c2615d03c47a",
+      "bytes": 20970379616,
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/912b6e38b2092ec4d2e86d24183e0d59ea059d48/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+      "model_card": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "license": "other",
+      "gated": false
+    },
+    "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors": {
+      "destination": "models/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "repository": "Comfy-Org/MiniMax-H3",
+      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
+      "sha256": "35a88d51044231fe332301d7a62aa81e3f2cba62febeb446e2c1e3e0ef76f2c6",
+      "bytes": 15687142551,
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/912b6e38b2092ec4d2e86d24183e0d59ea059d48/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "model_card": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "license": "other",
+      "gated": false
+    },
+    "vae/minimax_h3_video_vae_fp16.safetensors": {
+      "destination": "models/vae/minimax_h3_video_vae_fp16.safetensors",
+      "repository": "Comfy-Org/MiniMax-H3",
+      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
+      "sha256": "7c1f131492e7eddacaac9069a61b81bdd39de5cc96561e677c5eab1cdce5e522",
+      "bytes": 5207808496,
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/912b6e38b2092ec4d2e86d24183e0d59ea059d48/vae/minimax_h3_video_vae_fp16.safetensors",
+      "model_card": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "license": "other",
+      "gated": false
+    },
+    "vae/minimax_h3_audio_vae_fp32.safetensors": {
+      "destination": "models/vae/minimax_h3_audio_vae_fp32.safetensors",
+      "repository": "Comfy-Org/MiniMax-H3",
+      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
+      "sha256": "8e505d95dd1561d47abd43d4238fd40d9bb1ae9e147ed0a4cba778d76ae4db48",
+      "bytes": 605254808,
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/912b6e38b2092ec4d2e86d24183e0d59ea059d48/vae/minimax_h3_audio_vae_fp32.safetensors",
+      "model_card": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "license": "other",
+      "gated": false
+    },
+    "loras/h3/upscale/minimax_h3_open_regenerate_2k_refiner_rank_16_bf16.safetensors": {
+      "destination": "models/loras/h3/upscale/minimax_h3_open_regenerate_2k_refiner_rank_16_bf16.safetensors",
+      "repository": "Kijai/MiniMax-H3-experimental",
+      "revision": "f5c3b1d5a63e008a691fca1b6096fd57a5307536",
+      "sha256": "add559cd92e2b17b42ac080516b476df120903e485fc98add4538e0217820fbd",
+      "bytes": 155133472,
+      "url": "https://huggingface.co/Kijai/MiniMax-H3-experimental/resolve/f5c3b1d5a63e008a691fca1b6096fd57a5307536/loras/minimax_h3_open_regenerate_2k_refiner_rank_16_bf16.safetensors",
+      "model_card": "https://huggingface.co/Kijai/MiniMax-H3-experimental",
+      "license": "See model card",
+      "gated": false
+    },
+    "latent_upscale_models/minimax_h3_latent_upscaler_3d_fp16.safetensors": {
+      "destination": "models/latent_upscale_models/minimax_h3_latent_upscaler_3d_fp16.safetensors",
+      "sha256": "043e5a48e161610ef6c3ea974645220354d06fa618abca15f76d084812eb55c2",
+      "bytes": 690592672,
+      "source": "existing_installation",
+      "automatic_download": false,
+      "install_state": "manual_model_required"
+    },
+    "loras/minimax_h3_fl2v_lightx2v_turbo_8step_v1.0_resized_avg_rank_24_bf16.safetensors": {
+      "destination": "models/loras/minimax_h3_fl2v_lightx2v_turbo_8step_v1.0_resized_avg_rank_24_bf16.safetensors",
+      "repository": "Kijai/MiniMax-H3_comfy",
+      "revision": "4c24460ce97e4c4b01acfe7ebcb7e01e1a86a234",
+      "sha256": "8e05b7b982c3aff7deb692a188c8a8d8acaeff8a12abfe1aeac822fb8ee3f0b7",
+      "bytes": 364638304,
+      "url": "https://huggingface.co/Kijai/MiniMax-H3_comfy/resolve/4c24460ce97e4c4b01acfe7ebcb7e01e1a86a234/loras/minimax_h3_fl2v_lightx2v_turbo_8step_v1.0_resized_avg_rank_24_bf16.safetensors",
+      "model_card": "https://huggingface.co/Kijai/MiniMax-H3_comfy",
+      "license": "See model card",
+      "gated": false
+    },
+    "vae/minimax_h3_video_vae_int8_convrot.safetensors": {
+      "destination": "models/vae/minimax_h3_video_vae_int8_convrot.safetensors",
+      "repository": "Comfy-Org/MiniMax-H3",
+      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
+      "sha256": "52a2c8c73583c86e4f41cdcce3a6ad0ea562987bc0bf3d60a0cef5f5c8e60c0e",
+      "bytes": 2811065184,
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/912b6e38b2092ec4d2e86d24183e0d59ea059d48/vae/minimax_h3_video_vae_int8_convrot.safetensors",
+      "model_card": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "license": "other",
+      "gated": false
+    },
+    "loras/h3/upscale/open_h3_regenerate_2k_lora.safetensors": {
+      "destination": "models/loras/h3/upscale/open_h3_regenerate_2k_lora.safetensors",
+      "repository": "Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "revision": "5809c33730c18b6b1c827b40974855a4288641b3",
+      "sha256": "8e36a0912ab72f7f3b00f41e3c7c97c7dfdec21e66c88ab22f08b9b0c681bb04",
+      "bytes": 12452449080,
+      "url": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K/resolve/5809c33730c18b6b1c827b40974855a4288641b3/lora/open_h3_regenerate_2k_lora.safetensors",
+      "model_card": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "license": "other",
+      "gated": false
+    },
+    "loras/h3/upscale/sharp_curve_branches.safetensors": {
+      "destination": "models/loras/h3/upscale/sharp_curve_branches.safetensors",
+      "repository": "Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "revision": "5809c33730c18b6b1c827b40974855a4288641b3",
+      "sha256": "26ff1c4ea50fc5b0cea252912b67ec308a65d534cef026ef56f415ae92102e4e",
+      "bytes": 1238746768,
+      "url": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K/resolve/5809c33730c18b6b1c827b40974855a4288641b3/lora/sharp_curve_branches.safetensors",
+      "model_card": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "license": "other",
+      "gated": false
+    },
+    "diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors": {
+      "destination": "models/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "repository": "Comfy-Org/MiniMax-H3",
+      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
+      "sha256": "9255f52b6677845ad238f20dfaafa94727053694127ab7f255c048f0f9365779",
+      "bytes": 20970379616,
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/912b6e38b2092ec4d2e86d24183e0d59ea059d48/diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "model_card": "https://huggingface.co/Comfy-Org/MiniMax-H3",
+      "license": "other",
+      "gated": false
+    },
+    "latent_upscale_models/minimax_h3_latent_upscaler_3d_conv_v1_bf16.safetensors": {
+      "destination": "models/latent_upscale_models/minimax_h3_latent_upscaler_3d_conv_v1_bf16.safetensors",
+      "repository": "Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "revision": "5809c33730c18b6b1c827b40974855a4288641b3",
+      "sha256": "4f57821f5837f32f7142b67d815606dbd7550f194e5c769f7d6c3f83b146a5e6",
+      "bytes": 690592992,
+      "url": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K/resolve/5809c33730c18b6b1c827b40974855a4288641b3/latent_upsampler/minimax_h3_latent_upscaler_3d_conv_v1_bf16.safetensors",
+      "model_card": "https://huggingface.co/Efficient-Large-Model/Open-H3-Regenerate-2K",
+      "license": "other",
+      "gated": false
+    }
+  },
+  "operations": [
+    {
+      "name": "Snofs Klein 9B · Edit NSFW",
+      "operation": "image_edit",
+      "base_graph": "snofs_klein_edit_api.json",
+      "sha256": "d59d264d7eab3294f3450b341bbb34de8f08a52e1ce4de52974c46439a5bce64",
+      "experimental": false,
+      "profiles": {
+        "24plus": "available",
+        "24": "available",
+        "16": "unavailable",
+        "8": "unavailable"
+      },
+      "validation": "local_gpu_passed",
+      "validation_device": "RTX 3090 24 GB",
+      "validation_scope": "Neutral still-life test",
+      "model_dependencies": [
+        "diffusion_models/klein/snofsSexNudesAndOther_v14Klein9bDistilled_full_bf16.safetensors",
+        "text_encoders/qwen_3_8b_fp8mixed.safetensors",
+        "vae/flux2-vae.safetensors"
+      ],
+      "node_types": [
+        "CFGGuider",
+        "CLIPLoader",
+        "CLIPTextEncode",
+        "EmptyFlux2LatentImage",
+        "Flux2Scheduler",
+        "GetImageSize",
+        "ImageScaleToTotalPixels",
+        "KSamplerSelect",
+        "LoadImage",
+        "RandomNoise",
+        "ReferenceLatent",
+        "SamplerCustomAdvanced",
+        "SaveImage",
+        "UNETLoader",
+        "VAEDecode",
+        "VAEEncode",
+        "VAELoader"
+      ]
+    },
+    {
+      "name": "4x-UltraSharp",
+      "operation": "image_upscale",
+      "base_graph": "image_upscale_api.json",
+      "sha256": "9f717182e2e881db1b1d729c63d83db6e1724d55e023d3ec0e66626744d961cf",
+      "experimental": false,
+      "profiles": {
+        "24plus": "available",
+        "24": "available",
+        "16": "available",
+        "8": "available"
+      },
+      "validation": "local_gpu_passed",
+      "validation_device": "RTX 3090 24 GB",
+      "validation_scope": "Neutral still-life test",
+      "model_dependencies": [
+        "upscale_models/4x-UltraSharp.pth"
+      ],
+      "node_types": [
+        "ImageScale",
+        "ImageUpscaleWithModel",
+        "LoadImage",
+        "SaveImage",
+        "UpscaleModelLoader"
+      ]
+    },
+    {
+      "name": "Open-H3 · Kijai compacto",
+      "operation": "video_upscale",
+      "base_graph": "open_h3_upscale_compact_api.json",
+      "sha256": "aa9e07274f6f772059e94107935c60fd140a9716b13862d5287fab7068190e04",
+      "experimental": true,
+      "profiles": {
+        "24plus": "available",
+        "24": "available",
+        "16": "unavailable",
+        "8": "unavailable"
+      },
+      "validation": "local_gpu_passed",
+      "validation_device": "RTX 3090 24 GB",
+      "validation_scope": "2 second video; no 8/16 GB hardware benchmark",
+      "model_dependencies": [
+        "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "latent_upscale_models/minimax_h3_latent_upscaler_3d_fp16.safetensors",
+        "loras/h3/upscale/minimax_h3_open_regenerate_2k_refiner_rank_16_bf16.safetensors",
+        "loras/minimax_h3_fl2v_lightx2v_turbo_8step_v1.0_resized_avg_rank_24_bf16.safetensors",
+        "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "vae/minimax_h3_audio_vae_fp32.safetensors",
+        "vae/minimax_h3_video_vae_fp16.safetensors",
+        "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+      ],
+      "node_types": [
+        "BasicGuider",
+        "BlockSparseAttention",
+        "CLIPLoader",
+        "CLIPTextEncode",
+        "KSamplerSelect",
+        "LoraLoaderModelOnly",
+        "ManualSigmas",
+        "MinimaxH3LatentUpscaler3D",
+        "MomentosUpscaleAV",
+        "MomentosUpscaleFinish",
+        "MomentosUpscaleSource",
+        "RandomNoise",
+        "SamplerCustomAdvanced",
+        "SaveVideo",
+        "UNETLoader",
+        "VAEDecodeTiled",
+        "VAEEncodeTiled",
+        "VAELoader"
+      ]
+    },
+    {
+      "name": "Open-H3 Regenerate · completo",
+      "operation": "video_upscale",
+      "base_graph": "open_h3_upscale_api.json",
+      "sha256": "d861ff806c0ea8df3f8158170cf5f36f200db1edbdfd725192cba4ae7fac0c5f",
+      "experimental": false,
+      "profiles": {
+        "24plus": "available",
+        "24": "available",
+        "16": "unavailable",
+        "8": "unavailable"
+      },
+      "validation": "local_gpu_passed",
+      "validation_device": "RTX 3090 24 GB",
+      "validation_scope": "2 second video; no 8/16 GB hardware benchmark",
+      "model_dependencies": [
+        "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+        "diffusion_models/minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+        "latent_upscale_models/minimax_h3_latent_upscaler_3d_conv_v1_bf16.safetensors",
+        "loras/h3/upscale/open_h3_regenerate_2k_lora.safetensors",
+        "loras/h3/upscale/sharp_curve_branches.safetensors",
+        "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "vae/minimax_h3_audio_vae_fp32.safetensors",
+        "vae/minimax_h3_video_vae_fp16.safetensors",
+        "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+      ],
+      "node_types": [
+        "BasicGuider",
+        "BlockSparseAttention",
+        "CLIPLoader",
+        "CLIPTextEncode",
+        "KSamplerSelect",
+        "ManualSigmas",
+        "MinimaxH3LatentUpscaler3D",
+        "MomentosUpscaleAV",
+        "MomentosUpscaleFinish",
+        "MomentosUpscaleSource",
+        "OpenH3RegenLora",
+        "RandomNoise",
+        "SamplerCustomAdvanced",
+        "SaveVideo",
+        "UNETLoader",
+        "VAEDecodeTiled",
+        "VAEEncodeTiled",
+        "VAELoader"
+      ]
+    }
+  ],
+  "packages": {
+    "momentos_workflows": {
+      "source": "server/momentos_workflows",
+      "destination": "custom_nodes/momentos_workflows"
+    },
+    "open_h3_regenerate": {
+      "repository": "https://github.com/rdh9616/ComfyUI-Open-H3-Regenerate",
+      "revision": "9b686c5ffd380e9d1351f9b8beef6d20d703ca3e",
+      "required_for": "open_h3_upscale_api.json"
+    },
+    "latent_upscaler": {
+      "repository": "https://github.com/LBH-123-AI/Comfyui_Minimax_h3_latent_Upscaler",
+      "required_schema": "MinimaxH3LatentUpscaler3D with mode.width, mode.height, keep_proportion and offload_after_upscale"
+    }
+  },
+  "notes": [
+    "Compact uses Kijai rank-16 refiner + existing LightX2V 8-step v1.0 rank-24 adapter, without LMS Sharp. Experimental adaptation, not equivalent to the full release.",
+    "Full release uses merged refiner/Turbo/Sharp, curve branches and the official sigma schedule. Native tiled H3 VAE replaces the optional fast decoder.",
+    "This catalog does not download weights. Explicit local installation was tested on 2026-10-30; validate each target server separately."
+  ]
+}

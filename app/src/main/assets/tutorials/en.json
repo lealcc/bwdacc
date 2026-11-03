@@ -1,0 +1,170 @@
+{
+  "labels": {
+    "tutorials": "Tutorials",
+    "subtitle": "Quick guides, always available offline.",
+    "replay": "Replay introduction",
+    "search": "Search tools or topics",
+    "empty": "No guides found.",
+    "skip": "Skip",
+    "next": "Continue",
+    "back": "Back",
+    "explore": "Explore the app",
+    "connect": "Connect my computer"
+  },
+  "intro": [
+    {
+      "title": "Your space to create",
+      "body": "Create images and videos, transform existing media and bring your ideas together.",
+      "hint": "bwdacc controls ComfyUI workflows. Your computer runs the generations.",
+      "icon": "image"
+    },
+    {
+      "title": "Your computer, connected",
+      "body": "Set up bwdacc Desktop with a new or existing ComfyUI installation. Then pair this phone.",
+      "hint": "On the same network, connect locally. Away from home, use your own Tailscale on both devices.",
+      "icon": "qr"
+    },
+    {
+      "title": "One idea. Many possibilities.",
+      "body": "Write in the prompt pill. Pick a workflow, aspect ratio and up to four results. Add images and Fragments.",
+      "hint": "Each workflow offers different features. Options depend on the model and installed nodes.",
+      "icon": "layers"
+    },
+    {
+      "title": "Keep what works going",
+      "body": "Open media to edit, animate, upscale or extend it. Swipe through versions and reuse a generation recipe.",
+      "hint": "Versions scroll vertically; other sets horizontally. Your selected version becomes the set cover.",
+      "icon": "edit"
+    },
+    {
+      "title": "Keep what matters",
+      "body": "Experiment in Prompter, save favorites with a double tap and organize your library in Projects.",
+      "hint": "These guides stay in Settings › App › Tutorials. Revisit them whenever you need.",
+      "icon": "grid"
+    }
+  ],
+  "topics": [
+    {
+      "title": "Connect to your computer",
+      "summary": "Local pairing and access away from home.",
+      "steps": [
+        "In bwdacc Desktop, install a separate ComfyUI or connect an existing installation. Start the server.",
+        "On your phone, open Settings › Connection and pair with Desktop. Approve the device on your computer.",
+        "Use the same network for local access. Away from home, connect your own Tailscale on both devices and select the private connection in Desktop. Keep the PC on."
+      ],
+      "id": "connection",
+      "icon": "qr"
+    },
+    {
+      "title": "Create images and videos",
+      "summary": "Prompts, workflows, aspect ratios and batches.",
+      "steps": [
+        "Tap the compact pill to write. In the Image/Video selector, choose workflow, aspect ratio, resolution and result count where available.",
+        "Under + › Images, import up to three images. They join the Gallery and become references when supported. Library uses saved images.",
+        "Tap the arrow to generate. Queue and progress appear in the app; time depends on the PC, model and settings. Check the queue in Settings › Connection."
+      ],
+      "id": "create",
+      "icon": "image"
+    },
+    {
+      "title": "Fragments",
+      "summary": "Your collection of characters, styles and places.",
+      "steps": [
+        "Open Fragments from the top menu. Create characters, styles, locations, objects or compositions; search, edit and duplicate to organize them.",
+        "In prompts, use @ for characters, $ for styles, # for locations and & for objects. Choose allowed text, images, refmods and LoRAs for each Fragment.",
+        "Images and LoRAs are used only with compatible workflows. Fragment permissions cannot make a model compatible.",
+        "Swipe the categories sideways or tap View all. Under Audio, import or record up to 30 seconds with the microphone; save the fragment to use it for lip sync."
+      ],
+      "id": "fragments",
+      "icon": "layers"
+    },
+    {
+      "title": "Composition and maps",
+      "summary": "Boxes, object selection and control blocks.",
+      "steps": [
+        "On an image, use ⋮ › Extract composition for editable boxes. Select object lets you mark an element and save it as a Fragment. Analysis models must be installed on the server.",
+        "In Fragments › Blocks, add depth, pose, lineart or other maps. Import a ready-made map or extract one using preprocessors installed in ComfyUI.",
+        "Blocks can be saved and edited, but their maps are not yet applied to generations. Boxes also require a compatible workflow."
+      ],
+      "id": "controls",
+      "icon": "depth"
+    },
+    {
+      "title": "Edit and reuse",
+      "summary": "Versions without losing your starting point.",
+      "steps": [
+        "Open media and describe what to change. Image edits stay with images; video edits stay with videos.",
+        "Swipe vertically between versions and horizontally between sets. When you leave, the selected version becomes the set cover.",
+        "Reuse prompt restores the saved recipe: prompt, references, LoRAs and options. For an edit, it returns to the original reference. Required files and models must remain available."
+      ],
+      "id": "editing",
+      "icon": "edit"
+    },
+    {
+      "title": "Animate, extend and upscale",
+      "summary": "Tools in the media menu.",
+      "steps": [
+        "Open an image to animate it. The result becomes a new video set. Videos can also start from text alone, depending on the workflow.",
+        "In first/last frame mode, add frames to the two named fields. To extend, open ⋮ › Extend video and adjust start/end before submitting.",
+        "Use ⋮ › Upscale for images or videos. Editing, extension and upscaling require compatible workflows, nodes, models and memory on the server."
+      ],
+      "id": "video",
+      "icon": "video"
+    },
+    {
+      "id": "lipsync",
+      "icon": "lipsync",
+      "title": "Lip sync with MuseTalk",
+      "summary": "Make an image or video speak to your audio.",
+      "steps": [
+        "Open the media editor and choose ⋮ › Lip sync. Import audio, record with the microphone, or choose an audio Fragment lasting 0.2–30 seconds.",
+        "Use one visible, front-facing face. For video, audio must fit the clip and replaces original sound. Images create a new video; videos create a version.",
+        "MuseTalk 1.5 must be installed on the connected computer. Generation runs locally. Audio stays in the app vault for recipe reuse and is removed when the result is deleted."
+      ]
+    },
+    {
+      "title": "LoRAs and agent",
+      "summary": "Appearance adjustments and prompt preparation.",
+      "steps": [
+        "Tap the LoRAs pill beside the generation selector. Choose compatible adapters and adjust weights with − and +.",
+        "Selected adapters appear first when you reopen the list. Switching workflows may change the available LoRAs.",
+        "The star enables the prompt agent in supported workflows. The agent needs its LLM on the server and may change how your text is interpreted."
+      ],
+      "id": "loras",
+      "icon": "style"
+    },
+    {
+      "title": "Prompter",
+      "summary": "Test, refine and save what you like.",
+      "steps": [
+        "Open Prompter from the top menu. Your prompt stays after generation so you can keep refining it.",
+        "Double-tap media or use the heart to save it to your collection. It then appears in Feed and Gallery.",
+        "Unsaved generations expire from the app after 24 hours. Clearing Prompter removes temporary tests; ComfyUI files remain."
+      ],
+      "id": "prompter",
+      "icon": "flask"
+    },
+    {
+      "title": "Gallery, Feed and Projects",
+      "summary": "Find and organize your creations.",
+      "steps": [
+        "The top menu switches between Feed, Gallery, Prompter, Projects and Fragments. Gallery is your collection; Feed displays your posts.",
+        "Create a project, choose a cover and add media from its menu. Rename projects to suit your work.",
+        "Deleting from Gallery removes media from every area of the app. Use multi-selection to delete several items. Review the confirmation before deleting."
+      ],
+      "id": "library",
+      "icon": "grid"
+    },
+    {
+      "title": "Storage and settings",
+      "summary": "Your collection, backups and preferences.",
+      "steps": [
+        "Media and collection data are encrypted in app storage. Copies on your computer or server have their own protection and retention.",
+        "In Settings › App, create a backup and keep its code separately. Without a valid backup and code, losing the key or device may prevent recovery.",
+        "Here you can adjust language, autoplay and tilt lighting. Generation settings contain memory profiles and available advanced options. Clear generations deletes the app collection."
+      ],
+      "id": "storage",
+      "icon": "folder"
+    }
+  ]
+}

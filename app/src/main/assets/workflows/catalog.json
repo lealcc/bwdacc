@@ -1,0 +1,1968 @@
+{
+  "schema_version": 1,
+  "catalog_version": "2026.11.02.1",
+  "graph_format": "comfyui_api",
+  "sources": {
+    "private_conditioning": "https://github.com/nova452/Rebalance-Pack",
+    "ideogram_private_adapter": "https://huggingface.co/Giovska97/lorahot1/blob/e67730e025204e27febf3b9ed8c41a7cb34b7fc7/ideogramSnofsV1.safetensors",
+    "ideogram": "https://github.com/Comfy-Org/workflow_templates/blob/main/templates/image_ideogram4_t2i.json",
+    "ideogram_turbotime": "https://huggingface.co/ostris/ideogram_4_turbotime_lora",
+    "ideogram_layout": "https://github.com/kijai/ComfyUI-KJNodes/blob/main/nodes/ideogram4_nodes.py",
+    "moss": "https://github.com/OpenMOSS/MOSS-Image/blob/main/gradio_app.py",
+    "moss_layout": "https://github.com/OpenMOSS/MOSS-Image/blob/main/USERGUIDE.md",
+    "moss_8gb_experimental": "https://github.com/RealRebelAI/ComfyUI-MOSS-GGUF",
+    "kromoss": "https://huggingface.co/lodestones/Kromoss",
+    "h3": "https://github.com/Comfy-Org/docs/blob/main/tutorials/video/minimax/minimax-h3.mdx",
+    "h3_16gb": "https://github.com/kasei-san/minimax-h3-comfyui-workflows",
+    "h3_8gb": "https://github.com/FlowForgeLabAi/MiniMax-H3-8GB-Workflows",
+    "h3_extension": "https://github.com/Comfy-Org/docs/blob/main/tutorials/video/minimax/minimax-h3-native.mdx",
+    "krea2": "https://github.com/krea-ai/krea-2",
+    "krea2_turbo": "https://github.com/Comfy-Org/workflow_templates/blob/main/templates/image_krea2_turbo_t2i.json",
+    "krea2_4step": "https://huggingface.co/lvladikov/Krea2-Turbo-Distill-4step-LoRA"
+  },
+  "packages": {
+    "rebalance": {
+      "repository": "https://github.com/nova452/Rebalance-Pack",
+      "revision": "9ab5315e6aa8ec8cd14cc5354739d938c6fb101b",
+      "destination": "custom_nodes/ComfyUI-ConditioningKrea2Rebalance"
+    },
+    "comfyui": {
+      "repository": "https://github.com/Comfy-Org/ComfyUI",
+      "revision": "c06bf5f569d268b80076e5f44126f87cdf835869",
+      "destination": "."
+    },
+    "kjnodes": {
+      "repository": "https://github.com/kijai/ComfyUI-KJNodes",
+      "revision": "073efb07419f56cc714e099a82e49fbc23ad9263",
+      "destination": "custom_nodes/ComfyUI-KJNodes"
+    },
+    "rgthree": {
+      "repository": "https://github.com/rgthree/rgthree-comfy",
+      "revision": "738105af5fb14e96fbecaf406dc356e284797e8c",
+      "destination": "custom_nodes/rgthree-comfy"
+    },
+    "momentos": {
+      "bundled_source": "server/momentos_workflows",
+      "destination": "custom_nodes/momentos_workflows",
+      "runtime": [
+        "ffmpeg",
+        "av",
+        "numpy",
+        "torch"
+      ]
+    }
+  },
+  "models": {
+    "loras/ideogram4/ideogramSnofsV1.safetensors": {
+      "filename": "ideogramSnofsV1.safetensors",
+      "destination": "models/loras/ideogram4/ideogramSnofsV1.safetensors",
+      "repository": "Giovska97/lorahot1",
+      "revision": "e67730e025204e27febf3b9ed8c41a7cb34b7fc7",
+      "url": "https://huggingface.co/Giovska97/lorahot1/resolve/e67730e025204e27febf3b9ed8c41a7cb34b7fc7/ideogramSnofsV1.safetensors",
+      "sha256": "e8fd6d2431d55f6d1efde56af5f54e7a24fd66837762dbdf471a2d79ef159b0b",
+      "bytes": 1123105160,
+      "gated": false,
+      "license": "Verify original author terms before redistribution; mirror metadata is not authoritative",
+      "model_card": "https://huggingface.co/Giovska97/lorahot1",
+      "private_mode_only": true
+    },
+    "diffusion_models/ideogram4_fp8_scaled.safetensors": {
+      "filename": "ideogram4_fp8_scaled.safetensors",
+      "destination": "models/diffusion_models/ideogram4_fp8_scaled.safetensors",
+      "repository": "Comfy-Org/Ideogram-4",
+      "revision": "2aa6c75ce6d5fabded0ca4d0f76abbfaf8edc87d",
+      "url": "https://huggingface.co/Comfy-Org/Ideogram-4/resolve/2aa6c75ce6d5fabded0ca4d0f76abbfaf8edc87d/diffusion_models/ideogram4_fp8_scaled.safetensors",
+      "sha256": "49a946f1b0f8bcf5eab7d3b1ecc7b453c104e034cb1b592032745692724bd306",
+      "bytes": 9280741285,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/Ideogram-4"
+    },
+    "diffusion_models/ideogram4_unconditional_fp8_scaled.safetensors": {
+      "filename": "ideogram4_unconditional_fp8_scaled.safetensors",
+      "destination": "models/diffusion_models/ideogram4_unconditional_fp8_scaled.safetensors",
+      "repository": "Comfy-Org/Ideogram-4",
+      "revision": "2aa6c75ce6d5fabded0ca4d0f76abbfaf8edc87d",
+      "url": "https://huggingface.co/Comfy-Org/Ideogram-4/resolve/2aa6c75ce6d5fabded0ca4d0f76abbfaf8edc87d/diffusion_models/ideogram4_unconditional_fp8_scaled.safetensors",
+      "sha256": "9b359007dae162cca7591d00868feea733eb7c56e56e3a214a4d5a9a2a07cd60",
+      "bytes": 9280741293,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/Ideogram-4"
+    },
+    "text_encoders/qwen3vl_8b_fp8_scaled.safetensors": {
+      "filename": "qwen3vl_8b_fp8_scaled.safetensors",
+      "destination": "models/text_encoders/qwen3vl_8b_fp8_scaled.safetensors",
+      "repository": "Comfy-Org/Ideogram-4",
+      "revision": "2aa6c75ce6d5fabded0ca4d0f76abbfaf8edc87d",
+      "url": "https://huggingface.co/Comfy-Org/Ideogram-4/resolve/2aa6c75ce6d5fabded0ca4d0f76abbfaf8edc87d/text_encoders/qwen3vl_8b_fp8_scaled.safetensors",
+      "sha256": "4ba424cf62e51392e4d1a39933e803706f4e823c1065f36aaf149c6453f66bcd",
+      "bytes": 10588637512,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/Ideogram-4"
+    },
+    "vae/flux2-vae.safetensors": {
+      "filename": "flux2-vae.safetensors",
+      "destination": "models/vae/flux2-vae.safetensors",
+      "repository": "Comfy-Org/Flux-2-Klein-9B",
+      "revision": "1138ce884c8e977cdacacbe779784fec4426bb3f",
+      "url": "https://huggingface.co/Comfy-Org/Flux-2-Klein-9B/resolve/1138ce884c8e977cdacacbe779784fec4426bb3f/split_files/vae/flux2-vae.safetensors",
+      "sha256": "868fe7b343cc8f3a19dbcfcafbc3d5f888802be3f89bd81b65b3621a066ce8f3",
+      "bytes": 336211292,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/Flux-2-Klein-9B"
+    },
+    "loras/ideogram4/ideogram_4_turbotime_v1.safetensors": {
+      "filename": "ideogram_4_turbotime_v1.safetensors",
+      "destination": "models/loras/ideogram4/ideogram_4_turbotime_v1.safetensors",
+      "repository": "ostris/ideogram_4_turbotime_lora",
+      "revision": "63f528b4fa97bb3be64dff89096c83b8e9b84b87",
+      "url": "https://huggingface.co/ostris/ideogram_4_turbotime_lora/resolve/63f528b4fa97bb3be64dff89096c83b8e9b84b87/ideogram_4_turbotime_v1.safetensors",
+      "sha256": "e44a95e54b417d90492538f0bdfdb73be4f2234399035a10fa53f534399672ef",
+      "bytes": 846778576,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/ostris/ideogram_4_turbotime_lora"
+    },
+    "diffusion_models/moss_image_sft_int8_convrot.safetensors": {
+      "filename": "moss_image_sft_int8_convrot.safetensors",
+      "destination": "models/diffusion_models/moss_image_sft_int8_convrot.safetensors",
+      "repository": "Comfy-Org/MOSS-Image",
+      "revision": "530a4c94f92c35ef6818b1b035a983fe9dcf5f54",
+      "url": "https://huggingface.co/Comfy-Org/MOSS-Image/resolve/530a4c94f92c35ef6818b1b035a983fe9dcf5f54/diffusion_models/moss_image_sft_int8_convrot.safetensors",
+      "sha256": "b4d1475bc7eeffd7b809e82ea13a1fba1fb85c4e18365af3813722faa5c0fe4f",
+      "bytes": 5413698958,
+      "gated": false,
+      "license": "apache-2.0",
+      "model_card": "https://huggingface.co/Comfy-Org/MOSS-Image"
+    },
+    "text_encoders/qwen3.5_9b_int8_convrot.safetensors": {
+      "filename": "qwen3.5_9b_int8_convrot.safetensors",
+      "destination": "models/text_encoders/qwen3.5_9b_int8_convrot.safetensors",
+      "repository": "Comfy-Org/MOSS-Image",
+      "revision": "530a4c94f92c35ef6818b1b035a983fe9dcf5f54",
+      "url": "https://huggingface.co/Comfy-Org/MOSS-Image/resolve/530a4c94f92c35ef6818b1b035a983fe9dcf5f54/text_encoders/qwen3.5_9b_int8_convrot.safetensors",
+      "sha256": "32e3787472f708fa5f83624acbf5ef23f7fc89c439e05065ea57cfe5a97f025a",
+      "bytes": 9748121532,
+      "gated": false,
+      "license": "apache-2.0",
+      "model_card": "https://huggingface.co/Comfy-Org/MOSS-Image"
+    },
+    "diffusion_models/kromoss_int8_convrot.safetensors": {
+      "filename": "kromoss_int8_convrot.safetensors",
+      "destination": "models/diffusion_models/kromoss_int8_convrot.safetensors",
+      "repository": "lodestones/Kromoss",
+      "revision": "a4fe97449297af2e3be7841e1c18e431f3b06031",
+      "url": "https://huggingface.co/lodestones/Kromoss/resolve/a4fe97449297af2e3be7841e1c18e431f3b06031/diffusion_models/kromoss_int8_convrot.safetensors",
+      "sha256": "cacff0dd25cd2cf531e1f5ddae7872c3d57a54dbf66f1a1279f2f118514e7905",
+      "bytes": 5413698958,
+      "gated": false,
+      "license": "apache-2.0",
+      "model_card": "https://huggingface.co/lodestones/Kromoss"
+    },
+    "loras/8-steps-dmd-lora.safetensors": {
+      "filename": "8-steps-dmd-lora.safetensors",
+      "destination": "models/loras/8-steps-dmd-lora.safetensors",
+      "repository": "lodestones/Kromoss",
+      "revision": "a4fe97449297af2e3be7841e1c18e431f3b06031",
+      "url": "https://huggingface.co/lodestones/Kromoss/resolve/a4fe97449297af2e3be7841e1c18e431f3b06031/8-steps-dmd-lora.safetensors",
+      "sha256": "f0e6cd07f222dfaea798afe3b796e2c2995cadfd44ad56e02ca616f0467aec28",
+      "bytes": 1189176800,
+      "gated": false,
+      "license": "apache-2.0",
+      "model_card": "https://huggingface.co/lodestones/Kromoss"
+    },
+    "vae/full_encoder_small_decoder.safetensors": {
+      "filename": "full_encoder_small_decoder.safetensors",
+      "destination": "models/vae/full_encoder_small_decoder.safetensors",
+      "repository": "black-forest-labs/FLUX.2-small-decoder",
+      "revision": "a3efc24f613ef42d9428af62fdbd6f5fd8856c4a",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.2-small-decoder/resolve/a3efc24f613ef42d9428af62fdbd6f5fd8856c4a/full_encoder_small_decoder.safetensors",
+      "sha256": "ea4273f02d1fafbf8e1d1c2cf6018ed8748652eb0bf34f2dd91171f16f15ab62",
+      "bytes": 249519092,
+      "gated": false,
+      "license": "apache-2.0",
+      "model_card": "https://huggingface.co/black-forest-labs/FLUX.2-small-decoder"
+    },
+    "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors": {
+      "filename": "minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+      "destination": "models/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+      "repository": "Comfy-Org/MiniMax-H3",
+      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/912b6e38b2092ec4d2e86d24183e0d59ea059d48/diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+      "sha256": "e889202c41dafb67b10d67b97f0d8541508036a6090af23425a5c2615d03c47a",
+      "bytes": 20970379616,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/MiniMax-H3"
+    },
+    "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors": {
+      "filename": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "destination": "models/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "repository": "Comfy-Org/MiniMax-H3",
+      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/912b6e38b2092ec4d2e86d24183e0d59ea059d48/text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+      "sha256": "35a88d51044231fe332301d7a62aa81e3f2cba62febeb446e2c1e3e0ef76f2c6",
+      "bytes": 15687142551,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/MiniMax-H3"
+    },
+    "vae/minimax_h3_audio_vae_fp32.safetensors": {
+      "filename": "minimax_h3_audio_vae_fp32.safetensors",
+      "destination": "models/vae/minimax_h3_audio_vae_fp32.safetensors",
+      "repository": "Comfy-Org/MiniMax-H3",
+      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/912b6e38b2092ec4d2e86d24183e0d59ea059d48/vae/minimax_h3_audio_vae_fp32.safetensors",
+      "sha256": "8e505d95dd1561d47abd43d4238fd40d9bb1ae9e147ed0a4cba778d76ae4db48",
+      "bytes": 605254808,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/MiniMax-H3"
+    },
+    "vae/minimax_h3_video_vae_fp16.safetensors": {
+      "filename": "minimax_h3_video_vae_fp16.safetensors",
+      "destination": "models/vae/minimax_h3_video_vae_fp16.safetensors",
+      "repository": "Comfy-Org/MiniMax-H3",
+      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/912b6e38b2092ec4d2e86d24183e0d59ea059d48/vae/minimax_h3_video_vae_fp16.safetensors",
+      "sha256": "7c1f131492e7eddacaac9069a61b81bdd39de5cc96561e677c5eab1cdce5e522",
+      "bytes": 5207808496,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/MiniMax-H3"
+    },
+    "vae/minimax_h3_video_vae_int8_convrot.safetensors": {
+      "filename": "minimax_h3_video_vae_int8_convrot.safetensors",
+      "destination": "models/vae/minimax_h3_video_vae_int8_convrot.safetensors",
+      "repository": "Comfy-Org/MiniMax-H3",
+      "revision": "912b6e38b2092ec4d2e86d24183e0d59ea059d48",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/912b6e38b2092ec4d2e86d24183e0d59ea059d48/vae/minimax_h3_video_vae_int8_convrot.safetensors",
+      "sha256": "52a2c8c73583c86e4f41cdcce3a6ad0ea562987bc0bf3d60a0cef5f5c8e60c0e",
+      "bytes": 2811065184,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/MiniMax-H3"
+    },
+    "loras/minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors": {
+      "filename": "minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors",
+      "destination": "models/loras/minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors",
+      "repository": "Kijai/MiniMax-H3_comfy",
+      "revision": "4c24460ce97e4c4b01acfe7ebcb7e01e1a86a234",
+      "url": "https://huggingface.co/Kijai/MiniMax-H3_comfy/resolve/4c24460ce97e4c4b01acfe7ebcb7e01e1a86a234/loras/minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors",
+      "sha256": "3a069f26fbc33f377a60dc72dd9e15f2aa42aa1d1b44915fded835716672dd36",
+      "bytes": 314878200,
+      "gated": false,
+      "license": "See upstream model card",
+      "model_card": "https://huggingface.co/Kijai/MiniMax-H3_comfy"
+    },
+    "loras/minimax_h3_turbo_v4_step600_comfyui_T8-convert.safetensors": {
+      "filename": "minimax_h3_turbo_v4_step600_comfyui_T8-convert.safetensors",
+      "destination": "models/loras/minimax_h3_turbo_v4_step600_comfyui_T8-convert.safetensors",
+      "repository": "t8star/minimax-h3-4step-turbo-loras-comfyui-exp",
+      "revision": "daf9dc88ea667729c962cf3e1a49d844bc240e98",
+      "url": "https://huggingface.co/t8star/minimax-h3-4step-turbo-loras-comfyui-exp/resolve/daf9dc88ea667729c962cf3e1a49d844bc240e98/minimax_h3_turbo_v4_step600_comfyui_T8-convert.safetensors",
+      "sha256": "4f67370c6c4dbbec0733830ce33a67d2807f88545dddd2f21e162f25625ad952",
+      "bytes": 779858903,
+      "gated": false,
+      "license": "See upstream model card",
+      "model_card": "https://huggingface.co/t8star/minimax-h3-4step-turbo-loras-comfyui-exp"
+    },
+    "diffusion_models/krea2/krea2_raw_fp8_scaled.safetensors": {
+      "filename": "krea2_raw_fp8_scaled.safetensors",
+      "destination": "models/diffusion_models/krea2/krea2_raw_fp8_scaled.safetensors",
+      "repository": "Comfy-Org/Krea-2",
+      "revision": "1171f4dc7e325bf3734586942e737872506c73e1",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/1171f4dc7e325bf3734586942e737872506c73e1/diffusion_models/krea2_raw_fp8_scaled.safetensors",
+      "sha256": "48cd5d6c100297968349b41a8e77c6591d1dac18a215807f5f25f59e5c54cd61",
+      "bytes": 13141730784,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/Krea-2"
+    },
+    "text_encoders/qwen3vl_4b_fp8_scaled.safetensors": {
+      "filename": "qwen3vl_4b_fp8_scaled.safetensors",
+      "destination": "models/text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+      "repository": "Comfy-Org/Krea-2",
+      "revision": "1171f4dc7e325bf3734586942e737872506c73e1",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/1171f4dc7e325bf3734586942e737872506c73e1/text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+      "sha256": "54bd5144df0bbc25dd6ccadfcb826b521445a1b06ae5a42570bdd2974ca87094",
+      "bytes": 5242467968,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/Krea-2"
+    },
+    "vae/qwen_image_vae.safetensors": {
+      "filename": "qwen_image_vae.safetensors",
+      "destination": "models/vae/qwen_image_vae.safetensors",
+      "repository": "Comfy-Org/Krea-2",
+      "revision": "1171f4dc7e325bf3734586942e737872506c73e1",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/1171f4dc7e325bf3734586942e737872506c73e1/vae/qwen_image_vae.safetensors",
+      "sha256": "a70580f0213e67967ee9c95f05bb400e8fb08307e017a924bf3441223e023d1f",
+      "bytes": 253806246,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/Krea-2"
+    },
+    "diffusion_models/krea2/krea2_turbo_fp8_scaled.safetensors": {
+      "filename": "krea2_turbo_fp8_scaled.safetensors",
+      "destination": "models/diffusion_models/krea2/krea2_turbo_fp8_scaled.safetensors",
+      "repository": "Comfy-Org/Krea-2",
+      "revision": "1171f4dc7e325bf3734586942e737872506c73e1",
+      "url": "https://huggingface.co/Comfy-Org/Krea-2/resolve/1171f4dc7e325bf3734586942e737872506c73e1/diffusion_models/krea2_turbo_fp8_scaled.safetensors",
+      "sha256": "eb4dd8c612cfd10f64f25b057e6e6bbcb5737c94a7372177e456dbf7579502f1",
+      "bytes": 13141730784,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/Comfy-Org/Krea-2"
+    },
+    "loras/krea2/krea2_turbo_4step_rank_64_lora_comfyui.safetensors": {
+      "filename": "krea2_turbo_4step_rank_64_lora_comfyui.safetensors",
+      "destination": "models/loras/krea2/krea2_turbo_4step_rank_64_lora_comfyui.safetensors",
+      "repository": "lvladikov/Krea2-Turbo-Distill-4step-LoRA",
+      "revision": "f7f9cf0396cd22d7e0285ac571f9c4f8137b1cd3",
+      "url": "https://huggingface.co/lvladikov/Krea2-Turbo-Distill-4step-LoRA/resolve/f7f9cf0396cd22d7e0285ac571f9c4f8137b1cd3/krea2_turbo_4step_rank_64_lora_comfyui.safetensors",
+      "sha256": "7590b2d2772f45d7b1252124c63918b1b807e93fbf9eab20546fa7233b4dc482",
+      "bytes": 438140968,
+      "gated": false,
+      "license": "other",
+      "model_card": "https://huggingface.co/lvladikov/Krea2-Turbo-Distill-4step-LoRA"
+    }
+  },
+  "workflows": [
+    {
+      "id": "ideogram4_t2i_api",
+      "name": "Ideogram 4",
+      "base_graph": "ideogram4_t2i_api.json",
+      "family": "ideogram",
+      "capabilities": {
+        "text_to_image": true,
+        "boxes": true,
+        "boxes_experimental": false,
+        "text_to_video": false,
+        "image_to_video": false,
+        "first_last_frame": false,
+        "video_extension": false,
+        "batch_max": 4
+      },
+      "profiles": {
+        "24plus": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "ideogram"
+          ],
+          "graph": "profiles/ideogram4_t2i_api_24plus.json",
+          "sha256": "3ee66557c607bc6e35947b3e99688ae6d67ae60f96aca998992b15488890f390",
+          "model_dependencies": [
+            "diffusion_models/ideogram4_fp8_scaled.safetensors",
+            "diffusion_models/ideogram4_unconditional_fp8_scaled.safetensors",
+            "text_encoders/qwen3vl_8b_fp8_scaled.safetensors",
+            "vae/flux2-vae.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "DualModelGuider",
+            "EmptyFlux2LatentImage",
+            "Ideogram4OptimizationsKJ",
+            "Ideogram4PromptBuilderKJ",
+            "Ideogram4Scheduler",
+            "KSamplerSelect",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveImage",
+            "UNETLoader",
+            "VAEDecode",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "24": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "ideogram"
+          ],
+          "graph": "profiles/ideogram4_t2i_api_24.json",
+          "sha256": "c9a6708a60fea128e5488ec574f59900e09a140d03b6378057e90e2d13b65786",
+          "model_dependencies": [
+            "diffusion_models/ideogram4_fp8_scaled.safetensors",
+            "diffusion_models/ideogram4_unconditional_fp8_scaled.safetensors",
+            "text_encoders/qwen3vl_8b_fp8_scaled.safetensors",
+            "vae/flux2-vae.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "DualModelGuider",
+            "EmptyFlux2LatentImage",
+            "Ideogram4OptimizationsKJ",
+            "Ideogram4PromptBuilderKJ",
+            "Ideogram4Scheduler",
+            "KSamplerSelect",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveImage",
+            "UNETLoader",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "16": {
+          "status": "unavailable",
+          "reason": "Indisponível em 16 GB: este pacote inclui Ideogram FP8 para 24 GB ou mais; a rota GGUF menor ainda exige integração e validação.",
+          "evidence": [
+            "ideogram"
+          ]
+        },
+        "8": {
+          "status": "unavailable",
+          "reason": "Indisponível em 8 GB: este pacote inclui Ideogram FP8 para 24 GB ou mais; a rota GGUF menor ainda exige integração e validação.",
+          "evidence": [
+            "ideogram"
+          ]
+        }
+      }
+    },
+    {
+      "id": "ideogram4_turbotime_api",
+      "name": "Ideogram 4 TurboTime",
+      "base_graph": "ideogram4_turbotime_api.json",
+      "family": "ideogram",
+      "capabilities": {
+        "text_to_image": true,
+        "boxes": true,
+        "boxes_experimental": false,
+        "text_to_video": false,
+        "image_to_video": false,
+        "first_last_frame": false,
+        "video_extension": false,
+        "batch_max": 4
+      },
+      "profiles": {
+        "24plus": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "ideogram",
+            "ideogram_turbotime"
+          ],
+          "graph": "profiles/ideogram4_turbotime_api_24plus.json",
+          "sha256": "dfb839c254901064ef5116cf35bb5994e9b3b91a6b636d5d70376cbe935b87c8",
+          "model_dependencies": [
+            "diffusion_models/ideogram4_fp8_scaled.safetensors",
+            "loras/ideogram4/ideogram_4_turbotime_v1.safetensors",
+            "text_encoders/qwen3vl_8b_fp8_scaled.safetensors",
+            "vae/flux2-vae.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "EmptyFlux2LatentImage",
+            "Ideogram4OptimizationsKJ",
+            "Ideogram4PromptBuilderKJ",
+            "Ideogram4Scheduler",
+            "KSamplerSelect",
+            "LoraLoaderModelOnly",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveImage",
+            "UNETLoader",
+            "VAEDecode",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "24": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "ideogram",
+            "ideogram_turbotime"
+          ],
+          "graph": "profiles/ideogram4_turbotime_api_24.json",
+          "sha256": "7a1f60bed4d20c839fd442e1bbf7db2056a3bbad800cdf8f8385e1a18b45fd1a",
+          "model_dependencies": [
+            "diffusion_models/ideogram4_fp8_scaled.safetensors",
+            "loras/ideogram4/ideogram_4_turbotime_v1.safetensors",
+            "text_encoders/qwen3vl_8b_fp8_scaled.safetensors",
+            "vae/flux2-vae.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "EmptyFlux2LatentImage",
+            "Ideogram4OptimizationsKJ",
+            "Ideogram4PromptBuilderKJ",
+            "Ideogram4Scheduler",
+            "KSamplerSelect",
+            "LoraLoaderModelOnly",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveImage",
+            "UNETLoader",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "16": {
+          "status": "unavailable",
+          "reason": "Indisponível em 16 GB: este pacote inclui Ideogram FP8 para 24 GB ou mais; a rota GGUF menor ainda exige integração e validação.",
+          "evidence": [
+            "ideogram",
+            "ideogram_turbotime"
+          ]
+        },
+        "8": {
+          "status": "unavailable",
+          "reason": "Indisponível em 8 GB: este pacote inclui Ideogram FP8 para 24 GB ou mais; a rota GGUF menor ainda exige integração e validação.",
+          "evidence": [
+            "ideogram",
+            "ideogram_turbotime"
+          ]
+        }
+      }
+    },
+    {
+      "id": "moss_t2i_api",
+      "name": "MOSS Image SFT",
+      "base_graph": "moss_t2i_api.json",
+      "family": "moss",
+      "capabilities": {
+        "text_to_image": true,
+        "boxes": true,
+        "boxes_experimental": true,
+        "text_to_video": false,
+        "image_to_video": false,
+        "first_last_frame": false,
+        "video_extension": false,
+        "batch_max": 4
+      },
+      "profiles": {
+        "24plus": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "moss"
+          ],
+          "graph": "profiles/moss_t2i_api_24plus.json",
+          "sha256": "e39cc03aa9c2c903b0fecd771156a0e5d7209a53d080565038781f38c9b76263",
+          "model_dependencies": [
+            "diffusion_models/moss_image_sft_int8_convrot.safetensors",
+            "text_encoders/qwen3.5_9b_int8_convrot.safetensors",
+            "vae/flux2-vae.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "EmptyFlux2LatentImage",
+            "KSampler",
+            "ModelSamplingAuraFlow",
+            "Power Lora Loader (rgthree)",
+            "SaveImage",
+            "SkipLayerGuidanceDiTSimple",
+            "UNETLoader",
+            "VAEDecode",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "24": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "moss"
+          ],
+          "graph": "profiles/moss_t2i_api_24.json",
+          "sha256": "b5b3672934cf0901734612d0cdcde74a037d35d5c0463fb8e77412683ac26255",
+          "model_dependencies": [
+            "diffusion_models/moss_image_sft_int8_convrot.safetensors",
+            "text_encoders/qwen3.5_9b_int8_convrot.safetensors",
+            "vae/flux2-vae.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "EmptyFlux2LatentImage",
+            "KSampler",
+            "ModelSamplingAuraFlow",
+            "Power Lora Loader (rgthree)",
+            "SaveImage",
+            "SkipLayerGuidanceDiTSimple",
+            "UNETLoader",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "16": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "moss"
+          ],
+          "graph": "profiles/moss_t2i_api_16.json",
+          "sha256": "512dc13157bdb74c7175c169b15d53a28358b49e63ae2fe44c6b84fed8a4507c",
+          "model_dependencies": [
+            "diffusion_models/moss_image_sft_int8_convrot.safetensors",
+            "text_encoders/qwen3.5_9b_int8_convrot.safetensors",
+            "vae/flux2-vae.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "EmptyFlux2LatentImage",
+            "KSampler",
+            "ModelMemoryUsageFactorOverride",
+            "ModelSamplingAuraFlow",
+            "Power Lora Loader (rgthree)",
+            "SaveImage",
+            "SkipLayerGuidanceDiTSimple",
+            "UNETLoader",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "8": {
+          "status": "unavailable",
+          "reason": "Indisponível em 8 GB: a rota GGUF publicada validou MOSS Base, mas ainda não MOSS SFT incluído neste pacote.",
+          "evidence": [
+            "moss"
+          ]
+        }
+      }
+    },
+    {
+      "id": "kromoss_t2i_api",
+      "name": "Kromoss · 8 passos",
+      "base_graph": "kromoss_t2i_api.json",
+      "family": "kromoss",
+      "capabilities": {
+        "text_to_image": true,
+        "boxes": true,
+        "boxes_experimental": true,
+        "text_to_video": false,
+        "image_to_video": false,
+        "first_last_frame": false,
+        "video_extension": false,
+        "batch_max": 4
+      },
+      "profiles": {
+        "24plus": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "kromoss"
+          ],
+          "graph": "profiles/kromoss_t2i_api_24plus.json",
+          "sha256": "17b88038e15d7dc47d012930e2b1d341faeb32b6ea52f95930248c8b3c952507",
+          "model_dependencies": [
+            "diffusion_models/kromoss_int8_convrot.safetensors",
+            "loras/8-steps-dmd-lora.safetensors",
+            "text_encoders/qwen3.5_9b_int8_convrot.safetensors",
+            "vae/full_encoder_small_decoder.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "ComfySwitchNode",
+            "EmptyFlux2LatentImage",
+            "KSampler",
+            "Power Lora Loader (rgthree)",
+            "PreviewAny",
+            "PrimitiveInt",
+            "PrimitiveStringMultiline",
+            "ResolutionSelector",
+            "SaveImage",
+            "SkipLayerGuidanceDiTSimple",
+            "TextGenerate",
+            "UNETLoader",
+            "VAEDecode",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false,
+          "evidence_note": "Memory strategy inherited from MOSS; the author documents identical architecture/encoder/VAE. Not a separate 16 GB Kromoss benchmark."
+        },
+        "24": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "kromoss"
+          ],
+          "graph": "profiles/kromoss_t2i_api_24.json",
+          "sha256": "096ebe3f2f5ed3d814ccf582fb2812e43f4c3eb816f5eca82f25fbc4cdd49dda",
+          "model_dependencies": [
+            "diffusion_models/kromoss_int8_convrot.safetensors",
+            "loras/8-steps-dmd-lora.safetensors",
+            "text_encoders/qwen3.5_9b_int8_convrot.safetensors",
+            "vae/full_encoder_small_decoder.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "ComfySwitchNode",
+            "EmptyFlux2LatentImage",
+            "KSampler",
+            "Power Lora Loader (rgthree)",
+            "PreviewAny",
+            "PrimitiveInt",
+            "PrimitiveStringMultiline",
+            "ResolutionSelector",
+            "SaveImage",
+            "SkipLayerGuidanceDiTSimple",
+            "TextGenerate",
+            "UNETLoader",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false,
+          "evidence_note": "Memory strategy inherited from MOSS; the author documents identical architecture/encoder/VAE. Not a separate 16 GB Kromoss benchmark."
+        },
+        "16": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "kromoss"
+          ],
+          "graph": "profiles/kromoss_t2i_api_16.json",
+          "sha256": "43cdcb80cef0dc822dff069e1aa8186943693ed181acd11e488d1c51903f5bbe",
+          "model_dependencies": [
+            "diffusion_models/kromoss_int8_convrot.safetensors",
+            "loras/8-steps-dmd-lora.safetensors",
+            "text_encoders/qwen3.5_9b_int8_convrot.safetensors",
+            "vae/full_encoder_small_decoder.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "ComfySwitchNode",
+            "EmptyFlux2LatentImage",
+            "KSampler",
+            "ModelMemoryUsageFactorOverride",
+            "Power Lora Loader (rgthree)",
+            "PreviewAny",
+            "PrimitiveInt",
+            "PrimitiveStringMultiline",
+            "ResolutionSelector",
+            "SaveImage",
+            "SkipLayerGuidanceDiTSimple",
+            "TextGenerate",
+            "UNETLoader",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false,
+          "evidence_note": "Memory strategy inherited from MOSS; the author documents identical architecture/encoder/VAE. Not a separate 16 GB Kromoss benchmark."
+        },
+        "8": {
+          "status": "unavailable",
+          "reason": "Indisponível em 8 GB: nenhum workflow validado encontrado para este Kromoss INT8.",
+          "evidence": [
+            "kromoss"
+          ]
+        }
+      }
+    },
+    {
+      "id": "minimax_h3_i2v_api",
+      "name": "MiniMax H3",
+      "base_graph": "minimax_h3_i2v_api.json",
+      "family": "h3",
+      "capabilities": {
+        "text_to_image": false,
+        "boxes": false,
+        "boxes_experimental": false,
+        "text_to_video": true,
+        "image_to_video": true,
+        "first_last_frame": true,
+        "video_extension": true,
+        "batch_max": 4
+      },
+      "profiles": {
+        "24plus": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "h3",
+            "h3"
+          ],
+          "graph": "profiles/minimax_h3_i2v_api_24plus.json",
+          "sha256": "462eddf15b74d5f297a0a33426169ac9f24c1b3cd918098d498332e98c39213b",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3ImageToVideo",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecode",
+            "VAEDecodeAudio",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 0.66,
+            "seconds": 5
+          },
+          "extension_available": true
+        },
+        "24": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "h3",
+            "h3"
+          ],
+          "graph": "profiles/minimax_h3_i2v_api_24.json",
+          "sha256": "9b7f8c933a5be9ca5f96e8bc184b5bab267d4fc499b26f208590477f0ca2ac87",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3ImageToVideo",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecodeAudio",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 0.66,
+            "seconds": 5
+          },
+          "extension_available": true
+        },
+        "16": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "h3",
+            "h3_16gb"
+          ],
+          "graph": "profiles/minimax_h3_i2v_api_16.json",
+          "sha256": "19359d8feb696db04301d341d643ca1e143a3d137ad2843b48ab83a1e1ecc127",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3ImageToVideo",
+            "MiniMaxLowVRAMAttention",
+            "ModelMemoryUsageFactorOverride",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecodeAudio",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 0.66,
+            "seconds": 5
+          },
+          "extension_available": true
+        },
+        "8": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "h3",
+            "h3_8gb"
+          ],
+          "graph": "profiles/minimax_h3_i2v_api_8.json",
+          "sha256": "a5a1f9b72146ee1cf494c1b5852fd6c32ef5386f58a5864be2de023a837cbe0a",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3ImageToVideo",
+            "MiniMaxH3SigmaShift",
+            "MiniMaxLowVRAMAttention",
+            "ModelAttentionBackend",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecodeAudio",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 0.33,
+            "seconds": 5
+          },
+          "extension_available": false,
+          "launch_requirements": {
+            "include": [
+              "--disable-pinned-memory"
+            ],
+            "exclude": [
+              "--use-sage-attention",
+              "--use-flash-attention",
+              "--fp16-unet"
+            ],
+            "offload": "ComfyUI dynamic memory"
+          }
+        }
+      }
+    },
+    {
+      "id": "minimax_h3_turbo_api",
+      "name": "MiniMax H3 Turbo",
+      "base_graph": "minimax_h3_turbo_api.json",
+      "family": "h3",
+      "capabilities": {
+        "text_to_image": false,
+        "boxes": false,
+        "boxes_experimental": false,
+        "text_to_video": true,
+        "image_to_video": true,
+        "first_last_frame": true,
+        "video_extension": true,
+        "batch_max": 4
+      },
+      "profiles": {
+        "24plus": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "h3",
+            "h3"
+          ],
+          "graph": "profiles/minimax_h3_turbo_api_24plus.json",
+          "sha256": "b97b21303b699bc3d6da401d6bae09518dbc7657ba269cea797663ad6f244e4a",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "loras/minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3ImageToVideo",
+            "MiniMaxH3MemoryEfficientSageAttentionPatch",
+            "ModelAttentionBackend",
+            "Power Lora Loader (rgthree)",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecode",
+            "VAEDecodeAudio",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 0.66,
+            "seconds": 5
+          },
+          "extension_available": true
+        },
+        "24": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "h3",
+            "h3"
+          ],
+          "graph": "profiles/minimax_h3_turbo_api_24.json",
+          "sha256": "068dc3974169cd704ab3fd9a9332cdaa37634331d004ff9c8b02f31600a40db9",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "loras/minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3ImageToVideo",
+            "MiniMaxH3MemoryEfficientSageAttentionPatch",
+            "ModelAttentionBackend",
+            "Power Lora Loader (rgthree)",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecodeAudio",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 0.66,
+            "seconds": 5
+          },
+          "extension_available": true
+        },
+        "16": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "h3",
+            "h3_16gb"
+          ],
+          "graph": "profiles/minimax_h3_turbo_api_16.json",
+          "sha256": "afab137fbec616c66b41e9b13bab66b9a59966654ea9e4b72afeb185f7c046e1",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "loras/minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3ImageToVideo",
+            "MiniMaxH3MemoryEfficientSageAttentionPatch",
+            "MiniMaxLowVRAMAttention",
+            "ModelAttentionBackend",
+            "ModelMemoryUsageFactorOverride",
+            "Power Lora Loader (rgthree)",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecodeAudio",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 0.66,
+            "seconds": 5
+          },
+          "extension_available": true
+        },
+        "8": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "h3",
+            "h3_8gb"
+          ],
+          "graph": "profiles/minimax_h3_turbo_api_8.json",
+          "sha256": "dcf8ce0789d7c706d68ee7b890ab8d30f26a36e0df1fc3653b27720b3e9fcb39",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "loras/minimax_h3_turbo_v4_step600_comfyui_T8-convert.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3ImageToVideo",
+            "MiniMaxH3SigmaShift",
+            "MiniMaxLowVRAMAttention",
+            "ModelAttentionBackend",
+            "Power Lora Loader (rgthree)",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecodeAudio",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 0.33,
+            "seconds": 5
+          },
+          "extension_available": false,
+          "launch_requirements": {
+            "include": [
+              "--disable-pinned-memory"
+            ],
+            "exclude": [
+              "--use-sage-attention",
+              "--use-flash-attention",
+              "--fp16-unet"
+            ],
+            "offload": "ComfyUI dynamic memory"
+          }
+        }
+      }
+    },
+    {
+      "id": "krea2_raw_api",
+      "name": "Krea 2 RAW",
+      "base_graph": "krea2_raw_api.json",
+      "family": "krea2",
+      "capabilities": {
+        "text_to_image": true,
+        "boxes": false,
+        "boxes_experimental": false,
+        "text_to_video": false,
+        "image_to_video": false,
+        "first_last_frame": false,
+        "video_extension": false,
+        "batch_max": 4
+      },
+      "profiles": {
+        "24plus": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "krea2",
+            "krea2"
+          ],
+          "graph": "profiles/krea2_raw_api_24plus.json",
+          "sha256": "c82b2b4111cc93bbdf7d1a65ab12fc4f42a1e10e49b435f9bd6ad092ecfa4d4d",
+          "model_dependencies": [
+            "diffusion_models/krea2/krea2_raw_fp8_scaled.safetensors",
+            "text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+            "vae/qwen_image_vae.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "EmptyLatentImage",
+            "KSampler",
+            "ModelSamplingFlux",
+            "Power Lora Loader (rgthree)",
+            "SaveImage",
+            "UNETLoader",
+            "VAEDecode",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "24": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "krea2",
+            "krea2"
+          ],
+          "graph": "profiles/krea2_raw_api_24.json",
+          "sha256": "ef6bdffc09914db36b4e2800a9e52b0c6b510097f768cf26c5ac88dc82a1580c",
+          "model_dependencies": [
+            "diffusion_models/krea2/krea2_raw_fp8_scaled.safetensors",
+            "text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+            "vae/qwen_image_vae.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "EmptyLatentImage",
+            "KSampler",
+            "ModelSamplingFlux",
+            "Power Lora Loader (rgthree)",
+            "SaveImage",
+            "UNETLoader",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "16": {
+          "status": "unavailable",
+          "reason": "Krea 2: perfil disponÃ­vel para 24 GB ou mais.",
+          "evidence": [
+            "krea2",
+            "krea2"
+          ]
+        },
+        "8": {
+          "status": "unavailable",
+          "reason": "Krea 2: perfil disponÃ­vel para 24 GB ou mais.",
+          "evidence": [
+            "krea2",
+            "krea2"
+          ]
+        }
+      }
+    },
+    {
+      "id": "krea2_turbo_api",
+      "name": "Krea 2 Turbo",
+      "base_graph": "krea2_turbo_api.json",
+      "family": "krea2",
+      "capabilities": {
+        "text_to_image": true,
+        "boxes": false,
+        "boxes_experimental": false,
+        "text_to_video": false,
+        "image_to_video": false,
+        "first_last_frame": false,
+        "video_extension": false,
+        "batch_max": 4
+      },
+      "profiles": {
+        "24plus": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "krea2",
+            "krea2_turbo"
+          ],
+          "graph": "profiles/krea2_turbo_api_24plus.json",
+          "sha256": "c84c73216f49b762c601d1452cb4b73aad8ca3684a2fa1da71a360516cb1f28e",
+          "model_dependencies": [
+            "diffusion_models/krea2/krea2_turbo_fp8_scaled.safetensors",
+            "text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+            "vae/qwen_image_vae.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "ConditioningZeroOut",
+            "EmptyLatentImage",
+            "KSampler",
+            "Power Lora Loader (rgthree)",
+            "SaveImage",
+            "UNETLoader",
+            "VAEDecode",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "24": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "krea2",
+            "krea2_turbo"
+          ],
+          "graph": "profiles/krea2_turbo_api_24.json",
+          "sha256": "a1101620a652a357b8083a96274bb378312db873ca4e13aad29279319f9d6ac7",
+          "model_dependencies": [
+            "diffusion_models/krea2/krea2_turbo_fp8_scaled.safetensors",
+            "text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+            "vae/qwen_image_vae.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "ConditioningZeroOut",
+            "EmptyLatentImage",
+            "KSampler",
+            "Power Lora Loader (rgthree)",
+            "SaveImage",
+            "UNETLoader",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "16": {
+          "status": "unavailable",
+          "reason": "Krea 2: perfil disponÃ­vel para 24 GB ou mais.",
+          "evidence": [
+            "krea2",
+            "krea2_turbo"
+          ]
+        },
+        "8": {
+          "status": "unavailable",
+          "reason": "Krea 2: perfil disponÃ­vel para 24 GB ou mais.",
+          "evidence": [
+            "krea2",
+            "krea2_turbo"
+          ]
+        }
+      }
+    },
+    {
+      "id": "krea2_turbo_4step_api",
+      "name": "Krea 2 Turbo · 4 steps",
+      "base_graph": "krea2_turbo_4step_api.json",
+      "family": "krea2",
+      "capabilities": {
+        "text_to_image": true,
+        "boxes": false,
+        "boxes_experimental": false,
+        "text_to_video": false,
+        "image_to_video": false,
+        "first_last_frame": false,
+        "video_extension": false,
+        "batch_max": 4
+      },
+      "profiles": {
+        "24plus": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "krea2",
+            "krea2_4step"
+          ],
+          "graph": "profiles/krea2_turbo_4step_api_24plus.json",
+          "sha256": "ed5b7edf38618d600f0147b4be20b1b0f71183b64e1bec2c8a1aa0586636a3e5",
+          "model_dependencies": [
+            "diffusion_models/krea2/krea2_turbo_fp8_scaled.safetensors",
+            "loras/krea2/krea2_turbo_4step_rank_64_lora_comfyui.safetensors",
+            "text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+            "vae/qwen_image_vae.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "ConditioningZeroOut",
+            "EmptyLatentImage",
+            "KSampler",
+            "LoraLoaderModelOnly",
+            "Power Lora Loader (rgthree)",
+            "SaveImage",
+            "UNETLoader",
+            "VAEDecode",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "24": {
+          "status": "available",
+          "reason": "",
+          "evidence": [
+            "krea2",
+            "krea2_4step"
+          ],
+          "graph": "profiles/krea2_turbo_4step_api_24.json",
+          "sha256": "0945b6c5549b5296bdbb656f856079e9fb7cf42f2567f30cd8d3422bfc964b0f",
+          "model_dependencies": [
+            "diffusion_models/krea2/krea2_turbo_fp8_scaled.safetensors",
+            "loras/krea2/krea2_turbo_4step_rank_64_lora_comfyui.safetensors",
+            "text_encoders/qwen3vl_4b_fp8_scaled.safetensors",
+            "vae/qwen_image_vae.safetensors"
+          ],
+          "node_types": [
+            "CLIPLoader",
+            "CLIPTextEncode",
+            "ConditioningZeroOut",
+            "EmptyLatentImage",
+            "KSampler",
+            "LoraLoaderModelOnly",
+            "Power Lora Loader (rgthree)",
+            "SaveImage",
+            "UNETLoader",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "package_dependencies": [
+            "comfyui",
+            "kjnodes",
+            "rgthree"
+          ],
+          "recommended": {
+            "megapixels": 1,
+            "seconds": null
+          },
+          "extension_available": false
+        },
+        "16": {
+          "status": "unavailable",
+          "reason": "Krea 2: perfil disponÃ­vel para 24 GB ou mais.",
+          "evidence": [
+            "krea2",
+            "krea2_4step"
+          ]
+        },
+        "8": {
+          "status": "unavailable",
+          "reason": "Krea 2: perfil disponÃ­vel para 24 GB ou mais.",
+          "evidence": [
+            "krea2",
+            "krea2_4step"
+          ]
+        }
+      }
+    }
+  ],
+  "installation_contract": {
+    "automatic_download": false,
+    "separate_hardware_support_from_server_readiness": true,
+    "verify_sha256_before_activation": true,
+    "resolve_paths_under_selected_comfy_root": true,
+    "require_model_terms_when_gated": true,
+    "missing_dependency_state": "needs_install",
+    "unsupported_profile_state": "unavailable"
+  },
+  "validation": {
+    "graph_and_comfy_schema": "passed",
+    "trim_and_merge_cpu_integration": "passed",
+    "physical_vram_tiers_tested_locally": [],
+    "note": "Profiles are adaptations supported by cited upstream evidence, not local hardware benchmarks or hard memory guarantees."
+  },
+  "addons": {
+    "private_conditioning": {
+      "families": ["ideogram", "krea2"],
+      "nodes": ["ConditioningKrea2Rebalance", "LoraLoaderModelOnly"],
+      "packages": ["comfyui", "rebalance"],
+      "enabled_by": "private_mode",
+      "implementation": "PrivateConditioning.java",
+      "evidence": "private_conditioning",
+      "variants": {
+        "ideogram": {"node": "LoraLoaderModelOnly", "model_dependencies": ["loras/ideogram4/ideogramSnofsV1.safetensors"], "strength_model": 1.0, "branches": ["model", "model_negative"], "evidence": "ideogram_private_adapter"},
+        "krea2": {"node": "ConditioningKrea2Rebalance", "model_dependencies": [], "multiplier": 1.0}
+      },
+      "note": "Snofs adapter for Ideogram and per-layer conditioning adjustment for Krea. Not a guaranteed removal of every model-level refusal. SFW graphs remain unchanged."
+    },
+    "boxes": {
+      "ideogram": "Ideogram4PromptBuilderKJ",
+      "moss": [
+        "MOSSImageLayoutPrompt"
+      ],
+      "coordinate_system": "normalized xywh in app; compiled by node to model format",
+      "examples": [
+        {
+          "graph": "profiles/ideogram4_t2i_api_boxes.json",
+          "sha256": "ca7528daaba208b99819c5961a121adb39d461321b7e88e0249158004402591a",
+          "model_dependencies": [
+            "diffusion_models/ideogram4_fp8_scaled.safetensors",
+            "diffusion_models/ideogram4_unconditional_fp8_scaled.safetensors",
+            "text_encoders/qwen3vl_8b_fp8_scaled.safetensors",
+            "vae/flux2-vae.safetensors"
+          ]
+        },
+        {
+          "graph": "profiles/ideogram4_turbotime_api_boxes.json",
+          "sha256": "644d07b9cfcf4f9571466552f9a9c4ec41a1790dab259ef3b1868d7e7c55f875",
+          "model_dependencies": [
+            "diffusion_models/ideogram4_fp8_scaled.safetensors",
+            "loras/ideogram4/ideogram_4_turbotime_v1.safetensors",
+            "text_encoders/qwen3vl_8b_fp8_scaled.safetensors",
+            "vae/flux2-vae.safetensors"
+          ]
+        },
+        {
+          "graph": "profiles/kromoss_t2i_api_boxes.json",
+          "sha256": "18593a9a2117c2d2c8979e31395dc957cb1028621c99fa5c58b4795dbdc6dbfd",
+          "model_dependencies": [
+            "diffusion_models/kromoss_int8_convrot.safetensors",
+            "loras/8-steps-dmd-lora.safetensors",
+            "text_encoders/qwen3.5_9b_int8_convrot.safetensors",
+            "vae/full_encoder_small_decoder.safetensors"
+          ]
+        },
+        {
+          "graph": "profiles/moss_t2i_api_boxes.json",
+          "sha256": "2e015605f9402e9c69433dace4ab457dfe05aba2405e0602556be856c8e6d16e",
+          "model_dependencies": [
+            "diffusion_models/moss_image_sft_int8_convrot.safetensors",
+            "text_encoders/qwen3.5_9b_int8_convrot.safetensors",
+            "vae/flux2-vae.safetensors"
+          ]
+        }
+      ]
+    },
+    "video_extension": {
+      "nodes": [
+        "MomentosVideoRange",
+        "MiniMaxH3AddGuide",
+        "MomentosVideoExtensionMerge"
+      ],
+      "packages": [
+        "comfyui",
+        "momentos"
+      ],
+      "trim_seconds": {
+        "min": 1,
+        "max": 120
+      },
+      "context_frames": 22,
+      "fps": 24,
+      "source_preserved": true,
+      "evidence": "h3_extension",
+      "variants": [
+        {
+          "graph": "profiles/minimax_h3_extend_normal_16.json",
+          "profile": "16",
+          "turbo": false,
+          "sha256": "f9498aa9a260c4d650a690f18cd359bd857a246833d07eb120b029bb70b46069",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3AddGuide",
+            "MiniMaxH3ImageToVideo",
+            "MiniMaxLowVRAMAttention",
+            "ModelMemoryUsageFactorOverride",
+            "MomentosVideoExtensionMerge",
+            "MomentosVideoRange",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecodeAudio",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "input_binding": {
+            "node": "momentos_extend_source",
+            "video": "video",
+            "start_ms": "start_ms",
+            "end_ms": "end_ms"
+          }
+        },
+        {
+          "graph": "profiles/minimax_h3_extend_normal_24.json",
+          "profile": "24",
+          "turbo": false,
+          "sha256": "4bb61fd6a738f9acffad6b10181c2d350ad1ee2cc8279b0baf9ec93a6cb63cbc",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3AddGuide",
+            "MiniMaxH3ImageToVideo",
+            "MomentosVideoExtensionMerge",
+            "MomentosVideoRange",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecodeAudio",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "input_binding": {
+            "node": "momentos_extend_source",
+            "video": "video",
+            "start_ms": "start_ms",
+            "end_ms": "end_ms"
+          }
+        },
+        {
+          "graph": "profiles/minimax_h3_extend_normal_24plus.json",
+          "profile": "24plus",
+          "turbo": false,
+          "sha256": "01f645220ffdd5bee1ba40d4718e160446cb715a16a4780f2d9af3c5a8ddf8cb",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3AddGuide",
+            "MiniMaxH3ImageToVideo",
+            "MomentosVideoExtensionMerge",
+            "MomentosVideoRange",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecode",
+            "VAEDecodeAudio",
+            "VAELoader"
+          ],
+          "input_binding": {
+            "node": "momentos_extend_source",
+            "video": "video",
+            "start_ms": "start_ms",
+            "end_ms": "end_ms"
+          }
+        },
+        {
+          "graph": "profiles/minimax_h3_extend_turbo_16.json",
+          "profile": "16",
+          "turbo": true,
+          "sha256": "4321be89beb1ea9bb91c2e1e47f585c8bbc6c8c981aaabb3edb94534836ee7ab",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "loras/minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3AddGuide",
+            "MiniMaxH3ImageToVideo",
+            "MiniMaxH3MemoryEfficientSageAttentionPatch",
+            "MiniMaxLowVRAMAttention",
+            "ModelAttentionBackend",
+            "ModelMemoryUsageFactorOverride",
+            "MomentosVideoExtensionMerge",
+            "MomentosVideoRange",
+            "Power Lora Loader (rgthree)",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecodeAudio",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "input_binding": {
+            "node": "momentos_extend_source",
+            "video": "video",
+            "start_ms": "start_ms",
+            "end_ms": "end_ms"
+          }
+        },
+        {
+          "graph": "profiles/minimax_h3_extend_turbo_24.json",
+          "profile": "24",
+          "turbo": true,
+          "sha256": "5331a94e2d41485a4a7054b864e4131cf4c61a84d46769237961c7e90d564cec",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "loras/minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3AddGuide",
+            "MiniMaxH3ImageToVideo",
+            "MiniMaxH3MemoryEfficientSageAttentionPatch",
+            "ModelAttentionBackend",
+            "MomentosVideoExtensionMerge",
+            "MomentosVideoRange",
+            "Power Lora Loader (rgthree)",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecodeAudio",
+            "VAEDecodeTiled",
+            "VAELoader"
+          ],
+          "input_binding": {
+            "node": "momentos_extend_source",
+            "video": "video",
+            "start_ms": "start_ms",
+            "end_ms": "end_ms"
+          }
+        },
+        {
+          "graph": "profiles/minimax_h3_extend_turbo_24plus.json",
+          "profile": "24plus",
+          "turbo": true,
+          "sha256": "b33affaecab25b59152900a19d4403e8a6cefb6b9f87d452280092502081bebe",
+          "model_dependencies": [
+            "diffusion_models/minimax_h3_fl2va_pruned_int8_convrot.safetensors",
+            "loras/minimax_h3_fl2v_lightx2v_turbo_4step_v0.1_comfy_resized_avg_rank_21_bf16.safetensors",
+            "text_encoders/qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+            "vae/minimax_h3_audio_vae_fp32.safetensors",
+            "vae/minimax_h3_video_vae_fp16.safetensors",
+            "vae/minimax_h3_video_vae_int8_convrot.safetensors"
+          ],
+          "node_types": [
+            "BasicGuider",
+            "BasicScheduler",
+            "CLIPLoader",
+            "CreateVideo",
+            "KSamplerSelect",
+            "MiniMaxChunkFeedForward",
+            "MiniMaxH3AddGuide",
+            "MiniMaxH3ImageToVideo",
+            "MiniMaxH3MemoryEfficientSageAttentionPatch",
+            "ModelAttentionBackend",
+            "MomentosVideoExtensionMerge",
+            "MomentosVideoRange",
+            "Power Lora Loader (rgthree)",
+            "RandomNoise",
+            "SamplerCustomAdvanced",
+            "SaveVideo",
+            "UNETLoader",
+            "VAEDecode",
+            "VAEDecodeAudio",
+            "VAELoader"
+          ],
+          "input_binding": {
+            "node": "momentos_extend_source",
+            "video": "video",
+            "start_ms": "start_ms",
+            "end_ms": "end_ms"
+          }
+        }
+      ]
+    },
+    "media_operations": {
+      "catalog": "media-operations.json",
+      "operations": [
+        "image_edit",
+        "image_upscale",
+        "video_upscale"
+      ]
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "release": "2026.11.02.3",
+  "python": "3.12.10",
+  "uv": {
+    "url": "https://github.com/astral-sh/uv/releases/download/0.13.6/uv-x86_64-pc-windows-msvc.zip",
+    "sha256": "a2a8820d5eea32f08ef467ef3b7f66883a9b076d5737a2fc2fbb5f458d1bb50f",
+    "bytes": 15239500
+  },
+  "packages": [
+    {
+      "id": "comfyui",
+      "url": "https://codeload.github.com/Comfy-Org/ComfyUI/zip/c06bf5f569d268b80076e5f44126f87cdf835869",
+      "sha256": "85f86e94cf08748005fdd3e12d3b65d95a3b73d3e2ce92428d58c8bd1ddda0e5",
+      "bytes": 13500217,
+      "destination": ".",
+      "revision": "c06bf5f569d268b80076e5f44126f87cdf835869"
+    },
+    {
+      "id": "kjnodes",
+      "url": "https://codeload.github.com/kijai/ComfyUI-KJNodes/zip/073efb07419f56cc714e099a82e49fbc23ad9263",
+      "sha256": "a1210f70e8f829130d8dcf76f3fcaecbb521b0a620c5c783a26ffb4fdcafb3ad",
+      "bytes": 1115626,
+      "destination": "custom_nodes/ComfyUI-KJNodes",
+      "revision": "073efb07419f56cc714e099a82e49fbc23ad9263"
+    },
+    {
+      "id": "rgthree",
+      "url": "https://codeload.github.com/rgthree/rgthree-comfy/zip/738105af5fb14e96fbecaf406dc356e284797e8c",
+      "sha256": "95a06d53b5eb470cb86c50b0a99fdbf472abbaa57e0d52399877de68b4631705",
+      "bytes": 4095240,
+      "destination": "custom_nodes/rgthree-comfy",
+      "revision": "738105af5fb14e96fbecaf406dc356e284797e8c"
+    },
+    {
+      "destination": "custom_nodes/momentos_workflows/vendor/efficientsam3",
+      "url": "https://codeload.github.com/SimonZeng7108/efficientsam3/zip/bd0936c788fed8d51fa799437f05abd97b401b06",
+      "revision": "bd0936c788fed8d51fa799437f05abd97b401b06",
+      "bytes": 99264935,
+      "id": "efficientsam3",
+      "sha256": "46731f739c37d9b94df358a3e8b69c2e552cd180ea9ebad8ebc0b6d98aa2ea9b"
+    },
+    {
+      "destination": "custom_nodes/momentos_workflows/vendor/iopath",
+      "url": "https://codeload.github.com/facebookresearch/iopath/zip/b3ea6da153ab61b3b8687544c0708a4234a8fb58",
+      "revision": "b3ea6da153ab61b3b8687544c0708a4234a8fb58",
+      "bytes": 53541,
+      "id": "iopath",
+      "sha256": "601e6b72d6efc2a9e0f1ba4c64e2d9ee6f420325cad5a85d8a4a6c2183a5d4ef"
+    }
+  ],
+  "torchIndex": "https://download.pytorch.org/whl/cu130",
+  "minDriverMajor": 580
+}

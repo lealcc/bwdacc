@@ -1,0 +1,135 @@
+1
+00:00:00,400 --> 00:00:02,197
+ComfyUI, designed for your phone.
+
+2
+00:00:02,197 --> 00:00:04,354
+Write a prompt, explore your results,
+
+3
+00:00:04,354 --> 00:00:07,589
+and keep creating with an interface built for touch.
+
+4
+00:00:09,400 --> 00:00:12,813
+The prompt bar stays at the bottom, within easy reach.
+
+5
+00:00:12,813 --> 00:00:16,227
+Choose a workflow, aspect ratio, and up to four results
+
+6
+00:00:16,227 --> 00:00:17,592
+in one compact menu.
+
+7
+00:00:19,400 --> 00:00:21,789
+Tap an image and describe your change.
+
+8
+00:00:21,789 --> 00:00:22,813
+Swipe through versions.
+
+9
+00:00:22,813 --> 00:00:25,544
+Your last viewed version becomes the gallery cover,
+
+10
+00:00:25,544 --> 00:00:27,592
+and the original is still there.
+
+11
+00:00:29,400 --> 00:00:30,105
+Want motion?
+
+12
+00:00:30,105 --> 00:00:32,220
+Open Animate on that same image.
+
+13
+00:00:32,220 --> 00:00:34,687
+Add a motion prompt, choose your settings,
+
+14
+00:00:34,687 --> 00:00:37,507
+and MiniMax H3 turns it into video.
+
+15
+00:00:39,400 --> 00:00:41,657
+Stop rebuilding the same references.
+
+16
+00:00:41,657 --> 00:00:46,623
+Fragments keep a character, object, style, or place ready to reuse,
+
+17
+00:00:46,623 --> 00:00:50,685
+with text, images, and model specific LoRA settings together.
+
+18
+00:00:52,400 --> 00:00:56,359
+Turn an image into composition boxes, depth, or line maps.
+
+19
+00:00:56,359 --> 00:00:59,525
+Tap an object to select it with SAM,
+
+20
+00:00:59,525 --> 00:01:01,505
+then save a reusable Fragment.
+
+21
+00:01:01,505 --> 00:01:03,088
+Support varies by workflow.
+
+22
+00:01:04,400 --> 00:01:07,723
+In Prompter, your draft stays ready for the next try.
+
+23
+00:01:07,723 --> 00:01:10,049
+Keep your favorites, group them into projects,
+
+24
+00:01:10,049 --> 00:01:13,040
+and reuse the full recipe instead of starting over.
+
+25
+00:01:14,400 --> 00:01:16,670
+The touch interface is native Android.
+
+26
+00:01:16,670 --> 00:01:20,452
+A Windows connector sends workflow graphs to the ComfyUI API,
+
+27
+00:01:20,452 --> 00:01:24,235
+tracks the queue, and brings results back to the app.
+
+28
+00:01:25,400 --> 00:01:28,171
+Pair your phone with the desktop connector.
+
+29
+00:01:28,171 --> 00:01:31,734
+Use your existing ComfyUI installation or a separate one,
+
+30
+00:01:31,734 --> 00:01:36,088
+with local network access and optional Tailscale when you are away.
+
+31
+00:01:37,400 --> 00:01:38,629
+Less setup between ideas.
+
+32
+00:01:38,629 --> 00:01:40,166
+More creating on your phone.
+
+33
+00:01:40,166 --> 00:01:43,240
+From a prompt to an edit and a moving shot,
+
+34
+00:01:43,240 --> 00:01:45,699
+bwdacc keeps your tools together.

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Momentos" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:colorAccent">#E8EAED</item>
+        <item name="android:fontFamily">@font/syne</item>
+        <item name="android:popupMenuStyle">@style/Momentos.Popup</item>
+        <item name="android:listPopupWindowStyle">@style/Momentos.Popup</item>
+        <item name="android:dialogTheme">@style/Momentos.Dialog</item>
+        <item name="android:alertDialogTheme">@style/Momentos.Dialog</item>
+    </style>
+    <style name="Momentos.Popup" parent="android:style/Widget.Material.PopupMenu">
+        <item name="android:popupBackground">@drawable/popup_surface</item>
+        <item name="android:popupElevation">12dp</item>
+        <item name="android:popupAnimationStyle">@style/Momentos.Motion</item>
+    </style>
+    <style name="Momentos.Dialog" parent="android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:fontFamily">@font/syne</item>
+        <item name="android:colorAccent">#E8EAED</item>
+        <item name="android:popupMenuStyle">@style/Momentos.Popup</item>
+        <item name="android:listPopupWindowStyle">@style/Momentos.Popup</item>
+        <item name="android:windowAnimationStyle">@style/Momentos.Motion</item>
+    </style>
+    <style name="Momentos.Motion" parent="android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/ui_enter</item>
+        <item name="android:windowExitAnimation">@anim/ui_exit</item>
+    </style>
+</resources>

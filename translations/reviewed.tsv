@@ -1,0 +1,256 @@
+ui_100f9f|of|из|von|の|/|de
+ui_10201|App|Приложение|App|アプリ|应用|App
+ui_104380c8|. Swipe vertically for versions, horizontally for another set.|. Листайте вертикально между версиями, горизонтально между наборами.|. Vertikal zwischen Versionen, horizontal zwischen Sets wischen.|。上下にスワイプでバージョン、左右で別のセットへ。|。上下滑动切换版本，左右滑动切换作品组。|. Desliza verticalmente entre versiones y horizontalmente entre conjuntos.
+ui_1164789d|Location name|Название места|Name des Ortes|場所の名前|地点名称|Nombre del lugar
+ui_1184be|=
+ui_120fe0c3|History too large|История слишком большая|Verlauf zu groß|履歴が大きすぎます|历史记录过大|Historial demasiado grande
+ui_131ea24f|Could not save thumbnail.|Не удалось сохранить миниатюру.|Vorschaubild konnte nicht gespeichert werden.|サムネイルを保存できませんでした。|无法保存缩略图。|No se pudo guardar la miniatura.
+ui_132d58bd|Export in ComfyUI API format.|Экспортируйте в формате API ComfyUI.|Im ComfyUI-API-Format exportieren.|ComfyUIのAPI形式で書き出してください。|请导出为 ComfyUI API 格式。|Exporta en formato API de ComfyUI.
+ui_138f4ee1|Select|Выбрать|Auswählen|選択|选择|Seleccionar
+ui_13d6dd78|Check submitted versions before trying again.|Перед повтором проверьте отправленные версии.|Vor einem erneuten Versuch die gesendeten Versionen prüfen.|再試行する前に送信済みのバージョンを確認してください。|重试前请检查已提交的版本。|Revisa las versiones enviadas antes de repetir.
+ui_1455edda|LoRA outside folder|LoRA вне папки|LoRA außerhalb des Ordners|フォルダー外のLoRA|LoRA 不在文件夹内|LoRA fuera de la carpeta
+ui_14797662|Delete|Удалить|Löschen|削除|删除|Eliminar
+ui_1520406c|Video ready in feed.|Видео готово в ленте.|Video im Feed bereit.|フィードに動画が完成しました。|视频已在动态中就绪。|Vídeo listo en el feed.
+ui_15864c77|Deletes all images, videos, trials, histories and generation references in this app, including hidden and pending items. Feed, Gallery and Prompter become empty; projects lose their generations.\n\nWorkflows, characters, styles, locations, settings and ComfyUI files remain. Server jobs are not canceled and will not return to the app. This cannot be undone.|Удаляет все изображения, видео, тесты, историю и референсы генераций в приложении, включая скрытые и незавершённые. Лента, галерея и Prompter будут очищены; проекты потеряют свои генерации.\n\nWorkflow, персонажи, стили, места, настройки и файлы ComfyUI сохранятся. Задания на сервере не отменяются и не вернутся в приложение. Отменить удаление нельзя.|Löscht alle Bilder, Videos, Tests, Verläufe und Generierungsreferenzen dieser App, auch versteckte und laufende Elemente. Feed, Galerie und Prompter werden geleert; Projekte verlieren ihre Generierungen.\n\nWorkflows, Figuren, Stile, Orte, Einstellungen und ComfyUI-Dateien bleiben erhalten. Serveraufträge werden nicht abgebrochen und kehren nicht in die App zurück. Dies kann nicht rückgängig gemacht werden.|非表示や処理中の項目を含む、このアプリ内のすべての画像、動画、テスト、履歴、生成用参照を削除します。フィード、ギャラリー、Prompterは空になり、プロジェクト内の生成物も削除されます。\n\nワークフロー、キャラクター、スタイル、場所、設定、ComfyUIのファイルは残ります。サーバーのジョブはキャンセルされず、アプリにも戻りません。この操作は取り消せません。|删除本应用中的所有图片、视频、试验、历史记录和生成参考，包括隐藏和处理中的项目。动态、图库和 Prompter 将清空，项目中的生成内容也会被移除。\n\n工作流、角色、风格、地点、设置和 ComfyUI 文件将保留。服务器任务不会取消，结果也不会重新出现在应用中。此操作无法撤销。|Elimina todas las imágenes, vídeos, pruebas, historiales y referencias de generación de esta app, incluidos los elementos ocultos y en curso. Feed, Galería y Prompter quedan vacíos; los proyectos pierden sus generaciones.\n\nSe conservan workflows, personajes, estilos, lugares, ajustes y archivos de ComfyUI. Las tareas del servidor no se cancelan ni volverán a la app. No se puede deshacer.
+ui_15b2b242|Adjust|Настроить|Anpassen|調整|调整|Ajustar
+ui_15eb3316|Reset settings|Сбросить настройки|Einstellungen zurücksetzen|設定をリセット|重置设置|Restablecer ajustes
+ui_1683f5a|Could not save.|Не удалось сохранить.|Speichern fehlgeschlagen.|保存できませんでした。|无法保存。|No se pudo guardar.
+ui_16b8074f|Project options|Параметры проекта|Projektoptionen|プロジェクトのオプション|项目选项|Opciones del proyecto
+ui_171b7b42|Choose 3 to 10 seconds of continuation.|Выберите продолжение от 3 до 10 секунд.|3 bis 10 Sekunden Fortsetzung wählen.|延長する長さを3～10秒で選んでください。|请选择 3 到 10 秒的续接时长。|Elige entre 3 y 10 segundos de continuación.
+ui_17367d21|Generate H3 RefMod|Создать RefMod H3|H3 RefMod erstellen|H3 RefModを生成|生成 H3 RefMod|Generar RefMod H3
+ui_17820a|24 h|24 ч|24 Std.|24時間|24 小时|24 h
+ui_17a96525|Resolution|Разрешение|Auflösung|解像度|分辨率|Resolución
+ui_1834bc3a|Check result|Проверить результат|Ergebnis prüfen|結果を確認|检查结果|Comprobar resultado
+ui_1879a3f4|Workflow changed. Review LoRAs.|Workflow изменён. Проверьте LoRA.|Workflow geändert. LoRAs prüfen.|ワークフローが変更されました。LoRAを確認してください。|工作流已更改，请检查 LoRA。|El workflow cambió. Revisa los LoRAs.
+ui_18a3f3fb|File too large.|Файл слишком большой.|Datei zu groß.|ファイルが大きすぎます。|文件过大。|Archivo demasiado grande.
+ui_18bf2ad5|Restricted LoRA in node without weight control:|Ограниченная LoRA в узле без настройки веса:|Eingeschränkte LoRA in Node ohne Gewichtskontrolle:|重みを制御できないノードに制限付きLoRAがあります：|无法调整权重的节点使用了受限 LoRA：|LoRA restringido en nodo sin control de peso:
+ui_191087ef|Images changed. Generate a new RefMod.|Изображения изменены. Создайте новый RefMod.|Bilder geändert. Neuen RefMod erstellen.|画像が変更されました。RefModを再生成してください。|图片已更改，请重新生成 RefMod。|Las imágenes cambiaron. Genera otro RefMod.
+ui_193d45b4|LoRAs · add|LoRA · добавить|LoRAs · hinzufügen|LoRA · 追加|LoRA · 添加|LoRAs · añadir
+ui_196a677|+ New style|+ Новый стиль|+ Neuer Stil|+ 新しいスタイル|+ 新建风格|+ Nuevo estilo
+ui_19ba7da7|No video track|Нет видеодорожки|Keine Videospur|映像トラックがありません|无视频轨道|Sin pista de vídeo
+ui_19be0014|Use only the base address: http://IP:port|Укажите только базовый адрес: http://IP:порт|Nur Basisadresse angeben: http://IP:Port|ベースアドレスのみ入力：http://IP:ポート|仅输入基础地址：http://IP:端口|Usa solo la dirección base: http://IP:puerto
+ui_19e97d1c|images in this workflow.|изображений в этом workflow.|Bilder in diesem Workflow.|枚の画像をこのワークフローで使用できます。|张图片可用于此工作流。|imágenes en este workflow.
+ui_19ecbb41|Choose 1920 or 2560 px on the longest edge.|Выберите 1920 или 2560 px по длинной стороне.|1920 oder 2560 px an der längsten Seite wählen.|長辺を1920または2560 pxにしてください。|请选择长边 1920 或 2560 px。|Elige 1920 o 2560 px en el lado mayor.
+ui_1a446db4|+ New character|+ Новый персонаж|+ Neue Figur|+ 新しいキャラクター|+ 新建角色|+ Nuevo personaje
+ui_1b3caf5f|Enable LoRA|Включить LoRA|LoRA aktivieren|LoRAを有効化|启用 LoRA|Activar LoRA
+ui_1b72a1fe|This is the base image for the edit.|Это исходное изображение для правки.|Dies ist das Ausgangsbild für die Bearbeitung.|これは編集元の画像です。|这是本次编辑的原图。|Esta es la imagen base de la edición.
+ui_1b78622c|Could not find this workflow's layout.|Не удалось найти композицию этого workflow.|Layout dieses Workflows nicht gefunden.|このワークフローの構図が見つかりません。|找不到此工作流的布局。|No se encontró la composición de este workflow.
+ui_1b9411d7|Base reference missing from this edit.|В этой правке отсутствует исходный референс.|Ausgangsreferenz für diese Bearbeitung fehlt.|この編集の元の参照がありません。|此编辑缺少原始参考。|Falta la referencia base de esta edición.
+ui_1c717bfa|Server and connection|Сервер и подключение|Server und Verbindung|サーバーと接続|服务器与连接|Servidor y conexión
+ui_1d7c51c|Extension requires at least 1 second of video.|Для продления нужна хотя бы 1 секунда видео.|Verlängerung erfordert mindestens 1 Sekunde Video.|動画の延長には1秒以上の映像が必要です。|视频续接至少需要 1 秒的视频。|La extensión requiere al menos 1 segundo de vídeo.
+ui_1dca102e|Invalid LoRA weight in|Недопустимый вес LoRA в|Ungültiges LoRA-Gewicht in|無効なLoRAの重み：|LoRA 权重无效：|Peso de LoRA no válido en
+ui_1e27143e|Generation restored. Review and continue where you left off.|Генерация восстановлена. Проверьте настройки и продолжайте.|Generierung wiederhergestellt. Prüfen und fortsetzen.|生成設定を復元しました。確認して作業を続けてください。|已恢复生成设置，请检查后继续。|Generación restaurada. Revisa y continúa donde lo dejaste.
+ui_1e39e15e|Mark as NSFW|Пометить как NSFW|Als NSFW markieren|NSFWに設定|标记为 NSFW|Marcar como NSFW
+ui_1f0d7ea|to|до|bis|～|至|a
+ui_1f5bea|Up to|До|Bis zu|最大|最多|Hasta
+ui_1f77ca0a|Refresh failed · tap refresh to retry|Ошибка обновления · нажмите, чтобы повторить|Aktualisierung fehlgeschlagen · erneut tippen|更新に失敗 · 更新をタップして再試行|刷新失败 · 点击刷新重试|Error al actualizar · pulsa actualizar para reintentar
+ui_1f9b50|=
+ui_1f9cf650|Weight of|Вес|Gewicht von|重み：|权重：|Peso de
+ui_1fafd5|Box|Область|Bereich|領域|区域|Caja
+ui_1feeef|Cover|Обложка|Cover|カバー|封面|Portada
+ui_200c24ff|For workflows with visual references.|Для workflow с визуальными референсами.|Für Workflows mit Bildreferenzen.|視覚参照に対応したワークフローで使用します。|适用于支持视觉参考的工作流。|En workflows con referencias visuales.
+ui_205b4a1e|Video has no readable frame.|В видео нет доступных кадров.|Video enthält kein lesbares Bild.|動画からフレームを読み取れません。|视频中没有可读取的帧。|El vídeo no tiene fotogramas legibles.
+ui_2159be|Feed|Лента|Feed|フィード|动态|Feed
+ui_216998|Queue|Очередь|Warteschlange|キュー|队列|Cola
+ui_2171e531|Image of|Изображение|Bild von|画像：|图片：|Imagen de
+ui_218c25|Image mode|Режим изображения|Bildmodus|画像モード|图片模式|Modo imagen
+ui_21f1375|=
+ui_21f354b8|Trim video: drag the left or right handle|Обрезка видео: перетащите левый или правый край|Video kürzen: linken oder rechten Griff ziehen|動画のトリミング：左右のハンドルをドラッグ|裁剪视频：拖动左右端点|Recorta el vídeo: arrastra el extremo izquierdo o derecho
+ui_22bc30f2|submissions confirmed. Submitted items were preserved.\n\n|отправок подтверждено. Отправленные элементы сохранены.\n\n|Übermittlungen bestätigt. Gesendete Elemente wurden beibehalten.\n\n|件の送信を確認しました。送信済みの項目は保持されています。\n\n|个提交已确认，已提交的项目已保留。\n\n|envíos confirmados. Se conservaron los elementos enviados.\n\n
+ui_22f45436|Could not open Klein.|Не удалось открыть Klein.|Klein konnte nicht geöffnet werden.|Kleinを開けませんでした。|无法打开 Klein。|No se pudo abrir Klein.
+ui_238d61d5|Project name|Название проекта|Projektname|プロジェクト名|项目名称|Nombre del proyecto
+ui_2398fc28|Could not save locations.|Не удалось сохранить места.|Orte konnten nicht gespeichert werden.|場所を保存できませんでした。|无法保存地点。|No se pudieron guardar los lugares.
+ui_2425413c|Insert|Вставить|Einfügen|挿入|插入|Insertar
+ui_2451f5b|Delete set from the entire app…|Удалить набор из всего приложения…|Set aus der gesamten App löschen…|アプリ全体からセットを削除…|从整个应用删除作品组…|Eliminar conjunto de toda la app…
+ui_24f1c181|Automatic visual description|Автоматическое описание изображения|Automatische Bildbeschreibung|画像の自動説明|自动图像描述|Descripción visual automática
+ui_25a591d4|Server is missing local Agent nodes.|На сервере отсутствуют локальные узлы агента.|Lokale Agent-Nodes fehlen auf dem Server.|サーバーにローカルエージェントのノードがありません。|服务器缺少本地代理节点。|Faltan los nodos locales del Agente en el servidor.
+ui_25e731|Weight|Вес|Gewicht|重み|权重|Peso
+ui_273eeee7|Running|Выполняется|Läuft|実行中|运行中|En ejecución
+ui_274291|=
+ui_27868f66|Response has no generation ID.|В ответе нет ID генерации.|Antwort ohne Generierungs-ID.|応答に生成IDがありません。|响应缺少生成 ID。|La respuesta no tiene ID de generación.
+ui_27c3fa4f|In progress|В процессе|In Bearbeitung|処理中|进行中|En curso
+ui_27dcd6e4|Preparing clip for extension…|Подготовка фрагмента для продления…|Clip für Verlängerung vorbereiten…|延長するクリップを準備中…|正在准备续接片段…|Preparando el fragmento para extender…
+ui_27e5d379|Could not open editing models:|Не удалось открыть модели редактирования:|Bearbeitungsmodelle konnten nicht geöffnet werden:|編集モデルを開けませんでした：|无法打开编辑模型：|No se pudieron abrir los modelos de edición:
+ui_284ddf11|Close project selection|Закрыть выбор проекта|Projektauswahl schließen|プロジェクト選択を閉じる|关闭项目选择|Cerrar selección de proyecto
+ui_28e24e7c|Close advanced settings|Закрыть расширенные настройки|Erweiterte Einstellungen schließen|詳細設定を閉じる|关闭高级设置|Cerrar ajustes avanzados
+ui_28f1820b|Close|Закрыть|Schließen|閉じる：|关闭|Cerrar
+ui_29003ed6|Media dimensions unavailable.|Размеры медиа недоступны.|Medienabmessungen nicht verfügbar.|メディアのサイズを取得できません。|无法获取媒体尺寸。|Dimensiones del contenido no disponibles.
+ui_293db7ed|Terminal unavailable on this server|Терминал недоступен на этом сервере|Terminal auf diesem Server nicht verfügbar|このサーバーではターミナルを利用できません|此服务器不支持终端|Terminal no disponible en este servidor
+ui_29a1044f|What do you want to change in the video?|Что вы хотите изменить в видео?|Was möchtest du im Video ändern?|動画のどこを変更しますか？|你想修改视频的什么内容？|¿Qué quieres cambiar en el vídeo?
+ui_29fd821b|Settings|Настройки|Einstellungen|設定|设置|Ajustes
+ui_2a90767e|Search LoRA or model|Поиск LoRA или модели|LoRA oder Modell suchen|LoRAやモデルを検索|搜索 LoRA 或模型|Buscar LoRA o modelo
+ui_2aba94e2|Combine a description, images and LoRAs. Use the tag in your prompt to include this reference.|Объедините описание, изображения и LoRA. Используйте тег в промпте, чтобы добавить этот референс.|Beschreibung, Bilder und LoRAs kombinieren. Den Tag im Prompt verwenden, um diese Referenz einzubinden.|説明、画像、LoRAを組み合わせ、プロンプト内のタグでこの参照を呼び出せます。|组合描述、图片和 LoRA，在提示词中使用标签即可引用。|Combina descripción, imágenes y LoRAs. Usa la etiqueta en el prompt para incluir esta referencia.
+ui_2ae29537|Remove reference|Удалить референс|Referenz entfernen|参照を削除|移除参考|Quitar referencia
+ui_2f4c398c|LoRAs · select and adjust|LoRA · выбор и настройка|LoRAs · auswählen und anpassen|LoRA · 選択と調整|LoRA · 选择和调整|LoRAs · seleccionar y ajustar
+ui_3045a22e|Delete (|Удалить (|Löschen (|削除 (|删除 (|Eliminar (
+ui_307baf47|Stealth covers|Маскирующие обложки|Tarn-Cover|ステルスカバー|隐私封面|Portadas discretas
+ui_30a30da2|Position|Позиция|Position|位置|位置|Posición
+ui_30c1c7bf|WORKFLOW|WORKFLOW|WORKFLOW|ワークフロー|工作流|WORKFLOW
+ui_30db6078|Kijai compact|Kijai компактный|Kijai kompakt|Kijai 軽量版|Kijai 精简版|Kijai compacto
+ui_30fe2d1e|Change address|Изменить адрес|Adresse ändern|アドレスを変更|更改地址|Cambiar dirección
+ui_327087c|Submit video edit|Отправить правку видео|Videobearbeitung senden|動画の編集を送信|提交视频编辑|Enviar edición de vídeo
+ui_3316a9fb|Could not extend video:|Не удалось продлить видео:|Video konnte nicht verlängert werden:|動画を延長できませんでした：|无法续接视频：|No se pudo extender el vídeo:
+ui_331b053a|Delete|Удалить|Löschen|削除|删除|Eliminar
+ui_331f4b26|Check the queue before resubmitting to avoid duplicates.|Перед повторной отправкой проверьте очередь, чтобы избежать дубликатов.|Vor erneutem Senden die Warteschlange prüfen, um Duplikate zu vermeiden.|重複を避けるため、再送信前にキューを確認してください。|重新提交前请检查队列，避免重复。|Revisa la cola antes de reenviar para evitar duplicados.
+ui_3362932d|Experimental · Kijai refiner + Turbo, without LMS Sharp. Size refers to the longest edge. May alter faces and details.|Экспериментально · Kijai refiner + Turbo, без LMS Sharp. Размер по длинной стороне. Может изменять лица и детали.|Experimentell · Kijai-Refiner + Turbo, ohne LMS Sharp. Größe an der längsten Seite. Kann Gesichter und Details verändern.|実験的 · Kijai refiner + Turbo、LMS Sharpなし。サイズは長辺の値です。顔や細部が変化する場合があります。|实验版 · Kijai refiner + Turbo，不含 LMS Sharp。尺寸为长边长度，可能改变面部和细节。|Experimental · refiner Kijai + Turbo, sin LMS Sharp. Tamaño del lado mayor. Puede alterar rostros y detalles.
+ui_33b6f648|Apply|Применить|Anwenden|適用|应用|Aplicar
+ui_348b34|=
+ui_348d9a|=
+ui_34942a79|To extend, use the clip as the visual reference. Disable images and RefMods in the selected tags; text and LoRAs remain available.|Для продления используйте клип как визуальный референс. Отключите изображения и RefMod в выбранных тегах; текст и LoRA остаются доступны.|Zum Verlängern den Clip als Bildreferenz verwenden. Bilder und RefMods in den verwendeten Tags deaktivieren; Text und LoRAs bleiben verfügbar.|延長時はクリップを視覚参照に使います。使用するタグの画像とRefModを無効にしてください。テキストとLoRAは利用できます。|续接时请将视频片段作为视觉参考。关闭所用标签中的图片和 RefMod；文本和 LoRA 仍可使用。|Para extender, usa el clip como referencia visual. Desactiva imágenes y RefMods en las etiquetas usadas; texto y LoRAs siguen disponibles.
+ui_35b052ea|covers added.|обложек добавлено.|Cover hinzugefügt.|枚のカバーを追加しました。|张封面已添加。|portadas añadidas.
+ui_35bcbce8|Reference image|Референсное изображение|Referenzbild|参照画像|参考图片|Imagen de referencia
+ui_35c0aea2|Connect to the server in Settings.|Подключитесь к серверу в настройках.|In den Einstellungen mit dem Server verbinden.|設定でサーバーに接続してください。|请在设置中连接服务器。|Conecta al servidor en Ajustes.
+ui_35c67e09|Hide technical settings|Скрыть технические настройки|Technische Einstellungen ausblenden|技術設定を隠す|隐藏技术设置|Ocultar ajustes técnicos
+ui_36439c12|This workflow does not support this number of references.|Этот workflow не поддерживает такое число референсов.|Dieser Workflow unterstützt diese Anzahl an Referenzen nicht.|このワークフローはこの参照数に対応していません。|此工作流不支持这么多参考。|Este workflow no admite esta cantidad de referencias.
+ui_368b75fd|An original reference was deleted and cannot be recovered.|Исходный референс удалён и не может быть восстановлен.|Eine ursprüngliche Referenz wurde gelöscht und kann nicht wiederhergestellt werden.|元の参照が削除され、復元できません。|原始参考已删除，无法恢复。|Una referencia original fue eliminada y no se puede recuperar.
+ui_36eb8c86|Box aspect ratio unavailable.|Соотношение сторон областей недоступно.|Seitenverhältnis der Bereiche nicht verfügbar.|領域の縦横比を取得できません。|无法获取区域的宽高比。|Proporción de las cajas no disponible.
+ui_37bd0eee|4x-UltraSharp · keeps the aspect ratio. Creates a version in the same set.|4x-UltraSharp · сохраняет пропорции. Создаёт версию в том же наборе.|4x-UltraSharp · behält das Seitenverhältnis bei. Erstellt eine Version im selben Set.|4x-UltraSharp · 縦横比を維持し、同じセット内に新しいバージョンを作成します。|4x-UltraSharp · 保持宽高比，在同一作品组中创建新版本。|4x-UltraSharp · conserva la proporción. Crea una versión en el mismo conjunto.
+ui_37ea1f25|This older workflow has no saved reusable configuration. New generations save all settings locally.|У этого старого workflow нет сохранённых настроек для повторного использования. Новые генерации сохраняют все настройки локально.|Für diesen älteren Workflow sind keine wiederverwendbaren Einstellungen gespeichert. Neue Generierungen speichern alles lokal.|この古いワークフローには再利用できる設定が保存されていません。新しい生成では全設定を端末に保存します。|此旧工作流没有可复用的已保存设置。新生成会在本地保存所有设置。|Este workflow antiguo no tiene una configuración reutilizable guardada. Las nuevas generaciones guardan todos los ajustes localmente.
+ui_3933b566|Customize covers|Настроить обложки|Cover anpassen|カバーをカスタマイズ|自定义封面|Personalizar portadas
+ui_39d816c0|RefMod unavailable on server:|RefMod недоступен на сервере:|RefMod auf dem Server nicht verfügbar:|サーバーにRefModがありません：|服务器上没有此 RefMod：|RefMod no disponible en el servidor:
+ui_39e3c692|Reuse this generation's prompt|Повторно использовать промпт этой генерации|Prompt dieser Generierung wiederverwenden|この生成のプロンプトを再利用|复用此次生成的提示词|Reutilizar el prompt de esta generación
+ui_3ad98637|Pause video|Приостановить видео|Video pausieren|動画を一時停止|暂停视频|Pausar vídeo
+ui_3b6f83f6|Video submitted; could not save local history.|Видео отправлено; не удалось сохранить локальную историю.|Video gesendet; lokaler Verlauf konnte nicht gespeichert werden.|動画は送信されましたが、端末の履歴を保存できませんでした。|视频已提交，但无法保存本地历史记录。|Vídeo enviado; no se pudo guardar el historial local.
+ui_3bd43b0d|Add generations|Добавить генерации|Generierungen hinzufügen|生成物を追加|添加生成内容|Añadir generaciones
+ui_3c1d3b83|Open project|Открыть проект|Projekt öffnen|プロジェクトを開く|打开项目|Abrir proyecto
+ui_3c339ab4|Could not edit video:|Не удалось отредактировать видео:|Video konnte nicht bearbeitet werden:|動画を編集できませんでした：|无法编辑视频：|No se pudo editar el vídeo:
+ui_3c9c9971|Forward 10 seconds|Вперёд на 10 секунд|10 Sekunden vorspulen|10秒先へ|快进 10 秒|Avanzar 10 segundos
+ui_3ccb271c|The set changed and still has pending generations. Nothing was deleted.|Набор изменился и содержит незавершённые генерации. Ничего не удалено.|Das Set wurde geändert und enthält noch laufende Generierungen. Nichts wurde gelöscht.|セットが変更され、処理中の生成があります。何も削除していません。|作品组已更改，仍有生成任务未完成。未删除任何内容。|El conjunto cambió y aún tiene generaciones en curso. No se eliminó nada.
+ui_3d21d340|generations in progress…|генераций в процессе…|Generierungen laufen…|件を生成中…|个生成任务进行中…|generaciones en curso…
+ui_3d2d61f3|trial|тест|Test|テスト|次试验|prueba
+ui_3d327c42|Text and LoRA also work without an image.|Текст и LoRA работают и без изображения.|Text und LoRA funktionieren auch ohne Bild.|テキストとLoRAは画像なしでも使用できます。|文本和 LoRA 在没有图片时也可使用。|Texto y LoRA también funcionan sin imagen.
+ui_3d5ee2a9|Upscale video|Увеличить разрешение видео|Video hochskalieren|動画を高解像度化|视频超分辨率|Aumentar resolución del vídeo
+ui_3e8c0485|Settings recovered from server. Older batch sizes were not saved; using x1.|Настройки восстановлены с сервера. Старый размер пакета не сохранялся; используется x1.|Einstellungen vom Server wiederhergestellt. Alte Stapelgröße wurde nicht gespeichert; x1 wird verwendet.|サーバーから設定を復元しました。以前のバッチ数は未保存のため、x1を使用します。|已从服务器恢复设置。旧批量数量未保存，使用 x1。|Ajustes recuperados del servidor. El lote antiguo no se guardaba; se usa x1.
+ui_3eab40f8|Deselect|Снять выбор|Abwählen|選択解除|取消选择|Deseleccionar
+ui_3ecae2d5|Enter a name.|Введите название.|Namen eingeben.|名前を入力してください。|请输入名称。|Escribe un nombre.
+ui_3f5c80b2|Cancel layout|Отменить композицию|Layout verwerfen|構図の編集をキャンセル|取消布局|Cancelar composición
+ui_3f739b6b|Preparing your generation…|Подготовка генерации…|Generierung vorbereiten…|生成を準備中…|正在准备生成…|Preparando tu generación…
+ui_4049ac38|Could not open workflows:|Не удалось открыть workflow:|Workflows konnten nicht geöffnet werden:|ワークフローを開けませんでした：|无法打开工作流：|No se pudieron abrir los workflows:
+ui_4124eb03|Technical settings|Технические настройки|Technische Einstellungen|技術設定|技术设置|Ajustes técnicos
+ui_416c4c27|● Connected|● Подключено|● Verbunden|● 接続済み|● 已连接|● Conectado
+ui_41e1098|=
+ui_4236f43c|Choose a workflow in the composer.|Выберите workflow в поле создания.|Workflow im Eingabebereich auswählen.|入力パネルでワークフローを選択してください。|请在输入面板中选择工作流。|Elige un workflow en el compositor.
+ui_42d08736|Select a clip between 1 and 120 seconds.|Выберите фрагмент от 1 до 120 секунд.|Ausschnitt zwischen 1 und 120 Sekunden wählen.|1～120秒の区間を選択してください。|请选择 1 到 120 秒的片段。|Selecciona un fragmento de 1 a 120 segundos.
+ui_432797a1|LoRAs unavailable|LoRA недоступны|LoRAs nicht verfügbar|LoRAを利用できません|LoRA 不可用|LoRAs no disponibles
+ui_433291|Refiner, Turbo and LMS Sharp. Size refers to the longest edge. May alter faces and details.|Refiner, Turbo и LMS Sharp. Размер по длинной стороне. Может изменять лица и детали.|Refiner, Turbo und LMS Sharp. Größe an der längsten Seite. Kann Gesichter und Details verändern.|Refiner、Turbo、LMS Sharpを使用。サイズは長辺の値です。顔や細部が変化する場合があります。|使用 Refiner、Turbo 和 LMS Sharp。尺寸为长边长度，可能改变面部和细节。|Refiner, Turbo y LMS Sharp. Tamaño del lado mayor. Puede alterar rostros y detalles.
+ui_43750c92|Lighting, colors, technique, atmosphere…|Свет, цвета, техника, атмосфера…|Licht, Farben, Technik, Atmosphäre…|光、色、技法、雰囲気…|光线、色彩、技法、氛围…|Luz, colores, técnica, ambiente…
+ui_4554639|Got it|Понятно|Verstanden|了解|知道了|Entendido
+ui_103232|min|мин|Min.|分|分钟|min
+ui_140559ae|Loading model|Загрузка модели|Modell laden|モデルを読み込み中|正在加载模型|Cargando modelo
+ui_1e3cc6af|Video duration|Длительность видео|Videodauer|動画の長さ|视频时长|Duración del vídeo
+ui_1f6142e|min|мин|Min.|分|分钟|min
+ui_2117ca|Error|Ошибка|Fehler|エラー|错误|Error
+ui_217847b7|Could not open video workflow.|Не удалось открыть workflow для видео.|Video-Workflow konnte nicht geöffnet werden.|動画ワークフローを開けませんでした。|无法打开视频工作流。|No se pudo abrir el workflow de vídeo.
+ui_25923ff0|Snofs Klein 9B BF16 requires a 24 GB or higher profile. No validated profile yet for|Snofs Klein 9B BF16 требует профиль от 24 GB. Проверенного профиля пока нет для|Snofs Klein 9B BF16 erfordert ein Profil ab 24 GB. Noch kein geprüftes Profil für|Snofs Klein 9B BF16には24 GB以上のプロファイルが必要です。検証済みプロファイルがない容量：|Snofs Klein 9B BF16 需要 24 GB 或以上配置，以下容量尚无已验证的配置：|Snofs Klein 9B BF16 requiere un perfil de 24 GB o más. Aún no hay perfil validado para
+ui_25e9b4ca|Your description|Ваше описание|Deine Beschreibung|あなたの説明|你的描述|Tu descripción
+ui_27a40d18|Agent · preparing reference|Агент · подготовка референса|Agent · Referenz vorbereiten|エージェント · 参照を準備中|代理 · 正在准备参考|Agente · preparando referencia
+ui_284b34df|Reconnecting|Переподключение|Verbindung wiederherstellen|再接続中|正在重新连接|Reconectando
+ui_284b407e|=
+ui_28799023|character|персонаж|Figur|キャラクター|角色|personaje
+ui_28a4627b|Submitting video…|Отправка видео…|Video wird gesendet…|動画を送信中…|正在提交视频…|Enviando vídeo…
+ui_28db98d6|24 GB profile: reduces attention peaks and tiles decoding. Start with 1–2 MP images or 0.66 MP video.|Профиль 24 GB: снижает пики внимания и декодирует по частям. Начните с изображений 1–2 MP или видео 0,66 MP.|24-GB-Profil: reduziert Aufmerksamkeitsspitzen und dekodiert in Kacheln. Mit 1–2 MP Bildern oder 0,66 MP Video beginnen.|24 GBプロファイル：注意計算のピークを抑え、分割デコードします。画像1～2 MP、動画0.66 MPから始めてください。|24 GB 配置：降低注意力计算的峰值并分块解码。建议从 1–2 MP 图片或 0.66 MP 视频开始。|Perfil de 24 GB: reduce picos de atención y divide la decodificación. Empieza con imágenes de 1–2 MP o vídeo de 0,66 MP.
+ui_2abd47ab|Your description stays separate from the automatic visual description.|Ваше описание хранится отдельно от автоматического описания изображения.|Deine Beschreibung bleibt von der automatischen Bildbeschreibung getrennt.|入力した説明は、画像の自動説明とは別に保存されます。|你的描述与自动图像描述分开保存。|Tu descripción se guarda separada de la descripción visual automática.
+ui_332923e0|GB: this package includes Ideogram FP8 for 24 GB or more; the smaller GGUF route still needs integration and validation.|GB: пакет содержит Ideogram FP8 для 24 GB и более; компактный вариант GGUF ещё требует интеграции и проверки.|GB: Dieses Paket enthält Ideogram FP8 ab 24 GB; die kleinere GGUF-Variante muss noch integriert und geprüft werden.|GB：このパッケージのIdeogram FP8には24 GB以上が必要です。軽量GGUF版は統合と検証が必要です。|GB：本包包含适用于 24 GB 以上的 Ideogram FP8；更小的 GGUF 方案仍需集成和验证。|GB: este paquete incluye Ideogram FP8 para 24 GB o más; la opción GGUF más pequeña aún requiere integración y validación.
+ui_358e5810|=
+ui_3b7e856c|Preparing audio|Подготовка аудио|Audio vorbereiten|音声を準備中|正在准备音频|Preparando audio
+ui_3c757ea4|The cover is the first reference. Other images fill the workflow's remaining slots.|Обложка используется как первый референс. Остальные изображения занимают свободные места в workflow.|Das Cover ist die erste Referenz. Weitere Bilder belegen die übrigen Plätze im Workflow.|カバーが最初の参照になります。他の画像はワークフローの残り枠に入ります。|封面作为第一张参考图，其他图片填入工作流的剩余位置。|La portada es la primera referencia. Las demás imágenes ocupan los espacios restantes del workflow.
+ui_4182665|Generate|Создать|Generieren|生成|生成|Generar
+ui_41c3c5f0|=
+ui_42935d60|Completed|Завершено|Abgeschlossen|完了|已完成|Completada
+ui_453|s|с|s|秒|秒|s
+ui_47f6706|New|Новый|Neu|新規|新建|Nuevo
+ui_484b3f4a|=
+ui_4a221caf|Characters|Персонажи|Figuren|キャラクター|角色|Personajes
+ui_4a2b1a0|Cancel video trim|Отменить обрезку видео|Videozuschnitt abbrechen|動画トリミングをキャンセル|取消视频裁剪|Cancelar recorte del vídeo
+ui_4aaed71d|=
+ui_4deff632|Combine the options you allow. Each workflow uses only what it supports.|Комбинируйте разрешённые варианты. Каждый workflow использует только поддерживаемые возможности.|Erlaubte Optionen kombinieren. Jeder Workflow nutzt nur unterstützte Funktionen.|許可する方法を組み合わせます。各ワークフローは対応する方法のみ使用します。|可组合允许的选项，每个工作流仅使用其支持的方式。|Combina las opciones permitidas. Cada workflow usa solo lo que admite.
+ui_4ff28d0c|Unavailable on 8 GB: the published GGUF route validates MOSS Base, but not the MOSS SFT included here.|Недоступно на 8 GB: опубликованный вариант GGUF проверен для MOSS Base, но не для включённого здесь MOSS SFT.|Bei 8 GB nicht verfügbar: Die veröffentlichte GGUF-Variante wurde für MOSS Base geprüft, nicht für das enthaltene MOSS SFT.|8 GBでは利用できません。公開GGUF版で検証済みなのはMOSS Baseで、このパッケージのMOSS SFTではありません。|8 GB 不可用：已发布的 GGUF 方案只验证了 MOSS Base，尚未验证本包中的 MOSS SFT。|No disponible en 8 GB: la opción GGUF publicada validó MOSS Base, pero no el MOSS SFT incluido aquí.
+ui_5419d7d4|ComfyUI workflow|Workflow ComfyUI|ComfyUI-Workflow|ComfyUIワークフロー|ComfyUI 工作流|Workflow de ComfyUI
+ui_579e1bdc|=
+ui_594c6ff|Finishing|Завершение|Abschließen|仕上げ中|正在完成|Finalizando
+ui_5c7079dd|Composition|Композиция|Komposition|構図|构图|Composición
+ui_5e5f8a9c|H3 video editing|Редактирование видео H3|H3-Videobearbeitung|H3動画編集|H3 视频编辑|Edición de vídeo H3
+ui_5ea81eac|Generating|Генерация|Wird generiert|生成中|正在生成|Generando
+ui_5f63bdf|Workflow|Workflow|Workflow|ワークフロー|工作流|Workflow
+ui_606b50b4|Video submission failed:|Ошибка отправки видео:|Videosendung fehlgeschlagen:|動画の送信に失敗しました：|提交视频失败：|Error al enviar vídeo:
+ui_60c6cb32|Unavailable on 8 GB: no validated workflow found for this Kromoss INT8.|Недоступно на 8 GB: проверенный workflow для этого Kromoss INT8 не найден.|Bei 8 GB nicht verfügbar: Kein geprüfter Workflow für dieses Kromoss INT8 gefunden.|8 GBでは利用できません。このKromoss INT8用の検証済みワークフローがありません。|8 GB 不可用：尚无适用于此 Kromoss INT8 的已验证工作流。|No disponible en 8 GB: no se encontró un workflow validado para este Kromoss INT8.
+ui_625df6b|location|место|Ort|場所|地点|lugar
+ui_63a669|confirmed. Check the queue before trying again.|подтверждено. Перед повтором проверьте очередь.|bestätigt. Vor erneutem Versuch die Warteschlange prüfen.|件を確認しました。再試行する前にキューを確認してください。|个已确认。重试前请检查队列。|confirmados. Revisa la cola antes de repetir.
+ui_64e9e76a|Drag to draw · move boxes · resize from the corner|Тяните для рисования · двигайте области · меняйте размер за угол|Ziehen zum Zeichnen · Bereiche bewegen · an der Ecke skalieren|ドラッグで描画 · 領域を移動 · 角でサイズ調整|拖动绘制 · 移动区域 · 拖动角点调整大小|Arrastra para dibujar · mueve las cajas · ajusta desde la esquina
+ui_657b28a4|Queued ·|В очереди ·|Warteschlange ·|キュー待ち ·|队列中 ·|En cola ·
+ui_68aae578|Clip to extend|Фрагмент для продления|Clip zum Verlängern|延長するクリップ|待续接片段|Fragmento para extender
+ui_68b3f8a6|Waiting for your turn|Ожидание очереди|Warten auf freien Platz|順番待ち|正在等待轮次|Esperando tu turno
+ui_6ab21be3|Video extension|Продление видео|Videoverlängerung|動画の延長|视频续接|Extensión de vídeo
+ui_6dd135a4|Created on|Создано|Erstellt am|作成日時|创建时间|Creada el
+ui_6eac052f|Prioritizes speed with less split computation. Uses catalog quantized checkpoints; weights are installed separately.|Приоритет скорости с меньшим разделением вычислений. Используются квантованные модели из каталога; веса устанавливаются отдельно.|Bevorzugt Geschwindigkeit mit weniger aufgeteilten Berechnungen. Nutzt quantisierte Katalogmodelle; Gewichte werden separat installiert.|計算の分割を減らし速度を優先します。カタログの量子化モデルを使用し、重みは別途インストールします。|减少计算拆分以优先提升速度。使用目录中的量化模型，权重需单独安装。|Prioriza velocidad con menos división de cálculos. Usa checkpoints cuantizados del catálogo; los pesos se instalan por separado.
+ui_7359530e|Preparing prompt|Подготовка промпта|Prompt vorbereiten|プロンプトを準備中|正在准备提示词|Preparando prompt
+ui_774ce66e|Unavailable on|Недоступно на|Nicht verfügbar bei|利用できない容量：|不可用容量：|No disponible en
+ui_7765ce12|Save images as a reusable visual reference for MiniMax H3 Ref2VA.|Сохраните изображения как многоразовый визуальный референс для MiniMax H3 Ref2VA.|Bilder als wiederverwendbare Bildreferenz für MiniMax H3 Ref2VA speichern.|画像をMiniMax H3 Ref2VA用の再利用可能な視覚参照として保存します。|将图片保存为 MiniMax H3 Ref2VA 可复用的视觉参考。|Guarda las imágenes como referencia visual reutilizable para MiniMax H3 Ref2VA.
+ui_78f40d3d|=
+ui_7c492586|Status|Статус|Status|状態|状态|Estado
+ui_84d8|h|ч|Std.|時間|小时|h
+ui_861ddaa2|Finishing stage|Завершение этапа|Schritt abschließen|ステップを完了中|正在完成当前阶段|Finalizando etapa
+ui_8735192e|Agent preparing prompt|Агент готовит промпт|Agent bereitet Prompt vor|エージェントがプロンプトを準備中|代理正在准备提示词|Agente preparando prompt
+ui_87fafa2b|Locations|Места|Orte|場所|地点|Lugares
+ui_89ef6506|H3 standard and Turbo: profiles based on FlowForgeLabAi with split attention, INT8 and Turbo T8. Start at 0.33 MP / 5s. Required models and nodes are listed in the catalog; a future installer will download them. Extension and other models have no included profile yet.|H3 обычный и Turbo: профили на основе FlowForgeLabAi с разделённым вниманием, INT8 и Turbo T8. Начните с 0,33 MP / 5s. Нужные модели и узлы указаны в каталоге; будущий установщик загрузит их. Профилей для продления и других моделей пока нет.|H3 Standard und Turbo: Profile auf Basis von FlowForgeLabAi mit geteilter Aufmerksamkeit, INT8 und Turbo T8. Mit 0,33 MP / 5s beginnen. Benötigte Modelle und Nodes stehen im Katalog; ein künftiger Installer lädt sie herunter. Für Verlängerung und andere Modelle ist noch kein Profil enthalten.|H3標準版とTurbo：FlowForgeLabAiに基づくプロファイルで、分割注意計算、INT8、Turbo T8を使用します。0.33 MP / 5sから始めてください。必要なモデルとノードはカタログにあり、今後のインストーラーでダウンロードします。延長や他モデル用のプロファイルは未収録です。|H3 标准版和 Turbo：基于 FlowForgeLabAi 的配置，使用分割注意力、INT8 和 Turbo T8。建议从 0.33 MP / 5s 开始。所需模型和节点列于目录中，将由未来的安装器下载。尚未包含续接及其他模型的配置。|H3 normal y Turbo: perfiles basados en FlowForgeLabAi, con atención dividida, INT8 y Turbo T8. Empieza con 0,33 MP / 5s. Los modelos y nodos necesarios están en el catálogo; el futuro instalador los descargará. Aún no se incluyen perfiles para extensión y otros modelos.
+ui_8efe4584|Prompt|Промпт|Prompt|プロンプト|提示词|Prompt
+ui_90aedcc1|Unavailable on 8 GB: this workflow has no validated memory profile yet.|Недоступно на 8 GB: у этого workflow пока нет проверенного профиля памяти.|Bei 8 GB nicht verfügbar: Für diesen Workflow gibt es noch kein geprüftes Speicherprofil.|8 GBでは利用できません。このワークフローのメモリープロファイルは未検証です。|8 GB 不可用：此工作流尚无已验证的显存配置。|No disponible en 8 GB: este workflow aún no tiene un perfil de memoria validado.
+ui_9885a93c|Version|Версия|Version|バージョン|版本|Versión
+ui_9d8f4921|Ref2VA editing unavailable on 8 GB: the researched profile covers FL2VA.|Редактирование Ref2VA недоступно на 8 GB: исследованный профиль предназначен для FL2VA.|Ref2VA-Bearbeitung bei 8 GB nicht verfügbar: Das untersuchte Profil deckt FL2VA ab.|8 GBではRef2VA編集を利用できません。調査済みプロファイルはFL2VA用です。|8 GB 不支持 Ref2VA 编辑：已研究的配置仅覆盖 FL2VA。|Edición Ref2VA no disponible en 8 GB: el perfil investigado cubre FL2VA.
+ui_9ef4513f|Saving result|Сохранение результата|Ergebnis speichern|結果を保存中|正在保存结果|Guardando resultado
+ui_a3055c0e|Applied through the tag only with a compatible model. Weights apply to the model.|Применяются через тег только для совместимых моделей. Веса относятся к модели.|Über den Tag nur bei kompatiblen Modellen angewendet. Gewichte gelten für das Modell.|対応モデルの場合のみタグ経由で適用します。重みはモデルに適用されます。|仅在模型兼容时通过标签应用，权重作用于模型。|Se aplican por la etiqueta solo con un modelo compatible. Los pesos se aplican al modelo.
+ui_a99f455|This generation failed. You can reuse the prompt or delete this version.|Генерация завершилась ошибкой. Можно повторно использовать промпт или удалить эту версию.|Diese Generierung ist fehlgeschlagen. Du kannst den Prompt wiederverwenden oder diese Version löschen.|生成に失敗しました。プロンプトを再利用するか、このバージョンを削除できます。|此次生成失败。你可以复用提示词或删除此版本。|Esta generación falló. Puedes reutilizar el prompt o eliminar esta versión.
+ui_a9fcabd2|Drag the handles to trim. The continuation starts at the end of this clip.|Перетащите края для обрезки. Продолжение начнётся в конце этого фрагмента.|Griffe zum Kürzen ziehen. Die Fortsetzung beginnt am Ende dieses Ausschnitts.|両端をドラッグしてトリミングします。選択区間の終わりから動画が続きます。|拖动端点裁剪，续接从所选片段的末尾开始。|Arrastra los extremos para recortar. La continuación empieza al final del fragmento.
+ui_adf6c772|=
+ui_aea8d85|Preparing result|Подготовка результата|Ergebnis vorbereiten|結果を準備中|正在准备结果|Preparando resultado
+ui_b04a3ab2|LoRAs by model|LoRA по моделям|LoRAs nach Modell|モデル別LoRA|按模型管理 LoRA|LoRAs por modelo
+ui_b2e45866|style|стиль|Stil|スタイル|风格|estilo
+ui_b8d14074|Workflows|Workflow|Workflows|ワークフロー|工作流|Workflows
+ui_bc14220a|Add reference and resources|Добавить референс и ресурсы|Referenz und Ressourcen hinzufügen|参照とリソースを追加|添加参考和资源|Añadir referencia y recursos
+ui_bd07a9d9|Generation completed on server|Генерация завершена на сервере|Generierung auf dem Server abgeschlossen|サーバーで生成が完了しました|服务器已完成生成|Generación completada en el servidor
+ui_c3665b|Resolution|Разрешение|Auflösung|解像度|分辨率|Resolución
+ui_c59f07a5|Queued|В очереди|In Warteschlange|キュー待ち|排队中|En cola
+ui_cdf4cad|Styles|Стили|Stile|スタイル|风格|Estilos
+ui_ce55f5a1|Preparing reference|Подготовка референса|Referenz vorbereiten|参照を準備中|正在准备参考|Preparando referencia
+ui_d0452996|Waiting for server connection|Ожидание подключения к серверу|Auf Serververbindung warten|サーバーへの接続を待機中|正在等待服务器连接|Esperando conexión con el servidor
+ui_d18600c8|· Agent available|· Агент доступен|· Agent verfügbar|· エージェント利用可能|· 代理可用|· Agente disponible
+ui_d2136a0c|Generation time|Время генерации|Generierungszeit|生成時間|生成耗时|Tiempo de generación
+ui_d2e6f04a|Use in generation|Использовать при генерации|Bei Generierung verwenden|生成に使用|用于生成|Usar al generar
+ui_d2f00696|Not recorded|Не записано|Nicht erfasst|記録なし|未记录|No registrado
+ui_db60a954|No boxes|Нет областей|Keine Bereiche|領域なし|无区域|Sin cajas
+ui_e9ca22da|Image editing|Редактирование изображения|Bildbearbeitung|画像編集|图片编辑|Edición de imagen
+ui_ed5cdddb|=
+ui_ed6cabc1|Extension unavailable on 8 GB: no validated profile for multi-frame guidance.|Продление недоступно на 8 GB: нет проверенного профиля для направления по нескольким кадрам.|Verlängerung bei 8 GB nicht verfügbar: Kein geprüftes Profil für die Führung mit mehreren Frames.|8 GBでは延長を利用できません。複数フレームのガイド用プロファイルは未検証です。|8 GB 不支持续接：尚无适用于多帧引导的已验证配置。|Extensión no disponible en 8 GB: no hay perfil validado para guía de múltiples fotogramas.
+ui_f2b06fa5|Edit|Изменить|Bearbeiten|編集|编辑|Editar
+ui_f37b82e4|H3 upscale unavailable in this profile: no validated workflow yet for|Апскейл H3 недоступен в этом профиле: пока нет проверенного workflow для|H3-Upscaling in diesem Profil nicht verfügbar: Noch kein geprüfter Workflow für|このプロファイルではH3高解像度化を利用できません。検証済みワークフローがない容量：|此配置不支持 H3 超分辨率，以下容量尚无已验证的工作流：|Upscale H3 no disponible en este perfil: aún no hay workflow validado para
+ui_f539bc5a|Could not generate|Не удалось создать|Generierung fehlgeschlagen|生成できませんでした|生成失败|No se pudo generar
+ui_f9e93|=
+ui_fdd6a800|MOSS/Kromoss INT8 and H3 with tiled VAE and split attention. Start with 1 MP images or 0.33 MP / 5s video. Ideogram FP8 unavailable: the 16 GB route found uses different weights.|MOSS/Kromoss INT8 и H3 с VAE по частям и разделённым вниманием. Начните с изображений 1 MP или видео 0,33 MP / 5s. Ideogram FP8 недоступен: найденный вариант для 16 GB использует другие веса.|MOSS/Kromoss INT8 und H3 mit gekacheltem VAE und geteilter Aufmerksamkeit. Mit 1 MP Bildern oder 0,33 MP / 5s Video beginnen. Ideogram FP8 nicht verfügbar: Die gefundene 16-GB-Variante verwendet andere Gewichte.|MOSS/Kromoss INT8とH3を分割VAE・注意計算で実行します。画像1 MP、動画0.33 MP / 5sから始めてください。16 GB向けのIdeogramは別の重みを使うため、FP8版は利用できません。|MOSS/Kromoss INT8 和 H3 使用分块 VAE 与分割注意力。建议从 1 MP 图片或 0.33 MP / 5s 视频开始。Ideogram FP8 不可用：找到的 16 GB 方案使用其他权重。|MOSS/Kromoss INT8 y H3 con VAE por partes y atención dividida. Empieza con imágenes de 1 MP o vídeo de 0,33 MP / 5s. Ideogram FP8 no disponible: la opción de 16 GB encontrada usa otros pesos.
+ui_2d932a49|Monitoring generation|Отслеживание генерации|Generierung verfolgen|生成状況を確認中|正在跟踪生成|Siguiendo la generación
+ui_6d2e8d8c| elapsed| прошло| vergangen| 経過| 已用时| transcurridos
+ui_7476f552| remaining| осталось| verbleibend| 残り| 剩余| restantes
+ui_af3f99a0|Beyond estimate · |Дольше ожидаемого · |Über der Schätzung · |予測時間を超過 · |超出预计时间 · |Más de lo estimado · 
+ui_617319d5| steps| шагов| Schritte| ステップ| 步| pasos
+ui_642069c0| of stage| этапа| des Schritts| ステップ内| 当前阶段| de la etapa
+ui_8e109dd5|Steps|Шаги|Schritte|ステップ数|步数|Pasos
+ui_5a1d0a1|Memory profile|Профиль памяти|Speicherprofil|メモリープロファイル|显存配置|Perfil de memoria
+ui_e07c290b|Source clip|Исходный фрагмент|Quellausschnitt|元のクリップ|原始片段|Fragmento original
+ui_89b05686|Model|Модель|Modell|モデル|模型|Modelo
+ui_4ceea4ad|Aspect ratio|Соотношение сторон|Seitenverhältnis|縦横比|宽高比|Proporción
+ui_5301c60e|Requested resolution|Запрошенное разрешение|Angeforderte Auflösung|指定解像度|请求分辨率|Resolución solicitada
+ui_d2c2766b|Requested dimensions|Запрошенные размеры|Angeforderte Abmessungen|指定サイズ|请求尺寸|Dimensiones solicitadas
+ui_8a05d70f|Frames|Кадры|Frames|フレーム数|帧数|Fotogramas
+ui_74c60a20|Agent|Агент|Agent|エージェント|代理|Agente
+ui_6e44c622|Video editing · references|Редактирование видео · референсы|Videobearbeitung · Referenzen|動画編集 · リファレンス|视频编辑 · 参考素材|Edición de vídeo · referencias
+ui_92fe0b5b|%d steps · text, image and first/last|%d шагов · текст, изображение и первый/последний кадр|%d Schritte · Text, Bild und erster/letzter Frame|%dステップ · テキスト、画像、最初/最後のフレーム|%d步 · 文本、图像及首尾帧|%d pasos · texto, imagen y primer/último fotograma
+ui_af8d6ad|Text and boxes · %d steps|Текст и области · %d шагов|Text und Boxen · %d Schritte|テキストとボックス · %dステップ|文本和区域框 · %d步|Texto y cuadros · %d pasos
+ui_72ee61e0|Edit and combine up to 3 images|Изменяйте и объединяйте до 3 изображений|Bis zu 3 Bilder bearbeiten und kombinieren|最大3枚の画像を編集・合成|编辑并组合最多3张图片|Editar y combinar hasta 3 imágenes
+ui_6fa07be6|Imported workflow|Импортированный workflow|Importierter Workflow|インポートしたワークフロー|导入的工作流|Workflow importado
+ui_ab50571c|More than 24 GB|Более 24 ГБ|Mehr als 24 GB|24 GB超|超过24 GB|Más de 24 GB
+ui_95678d19|Interface|Интерфейс|Oberfläche|インターフェース|界面|Interfaz
+ui_6c900f67|Tilt shimmer|Блики при наклоне|Licht beim Neigen|傾きで光を動かす|倾斜光效|Brillo al inclinar
+ui_3d852a7|Open composer|Открыть поле промпта|Eingabe öffnen|入力欄を開く|打开输入框|Abrir compositor
+ui_d44790c9|Write a prompt|Написать промпт|Prompt schreiben|プロンプトを入力|输入提示词|Escribir prompt
+ui_123d06d3|Navigate · |Перейти · |Navigieren · |移動 · |导航 · |Navegar · 
+ui_3d08563c| media item| медиафайл| Medium| 件のメディア| 个媒体| archivo multimedia
+ui_640271b7| media items| медиафайлов| Medien| 件のメディア| 个媒体| archivos multimedia
