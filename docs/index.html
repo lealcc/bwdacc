@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101113">
+  <meta name="description" content="bwdacc brings ComfyUI to your phone: create, edit and organize images and videos with a native Android interface and your own Windows PC.">
+  <title>bwdacc — ComfyUI, designed for your phone</title>
+  <link rel="icon" href="assets/bwd-owl.svg" type="image/svg+xml">
+  <style>
+    @font-face{font-family:Syne;src:url('assets/Syne.ttf') format('truetype');font-display:swap;font-weight:400 800}
+    @font-face{font-family:Manrope;src:url('assets/Manrope.ttf') format('truetype');font-display:swap;font-weight:200 800}
+    *{box-sizing:border-box}
+    :root{color-scheme:dark;--ink:#f0f0f5;--muted:#a9abb6;--accent:#b5a0f3;--line:#ffffff1c}
+    body{margin:0;background:#101113;color:var(--ink);font:16px/1.65 Manrope,system-ui,sans-serif}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at 30% -30%,#ffffff0b,transparent 65%)}
+    a{color:inherit;text-underline-offset:4px}
+    a:focus-visible,video:focus-visible{outline:2px solid var(--accent);outline-offset:5px}
+    .wrap{width:min(1080px,calc(100% - 48px));margin:auto}
+    header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:28px 0}
+    .brand{font:800 36px/1 Syne,system-ui,sans-serif;letter-spacing:-2px;text-decoration:none}
+    .source{font-size:13px;color:var(--muted);text-decoration:none;display:flex;gap:10px;align-items:center}
+    .source svg{width:18px;height:18px}
+    main{padding:38px 0 56px}
+    .eyebrow{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--accent)}
+    h1{font:700 clamp(32px,5.1vw,60px)/1.08 Syne,system-ui,sans-serif;letter-spacing:-2px;max-width:900px;margin:20px 0}
+    .intro{color:var(--muted);max-width:700px;font-size:17px;margin:0 0 32px}
+    .player{background:#08090b;border:1px solid var(--line);border-radius:24px;overflow:hidden;box-shadow:0 28px 90px #0005}
+    video{display:block;width:100%;aspect-ratio:16/9;background:#08090b}
+    .video-meta{display:flex;justify-content:space-between;gap:16px;padding:15px 20px;font-size:12px;color:var(--muted);border-top:1px solid var(--line)}
+    .actions{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 48px}
+    .pill{display:inline-flex;align-items:center;gap:9px;text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:10px 19px;font-size:13px;font-weight:650;background:#ffffff06;transition:background .15s,transform .15s}
+    .pill:hover{background:#ffffff0e;transform:translateY(-1px)}
+    .primary{background:var(--ink);color:#17171c;border-color:var(--ink)}
+    .primary:hover{background:#dcd8ed}
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;border-top:1px solid var(--line);padding-top:28px}
+    h2{font:650 20px/1.3 Syne,system-ui,sans-serif;margin:0 0 12px}
+    .features p{font-size:14px;color:var(--muted);margin:0}
+    footer{padding:25px 0 36px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}
+    footer p{margin:0 0 10px;max-width:900px}
+    @media(max-width:650px){.wrap{width:calc(100% - 32px)}header{padding:22px 0}main{padding-top:22px}h1{letter-spacing:-1px}.intro{font-size:15px}.features{grid-template-columns:1fr;gap:24px}.video-meta{flex-direction:column;gap:3px;padding:12px 16px}.player{border-radius:16px}.actions{margin-bottom:32px}.source{font-size:12px}}
+    @media(prefers-reduced-motion:reduce){.pill{transition:none}.pill:hover{transform:none}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="./" aria-label="bwdacc home">bwdacc</a>
+      <a class="source" href="https://github.com/lealcc/bwdacc">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-3-15-2 18"/></svg>
+        Open source · Apache-2.0
+      </a>
+    </header>
+    <main>
+      <div class="eyebrow">Open Source Higgsfield · Project demo</div>
+      <h1>ComfyUI, designed<br>for your phone.</h1>
+      <p class="intro">Create, edit and explore images and videos with an interface built for touch. Your phone is the studio. Your computer runs the models.</p>
+      <div class="player">
+        <video controls playsinline preload="metadata" poster="assets/demo-poster.jpg" aria-label="bwdacc narrated product demonstration, 1 minute 47 seconds">
+          <source src="demo/bwdacc-mobile-demo.mp4" type="video/mp4">
+          <track kind="captions" src="demo/captions.en.vtt" srclang="en" label="English">
+          <p>Your browser cannot play this video. <a href="demo/bwdacc-mobile-demo.mp4">Download the MP4</a>.</p>
+        </video>
+        <div class="video-meta"><span>01:47 · English narration &amp; captions</span><span>Real Android UI · Local ComfyUI generations</span></div>
+      </div>
+      <div class="actions">
+        <a class="pill primary" href="https://github.com/lealcc/bwdacc">Explore the project <span aria-hidden="true">↗</span></a>
+        <a class="pill" href="https://github.com/lealcc/bwdacc/blob/main/docs/SETUP.md">Build &amp; connect</a>
+        <a class="pill" href="demo/bwdacc-mobile-demo.mp4" download>Download demo</a>
+      </div>
+      <section class="features" aria-label="What bwdacc does">
+        <div><h2>Made for touch.</h2><p>A compact bottom composer, workflow controls and swipeable versions. Create and refine without navigating a node canvas on your phone.</p></div>
+        <div><h2>Keep your ideas.</h2><p>Reuse prompts, settings and reference Fragments. Explore variations in Prompter, save favorites and organize your work in Projects.</p></div>
+        <div><h2>Your own studio.</h2><p>Native Android, a Windows connector and your ComfyUI installation. Use your local network or optional Tailscale for remote access.</p></div>
+      </section>
+    </main>
+    <footer>
+      <p>Development preview. Showcase media generated with MOSS, FLUX.2 Klein and MiniMax H3. The demo uses a synthetic library; model execution and UI footage were recorded separately.</p>
+      <p><a href="https://github.com/lealcc/bwdacc/blob/main/docs/demo/README.md">Demo provenance</a> · <a href="https://github.com/lealcc/bwdacc/blob/main/LICENSE">License</a> · <a href="https://github.com/lealcc/bwdacc/blob/main/THIRD_PARTY_NOTICES.md">Third-party credits</a></p>
+    </footer>
+  </div>
+</body>
+</html>

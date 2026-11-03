@@ -12,7 +12,7 @@ your computer runs the models.
 **Development preview:** Android 0.11.7-dev / Desktop 0.7.0. This is working
 prototype source, not a production or independently security-audited release.
 
-[Watch the 107-second demo](docs/demo/bwdacc-mobile-demo.mp4) ·
+[Watch the 107-second demo](https://lealcc.github.io/bwdacc/) ·
 [Build and connect](docs/SETUP.md) · [Workflow catalog](WORKFLOWS.md) ·
 [License](LICENSE)
 
